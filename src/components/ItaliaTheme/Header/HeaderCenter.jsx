@@ -5,12 +5,12 @@
 
 import React from 'react';
 import { defineMessages, useIntl } from 'react-intl';
-import { UniversalLink } from '@plone/volto/components';
+import { UniversalLink , Logo} from '@plone/volto/components';
 import { useSelector } from 'react-redux';
 import { Header, HeaderContent, HeaderRightZone } from 'design-react-kit';
 import { flattenToAppURL } from '@plone/volto/helpers';
 import {
-  Logo,
+  /*Logo,*/
   SocialHeader,
   HeaderSearch,
   BrandText,
@@ -47,7 +47,7 @@ const HeaderCenter = () => {
             title={intl.formatMessage(messages.subsiteUniversalLink)}
           >
             {subsite?.subsite_logo ? logoSubsite : <Logo className="icon" />}
-            <BrandText subsite={subsite} />
+            {/* <BrandText subsite={subsite} /> */}
           </UniversalLink>
         </div>
         <HeaderRightZone>

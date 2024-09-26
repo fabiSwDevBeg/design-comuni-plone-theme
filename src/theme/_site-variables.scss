@@ -8,9 +8,9 @@ Questo file definisce alcune variabili aggiuntive per design-comuni-plone-theme
 $placeholder: #b8c6c9 !default;
 
 //site
-$primary-h: 229 !default;
-$primary-s: 72 !default;
-// $primary-b: 80 !default;
+$primary-h: 204 !default;
+$primary-s: 100 !default;
+$primary-b: 44 !default;
 
 $primary-text: #fff !default;
 $secondary-text: #fff !default;
@@ -24,6 +24,7 @@ $font-family-monospace-light: Roboto Mono Light !default;
 $enable-header-white-background: false !default;
 // $header-center-bg-color: white;
 // $header-slim-bg-color: #3f3f3f;
+$header-slim-bg-color: #013553;
 
 // GDPR-BANNER RELATED
 $gdpr-accept-all: #005700 !default;

@@ -15,10 +15,11 @@ import {
 } from '@plone/volto/components';
 
 import {
-  HeaderSlim,
+  /*HeaderSlim,*/
   HeaderCenter,
   SubsiteHeader,
 } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { HeaderSlim } from 'design-comuni-plone-theme/components/UnibaTheme'
 import { Headers } from 'design-react-kit';
 
 const Header = ({ pathname }) => {
