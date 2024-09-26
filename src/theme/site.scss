@@ -146,5 +146,11 @@
 
 @import 'addonsThemeCustomizationsMain';
 
-@import 'UnibaTheme/uniba';
+@import 'UnibaTheme/uniba.theme6.variables';
+@import 'UnibaTheme/variables';
+@import 'UnibaTheme/maps';
+@import 'UnibaTheme/custom';
+@import 'UnibaTheme/theme.scss';
+@import 'UnibaTheme/uniba.theme6.scss';
+
 /* No CSS beyond this point */
