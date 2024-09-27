@@ -13,7 +13,7 @@ const HeaderBrand = ({
   ...attributes
 }) => {
   return (
-    <div className={`it-brand-wrapper ${className}`} data-testid={testId}>
+    <div className={className} data-testid={testId}>
       <a href={href} {...attributes}>
         {/* Render both logos inside the <a> tag */}
         <LogoHome />
