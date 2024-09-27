@@ -3982,6 +3982,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@plone/plonetheme-barceloneta-base@npm:^3.0.0-alpha5":
+  version: 3.1.10
+  resolution: "@plone/plonetheme-barceloneta-base@npm:3.1.10"
+  dependencies:
+    bootstrap: 5.3.3
+  checksum: c0f461c16adc893763c2139d42ab6632d8125e8bc177665dba5b6b1c985956dc5e6f3797104a4c6a4ecc0e59dcba42d0dbf7c5598f63bf74006c4e91a695ed6d
+  languageName: node
+  linkType: hard
+
 "@plone/scripts@npm:*":
   version: 3.0.0
   resolution: "@plone/scripts@npm:3.0.0"
@@ -6928,6 +6937,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bootstrap@npm:5.3.3":
+  version: 5.3.3
+  resolution: "bootstrap@npm:5.3.3"
+  peerDependencies:
+    "@popperjs/core": ^2.11.8
+  checksum: 537b68db30150075614310e9ebdf1be9b4affdf89ca226d59f4352e82a368b203af13ed0ce5ccfa4e06f141ecd233f7432ca3817e9c1a39863a05fbe13c73c4b
+  languageName: node
+  linkType: hard
+
 "boxen@npm:^7.0.0":
   version: 7.1.0
   resolution: "boxen@npm:7.1.0"
@@ -8170,6 +8188,7 @@ __metadata:
     "@eeacms/volto-taxonomy": ^1.0.0
     "@loadable/babel-plugin": 5.13.2
     "@plone-collective/volto-sentry": 0.3.1
+    "@plone/plonetheme-barceloneta-base": ^3.0.0-alpha5
     "@plone/scripts": "*"
     "@release-it/conventional-changelog": 5.1.1
     bootstrap-italia: 2.6.1
