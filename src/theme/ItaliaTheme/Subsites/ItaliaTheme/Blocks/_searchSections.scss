@@ -1,3 +1,4 @@
+@use "sass:color";
 @use '../../all_variables' as *;
 
 @mixin block(
@@ -10,10 +11,10 @@
 ) {
   .container .block {
     .searchSections {
+      color: $subsite-primary-text;
       .searchSections-background {
         background-color: $subsite-primary-a0;
       }
-      color: $subsite-primary-text;
       @if $subsite-secondary != $subsite-primary {
         h2.text-secondary {
           color: $subsite-secondary-text !important;
@@ -25,11 +26,11 @@
       .searchContainer {
         .searchbar {
           button {
-            background: darken($subsite-primary, 10%);
+            background: color.adjust($subsite-primary, $lightness: -10%);
 
             &:hover,
             &:active {
-              background-color: darken($subsite-primary, 7.5);
+              background-color: color.adjust($subsite-primary, $lightness: -7.5%);
             }
 
             svg {

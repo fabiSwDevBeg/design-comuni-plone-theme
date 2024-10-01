@@ -108,10 +108,10 @@ export default function applyConfig(voltoConfig) {
       //  return event;
       // },
     }),
-    isMultilingual: true,
+    isMultilingual: false,
     // DEPRECATED: isFooterCollapsed to be removed in version 12. Use siteProperties.footerNavigationDepth instead.
     isFooterCollapsed: false, // false(default) -> vedere il footer automatico esploso | true -> implodere il footer menu automatico
-    supportedLanguages: ['it','en'],
+    supportedLanguages: ['it'],
     defaultLanguage: 'it',
     verticalFormTabs: true,
     showTags: false,

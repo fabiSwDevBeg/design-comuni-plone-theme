@@ -1,3 +1,5 @@
+@use "sass:color";
+
 // Path Img
 $img-path: '++theme++design.plone.theme/images/';
 
@@ -44,7 +46,7 @@ $yellow: #ecd838;
 
 $footer-bg: #30373d;
 $footer-link: #65dde0;
-$footer-link-hover: darken($footer-link, 25%);
+$footer-link-hover: color.adjust($footer-link, $lightness: -25%);
 $footer-hr: #979797;
 
 $tile-fascia-scura: #333333;
@@ -79,7 +81,7 @@ $text-color-light: #5a6772;
 //** Global textual link color.
 $link-color: $brand-primary;
 //** Link hover color set via `darken()` function.
-$link-hover-color: darken($brand-primary, 15%);
+$link-hover-color: color.adjust($brand-primary, $lightness: -15%);
 //** Link hover decoration.
 $link-hover-decoration: none;
 
@@ -227,23 +229,23 @@ $btn-default-border: #ccc !default;
 
 $btn-primary-color: #fff !default;
 $btn-primary-bg: $brand-primary !default;
-$btn-primary-border: darken($btn-primary-bg, 5%) !default;
+$btn-primary-border: color.adjust($btn-primary-bg, $lightness: -5%) !default;
 
 $btn-success-color: #fff !default;
 $btn-success-bg: $brand-success !default;
-$btn-success-border: darken($btn-success-bg, 5%) !default;
+$btn-success-border: color.adjust($btn-success-bg, $lightness: -5%) !default;
 
 $btn-info-color: #fff !default;
 $btn-info-bg: $brand-info !default;
-$btn-info-border: darken($btn-info-bg, 5%) !default;
+$btn-info-border: color.adjust($btn-info-bg, $lightness: -5%) !default;
 
 $btn-warning-color: #fff !default;
 $btn-warning-bg: $brand-warning !default;
-$btn-warning-border: darken($btn-warning-bg, 5%) !default;
+$btn-warning-border: color.adjust($btn-warning-bg, $lightness: -5%) !default;
 
 $btn-danger-color: #fff !default;
 $btn-danger-bg: $brand-danger !default;
-$btn-danger-border: darken($btn-danger-bg, 5%) !default;
+$btn-danger-border: color.adjust($btn-danger-bg, $lightness: -5%) !default;
 
 $btn-link-disabled-color: $gray-light !default;
 
@@ -260,19 +262,19 @@ $btn-border-radius-small: $border-radius-small !default;
 
 $state-success-text: #3c763d !default;
 $state-success-bg: #dff0d8 !default;
-$state-success-border: darken(adjust-hue($state-success-bg, -10), 5%) !default;
+$state-success-border: color.adjust(color.adjust($state-success-bg, $hue: -10deg), $lightness: -5%) !default;
 
 $state-info-text: #31708f !default;
 $state-info-bg: #d9edf7 !default;
-$state-info-border: darken(adjust-hue($state-info-bg, -10), 7%) !default;
+$state-info-border: color.adjust(color.adjust($state-info-bg, $hue: -10deg), $lightness: -7%) !default;
 
 $state-warning-text: #8a6d3b !default;
 $state-warning-bg: #fcf8e3 !default;
-$state-warning-border: darken(adjust-hue($state-warning-bg, -10), 5%) !default;
+$state-warning-border: color.adjust(color.adjust($state-warning-bg, $hue: -10deg), $lightness: -5%) !default;
 
 $state-danger-text: #a94442 !default;
 $state-danger-bg: #f2dede !default;
-$state-danger-border: darken(adjust-hue($state-danger-bg, -10), 5%) !default;
+$state-danger-border: color.adjust(color.adjust($state-danger-bg, $hue: -10deg), $lightness: -5%) !default;
 
 
 //== Media queries breakpoints

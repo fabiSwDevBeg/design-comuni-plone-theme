@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .photogallery {
   margin: 40px 0;
 
@@ -63,8 +65,8 @@
     .icon {
       width: 25px;
       height: 40px;
-      color: lighten($primary, 40%);
-      fill: lighten($primary, 40%);
+      color: color.adjust($primary, $lightness: 40%);
+      fill: color.adjust($primary, $lightness: 40%);
     }
 
     &:hover .icon {

@@ -1,3 +1,4 @@
+@use "sass:color";
 @use '../../all_variables' as *;
 
 @mixin headercenter(
@@ -71,8 +72,8 @@
                 a {
                   &:hover {
                     svg {
-                      color: darken($subsite-primary-text, 5%);
-                      fill: darken($subsite-primary-text, 5%);
+                      color: color.adjust($subsite-primary-text, $lightness: -5%);
+                      fill: color.adjust($subsite-primary-text, $lightness: -5%);
                     }
                   }
                 }

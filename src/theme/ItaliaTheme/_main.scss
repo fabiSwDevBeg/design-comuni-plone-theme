@@ -1,3 +1,4 @@
+@use "sass:color";
 //navbar spacing fix
 
 .public-ui {
@@ -147,7 +148,7 @@ iframe {
 
       &:hover,
       &:active {
-        background-color: darken($primary, 8);
+        background-color: color.adjust($primary, $lightness: -8%);
         color: $primary-text;
         font-weight: 700;
       }
@@ -359,8 +360,9 @@ iframe {
 }
 
 .bg-light {
-  --bs-light-rgb: #{red($primary-a0)}, #{green($primary-a0)},
-    #{blue($primary-a0)};
+  --bs-light-rgb: #{color.channel($primary-a0, "red", $space: rgb)}, 
+                  #{color.channel($primary-a0, "green", $space: rgb)}, 
+                  #{color.channel($primary-a0, "blue", $space: rgb)};
 }
 
 .public-ui {

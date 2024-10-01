@@ -6,7 +6,7 @@ const NavbarList = () => {
             <NavbarListItem 
                 staticLink = {false}
                 href = "https://www.uniba.it/servizionline"
-                endpoint = "https://www.uniba.it/@@uniba.servizi_online"
+                endpoint = "++api++/@@uniba.servizi_online"
                 title = "Servizi Online"
             />
             <NavbarListItem 

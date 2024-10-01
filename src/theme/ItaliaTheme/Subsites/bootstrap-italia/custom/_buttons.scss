@@ -1,3 +1,4 @@
+@use "sass:color";
 @use '../../all_variables' as *;
 
 @mixin buttons(
@@ -23,26 +24,27 @@
 
   a.btn-primary,
   .btn-primary {
+    color: $subsite-button-primary-text !important;
     @if $subsite-light-theme {
       @include button-variant(
-        $background: darken($subsite-button-primary, 10%),
+        $background: color.adjust($subsite-button-primary, $lightness: -10%),
         $border: $subsite-button-primary-text,
-        $hover-background: darken($subsite-button-primary, 5%),
-        $hover-border: darken($subsite-button-primary-text, 10%),
-        $active-background: darken($subsite-button-primary, 7.5%),
-        $active-border: darken($subsite-button-primary-text, 12.5%)
+        $hover-background: color.adjust($subsite-button-primary, $lightness: -5%),
+        $hover-border: color.adjust($subsite-button-primary-text, $lightness: -10%),
+        $active-background: color.adjust($subsite-button-primary, $lightness: -7.5%),
+        $active-border: color.adjust($subsite-button-primary-text, $lightness: -12.5%)
       );
     } @else {
       @include button-variant(
         $background: $subsite-button-primary,
         $border: $subsite-button-primary-text,
-        $hover-background: darken($subsite-button-primary, 5%),
-        $hover-border: darken($subsite-button-primary-text, 10%),
-        $active-background: darken($subsite-button-primary, 7.5%),
-        $active-border: darken($subsite-button-primary-text, 12.5%)
+        $hover-background: color.adjust($subsite-button-primary, $lightness: -5%),
+        $hover-border: color.adjust($subsite-button-primary-text, $lightness: -10%),
+        $active-background: color.adjust($subsite-button-primary, $lightness: -7.5%),
+        $active-border: color.adjust($subsite-button-primary-text, $lightness: -12.5%)
       );
     }
-    color: $subsite-button-primary-text !important;
+    
 
     .icon {
       color: $subsite-button-primary-text;
@@ -53,32 +55,33 @@
       @if $subsite-light-theme {
         color: $subsite-button-primary-text !important;
       } @else {
-        color: darken($subsite-button-primary-text, 10%) !important;
+        color: color.adjust($subsite-button-primary-text, $lightness: -10%) !important;
       }
 
       .icon {
-        color: darken($subsite-button-primary-text, 10%);
-        fill: darken($subsite-button-primary-text, 10%);
+        color: color.adjust($subsite-button-primary-text, $lightness: -10%);
+        fill: color.adjust($subsite-button-primary-text, $lightness: -10%);
       }
     }
 
     &.disabled,
     &:disabled {
-      color: darken($subsite-button-primary-text, 10%);
+      color: color.adjust($subsite-button-primary-text, $lightness: -10%);
     }
   }
 
   a.btn-secondary,
   .btn-secondary {
+    color: $subsite-button-secondary-text;
     @include button-variant(
       $background: $subsite-button-secondary,
       $border: $subsite-button-secondary-text,
-      $hover-background: lighten($subsite-button-secondary, 7.5%),
-      $hover-border: darken($subsite-button-secondary-text, 10%),
-      $active-background: lighten($subsite-button-secondary, 10%),
-      $active-border: darken($subsite-button-secondary-text, 12.5%)
+      $hover-background: color.adjust($subsite-button-secondary, $lightness: 7.5%),
+      $hover-border: color.adjust($subsite-button-secondary-text, $lightness: -10%),
+      $active-background: color.adjust($subsite-button-secondary, $lightness: 10%),
+      $active-border: color.adjust($subsite-button-secondary-text, $lightness: -12.5%)
     );
-    color: $subsite-button-secondary-text;
+    
 
     .icon {
       color: $subsite-button-secondary-text;
@@ -86,24 +89,24 @@
     }
 
     &:hover {
-      color: darken($subsite-button-secondary-text, 10%);
+      color: color.adjust($subsite-button-secondary-text, $lightness: -10%);
 
       .icon {
-        color: darken($subsite-button-secondary-text, 10%);
-        fill: darken($subsite-button-secondary-text, 10%);
+        color: color.adjust($subsite-button-secondary-text, $lightness: -10%);
+        fill: color.adjust($subsite-button-secondary-text, $lightness: -10%);
       }
     }
 
     &.disabled,
     &:disabled {
-      color: darken($subsite-button-secondary-text, 10%);
+      color: color.adjust($subsite-button-secondary-text, $lightness: -10%);
     }
   }
 
   a.btn-outline-primary,
   .btn-outline-primary {
     @if $subsite-light-theme {
-      @include button-outline-variant(darken($subsite-button-primary, 40));
+      @include button-outline-variant(color.adjust($subsite-button-primary, $lightness: -40%));
     } @else {
       @include button-outline-variant($subsite-button-primary);
     }

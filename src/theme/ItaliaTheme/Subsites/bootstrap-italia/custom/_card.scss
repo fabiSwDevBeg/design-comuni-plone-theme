@@ -1,3 +1,4 @@
+@use "sass:color";
 @use '../../all_variables' as *;
 
 @mixin card($subsite-primary, $subsite-link-color) {
@@ -22,7 +23,7 @@
 
   a {
     .card .card-body .card-title a:hover {
-      color: darken($subsite-link-color, 10%);
+      color: color.adjust($subsite-link-color, $lightness: -10%);
     }
   }
 }

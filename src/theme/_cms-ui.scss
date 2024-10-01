@@ -1,3 +1,4 @@
+@use "sass:color";
 @import 'cms-ui_container';
 
 body.cms-ui {
@@ -29,21 +30,21 @@ body.cms-ui {
     }
 
     h4 {
+      font-weight: 600;
       @extend %heading;
       @include font-size($h4-font-size);
-      font-weight: 600;
     }
 
     h5 {
+      font-weight: 400;
       @extend %heading;
       @include font-size($h5-font-size);
-      font-weight: 400;
     }
 
     h6 {
+      font-weight: 600;
       @extend %heading;
       @include font-size($h6-font-size);
-      font-weight: 600;
     }
 
     @import 'bootstrap-italia/src/scss/custom/type'; //to apply styles for headers on different screen sizes
@@ -464,7 +465,7 @@ body.cms-ui {
         color: #06c;
 
         &:hover {
-          color: darken(#06c, 20);
+          color: color.adjust(#06c, $lightness: -20%);
         }
       }
     }
@@ -643,7 +644,7 @@ body.cms-ui {
 
         &:hover,
         &:focus {
-          color: darken($link-color, 10%);
+          color: color.adjust($link-color, $lightness: -10%);
           text-decoration: underline;
         }
       }
@@ -654,7 +655,7 @@ body.cms-ui {
 
       &:hover,
       &:focus {
-        color: darken($link-color, 10%) !important;
+        color: color.adjust($link-color, $lightness: -10%) !important;
       }
     }
 

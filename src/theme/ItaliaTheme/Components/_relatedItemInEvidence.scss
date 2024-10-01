@@ -1,3 +1,5 @@
+@use "sass:color";
+
 #correlato-in-evidenza {
   .other-arguments {
     color: $primary-text;
@@ -17,7 +19,7 @@
 
       &:hover,
       &:active {
-        background-color: transparentize($primary-text, 0.8);
+        background-color: color.adjust($primary-text, $alpha: -0.8);
       }
     }
   }

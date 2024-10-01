@@ -1,3 +1,4 @@
+@use "sass:color";
 @use '../../all_variables' as *;
 
 @mixin header(
@@ -20,14 +21,14 @@
             color: $subsite-primary-text !important;
 
             &:hover {
-              background-color: darken($subsite-primary, 5%) !important;
+              background-color: color.adjust($subsite-primary, $lightness: -5%) !important;
             }
           } @else {
             background-color: $subsite-primary-text !important;
             color: $subsite-primary !important;
 
             &:hover {
-              background-color: darken($subsite-primary-text, 5%) !important;
+              background-color: color.adjust($subsite-primary-text, $lightness: -5%) !important;
             }
           }
         }

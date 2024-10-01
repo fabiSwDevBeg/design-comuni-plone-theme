@@ -1,3 +1,5 @@
+@use "sass:color";
+
 body.subsite-white {
   .public-ui {
     //mobile
@@ -52,8 +54,8 @@ body.subsite-white {
                 a {
                   &:hover {
                     .icon {
-                      color: lighten($subsite-white-primary, 10);
-                      fill: lighten($subsite-white-primary, 10);
+                      color: color.adjust($subsite-white-primary, $lightness: 10%);
+                      fill: color.adjust($subsite-white-primary, $lightness: 10%);
                     }
                   }
                 }

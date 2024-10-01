@@ -35,13 +35,13 @@
 @use 'ItaliaTheme/common' as it-common;
 
 @function create-primary-a0($color) {
-  @return hsl(color.hue($color), 62%, 97%);
+  @return hsl(color.channel($color, "hue", $space: hsl), 62%, 97%);
 }
 @function create-primary-c1($color) {
   @return hsl(
-    color.hue($color),
-    calc(color.saturation($color) / 2),
-    calc(color.lightness($color) * 1.8)
+    color.channel($color, "hue", $space: hsl),
+    calc(color.channel($color, "saturation", $space: hsl) / 2),
+    calc(color.channel($color, "lightness", $space: hsl) * 1.8)
   );
 }
 

@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .gdpr-privacy-banner {
   z-index: 9999;
 
@@ -16,7 +18,7 @@
 
     &:hover,
     &:focus {
-      color: darken($gdpr-link-color, 10%);
+      color: color.adjust($gdpr-link-color, $lightness: -10%);
     }
   }
 

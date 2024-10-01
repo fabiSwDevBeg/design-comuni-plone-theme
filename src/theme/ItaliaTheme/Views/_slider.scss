@@ -1,4 +1,6 @@
+@use "sass:color";
 /** override slider slick-theme **/
+
 .slider-container {
   margin-bottom: 2.5rem;
 
@@ -63,8 +65,8 @@
       }
 
       &:hover .icon {
-        color: darken($primary, 15%);
-        fill: darken($primary, 15%);
+        color: color.adjust($primary, $lightness: -15%);
+        fill: color.adjust($primary, $lightness: -15%);
       }
 
       &::before {

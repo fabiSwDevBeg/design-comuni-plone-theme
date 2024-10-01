@@ -1,3 +1,4 @@
+@use "sass:color";
 @use '../../all_variables' as *;
 
 @mixin chips(
@@ -11,8 +12,8 @@
   .chip {
     &.chip-primary {
       @if $subsite-light-theme {
-        border-color: darken($subsite-primary, 10);
-        color: darken($subsite-primary, 10);
+        border-color: color.adjust($subsite-primary, $lightness: -10%);
+        color: color.adjust($subsite-primary, $lightness: -10%);
       } @else {
         border-color: $subsite-primary;
         color: $subsite-primary;
@@ -20,7 +21,7 @@
 
       & > .chip-label {
         @if $subsite-light-theme {
-          color: darken($subsite-primary, 10);
+          color: color.adjust($subsite-primary, $lightness: -10%);
         } @else {
           color: $subsite-primary;
         }

@@ -1,3 +1,4 @@
+@use "sass:color";
 @use '../../all_variables' as *;
 
 @mixin footer(
@@ -22,7 +23,7 @@
             text-decoration: none;
 
             &:hover {
-              background-color: darken($subsite-secondary, 5%) !important;
+              background-color: color.adjust($subsite-secondary, $lightness: -5%) !important;
             }
           } @else {
             background-color: $subsite-secondary-text !important;
@@ -30,7 +31,7 @@
             text-decoration: none;
 
             &:hover {
-              background-color: darken($subsite-secondary-text, 5%) !important;
+              background-color: color.adjust($subsite-secondary-text, $lightness: -5%) !important;
             }
           }
         }

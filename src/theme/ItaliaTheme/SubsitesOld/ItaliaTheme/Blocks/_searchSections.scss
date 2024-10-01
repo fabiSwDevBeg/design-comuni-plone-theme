@@ -1,3 +1,4 @@
+@use "sass:color";
 @use '../../all_variables' as *;
 
 @mixin block($subsite-primary, $subsite-secondary, $subsite-secondary-text) {
@@ -23,7 +24,7 @@
 
             &:hover,
             &:active {
-              background-color: darken($subsite-primary, 7.5);
+              background-color: color.adjust($subsite-primary, $lightness: -7.5%);
             }
           }
         }

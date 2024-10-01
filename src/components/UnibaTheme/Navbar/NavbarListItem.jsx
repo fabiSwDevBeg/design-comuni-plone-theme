@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import {Dropdown, DropdownItem, DropdownMenu } from 'semantic-ui-react';
 
 const NavbarListItem = ({
     staticLink = true,
@@ -24,20 +25,31 @@ const NavbarListItem = ({
     
     return (
         <li>
-            <a 
-            href={href}
-            className={staticLink ? "" : aToggleClass}
-            data-toggle={staticLink ? "" : "dropdown"}
-            aria-expanded={staticLink ? "" : "false"}
-            {...attributes}
-            >
-                {title}
-            </a>
-            {!staticLink && (
-                <div 
-                    className="dropdown-menu unibaheader_collapse"
-                    dangerouslySetInnerHTML={{__html: dropdownContent}}    
-                />
+            {staticLink ? (
+                // Se staticLink è true, mostra un semplice <a> all'interno di <li>
+                <a 
+                    href={href}
+                    {...attributes}
+                >
+                    {title}
+                </a>
+            ) : (
+                // Se staticLink è false, mostra il Dropdown
+                <Dropdown text={title}>
+                    <DropdownMenu>
+                        {dropdownContent ? (
+                            <DropdownItem text='New' />
+                            // <DropdownItem>
+                            //     <div dangerouslySetInnerHTML={{__html: dropdownContent}} />
+                            // </DropdownItem>
+                        ) : (
+                            <DropdownItem text='Open...' description='ctrl + o' />
+                            // <DropdownItem>
+                            //     <span>Loading...</span>
+                            // </DropdownItem>
+                        )}
+                    </DropdownMenu>
+                </Dropdown>
             )}
         </li>
     );

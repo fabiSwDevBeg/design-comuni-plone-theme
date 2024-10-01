@@ -1,3 +1,5 @@
+@use "sass:color";
+
 $skeleton-bg: $lightgrey-c2;
 
 %skeleton-animation {
@@ -86,7 +88,7 @@ $skeleton-bg: $lightgrey-c2;
 
     &.card-bg,
     &.card-background {
-      background-color: darken($skeleton-bg, 10) !important;
+      background-color: color.adjust($skeleton-bg, $lightness: -10%) !important;
 
       .card-title,
       .card-text,
@@ -120,11 +122,11 @@ $skeleton-bg: $lightgrey-c2;
     .slick-prev:before,
     .slick-next:before {
       background-color: transparent;
-      color: darken($skeleton-bg, 10);
+      color: color.adjust($skeleton-bg, $lightness: -10%);
     }
 
     .slick-dots li.slick-active button:before {
-      color: darken($skeleton-bg, 60);
+      color: color.adjust($skeleton-bg, $lightness: -60%);
     }
   }
 
@@ -137,7 +139,7 @@ $skeleton-bg: $lightgrey-c2;
     }
 
     th {
-      background-color: darken($skeleton-bg, 10);
+      background-color: color.adjust($skeleton-bg, $lightness: -10%);
     }
 
     td {

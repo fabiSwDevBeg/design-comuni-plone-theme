@@ -1,3 +1,4 @@
+@use "sass:color";
 @use '../../all_variables' as *;
 
 @mixin common(
@@ -127,7 +128,7 @@
       color: $subsite-secondary-text !important;
 
       &:hover {
-        background-color: darken($subsite-secondary, 5%) !important;
+        background-color: color.adjust($subsite-secondary, $lightness: -5%) !important;
       }
     }
   }
@@ -192,7 +193,7 @@
   // pagina argomenti
   .contenttype-pagina-argomento {
     .icon-argument-container {
-      background-color: transparentize($subsite-primary, 0.9);
+      background-color: color.adjust($subsite-primary, $alpha: -0.9);
 
       .icon,
       svg {

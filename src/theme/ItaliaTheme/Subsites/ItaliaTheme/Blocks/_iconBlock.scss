@@ -1,3 +1,4 @@
+@use "sass:color";
 @use '../../all_variables' as *;
 
 @mixin block(
@@ -8,7 +9,7 @@
 ) {
   .iconBlocks {
     .background-image:after {
-      background-color: transparentize($subsite-primary, 0.5);
+      background-color: color.adjust($subsite-primary, $alpha: -0.5);
     }
     .block-header {
       @if $subsite-light-theme {
