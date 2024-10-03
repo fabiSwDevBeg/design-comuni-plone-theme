@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import { Grid, GridRow, GridColumn, Image, List, ListItem } from 'semantic-ui-react';
 import FacebookSVG from '../../../theme/UnibaTheme/images/ico-facebook.svg';
 import InstagramSVG from '../../../theme/UnibaTheme/images/ico-instagram.svg';
@@ -18,15 +19,16 @@ const FooterUniba = () => {
                     const doc = parser.parseFromString(html, 'text/html');
                     const columns = doc.querySelectorAll('div.col-sm-4.col-md-3');
                     const gridColumns = Array.from(columns).map((column, index) => {
-                        const links = column.querySelectorAll('ul.list-unstyled li a');
+                        const listItems = column.querySelectorAll('ul.list-unstyled li');
                         
                         return (
                             <GridColumn key={index}>
                                 <div className="text-xs-center">
                                     <List className="list-unstyled">
-                                        {Array.from(links).map((link, idx) => (
+                                        {Array.from(listItems).map((listItem, idx) => (
                                             <ListItem key={idx}>
-                                                <a href={link.href}>{link.textContent}</a>
+                                                {/* Inserisce il contenuto del <li> direttamente */}
+                                                <div dangerouslySetInnerHTML={{ __html: listItem.innerHTML }} />
                                             </ListItem>
                                         ))}
                                     </List>

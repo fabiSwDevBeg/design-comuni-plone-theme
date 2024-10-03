@@ -4,12 +4,12 @@ import {Dropdown, DropdownItem, DropdownMenu } from 'semantic-ui-react';
 const NavbarListItem = ({
     staticLink = true,
     endpoint = "",
+    dropdown_json = {},
     href,
     title,
     ...attributes
 }) => {
     const [dropdownContent, setDropdownContent] = useState("");
-    const aToggleClass = "pat-toggle unibaheader-toggle"
     
     useEffect(() => {
         if (!staticLink && endpoint) {
@@ -27,26 +27,34 @@ const NavbarListItem = ({
     return (
         <li>
             {staticLink ? (
-                // Se staticLink è true, mostra un semplice <a> all'interno di <li>
-                <a 
-                    href={href}
-                    {...attributes}
-                >
+                // Caso 1: Static link
+                <a href={href} {...attributes}>
                     {title}
                 </a>
-            ) : (
-                // Se staticLink è false, mostra il Dropdown
+            ) : endpoint ? (
+                // Caso 2: Dynamic dropdown con endpoint
                 <Dropdown text={title}>
                     <DropdownMenu>
                         {dropdownContent ? (
                             <DropdownItem>
-                                <div dangerouslySetInnerHTML={{__html: dropdownContent}} />
+                                <div dangerouslySetInnerHTML={{ __html: dropdownContent }} />
                             </DropdownItem>
                         ) : (
                             <DropdownItem>
                                 <span>Loading...</span>
                             </DropdownItem>
                         )}
+                    </DropdownMenu>
+                </Dropdown>
+            ) : (
+                // Caso 3: Dropdown basato su `dropdown_json`
+                <Dropdown text={title}>
+                    <DropdownMenu>
+                        {Object.keys(dropdown_json).map((key) => (
+                            <DropdownItem key={key}>
+                                <a href={dropdown_json[key]}>{key}</a>
+                            </DropdownItem>
+                        ))}
                     </DropdownMenu>
                 </Dropdown>
             )}
