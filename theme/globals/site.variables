@@ -1,0 +1,4 @@
+@relaxedItemVerticalPadding: @relative2px;
+@relaxedChildItemVerticalPadding: @relative1px;
+@relaxedHeaderMargin: 0.05rem;
+@relaxedHorizontalPadding: 0.2rem;

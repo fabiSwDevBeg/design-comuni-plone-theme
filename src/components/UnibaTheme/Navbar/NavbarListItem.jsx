@@ -14,7 +14,8 @@ const NavbarListItem = ({
     useEffect(() => {
         if (!staticLink && endpoint) {
             // Effettua la richiesta quando staticLink è false
-            fetch(endpoint)
+            const fullEndpoint = `${window.location.origin}${endpoint}`;
+            fetch(fullEndpoint)
                 .then(response => response.text()) // Ottieni il contenuto come testo
                 .then(html => {
                     setDropdownContent(html); // Aggiorna lo stato con il contenuto HTML
@@ -38,15 +39,13 @@ const NavbarListItem = ({
                 <Dropdown text={title}>
                     <DropdownMenu>
                         {dropdownContent ? (
-                            <DropdownItem text='New' />
-                            // <DropdownItem>
-                            //     <div dangerouslySetInnerHTML={{__html: dropdownContent}} />
-                            // </DropdownItem>
+                            <DropdownItem>
+                                <div dangerouslySetInnerHTML={{__html: dropdownContent}} />
+                            </DropdownItem>
                         ) : (
-                            <DropdownItem text='Open...' description='ctrl + o' />
-                            // <DropdownItem>
-                            //     <span>Loading...</span>
-                            // </DropdownItem>
+                            <DropdownItem>
+                                <span>Loading...</span>
+                            </DropdownItem>
                         )}
                     </DropdownMenu>
                 </Dropdown>

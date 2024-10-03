@@ -33,16 +33,16 @@ const ReleaseLog = () => {
   } catch {
     console.log("design-comuni-plone-theme/../RELEASE.md doesn't exists");
   }
-  try {
-    ReleaseIoCittadino = require('@redturtle/volto-io-cittadino/../RELEASE.md');
-  } catch {
-    console.log("@redturtle/volto-io-cittadino/../RELEASE.md doesn't exists");
-  }
-  try {
-    ReleaseIoPrenoto = require('@redturtle/volto-io-prenoto/../RELEASE.md');
-  } catch {
-    console.log("@redturtle/volto-io-prenoto/../RELEASE.md doesn't exists");
-  }
+  // try {
+  //   ReleaseIoCittadino = require('@redturtle/volto-io-cittadino/../RELEASE.md');
+  // } catch {
+  //   console.log("@redturtle/volto-io-cittadino/../RELEASE.md doesn't exists");
+  // }
+  // try {
+  //   ReleaseIoPrenoto = require('@redturtle/volto-io-prenoto/../RELEASE.md');
+  // } catch {
+  //   console.log("@redturtle/volto-io-prenoto/../RELEASE.md doesn't exists");
+  // }
 
   const LOGS_TO_VIEW = [
     { name: 'io-Comune', file: ReleaseDCPT },
