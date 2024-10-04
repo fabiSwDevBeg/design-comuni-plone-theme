@@ -20,3 +20,4 @@ export NavbarList from 'design-comuni-plone-theme/components/UnibaTheme/Navbar/N
 export NavbarListItem from 'design-comuni-plone-theme/components/UnibaTheme/Navbar/NavbarListItem';
 export HeaderUniba from 'design-comuni-plone-theme/components/UnibaTheme/Header/HeaderUniba';
 export FooterUniba from 'design-comuni-plone-theme/components/UnibaTheme/Footer/FooterUniba';
+export NavbarHeader from 'design-comuni-plone-theme/components/UnibaTheme/Navbar/NavbarHeader';

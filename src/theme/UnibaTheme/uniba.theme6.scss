@@ -132,6 +132,10 @@ prevalente da rendere piu' evidente su mobile.
         z-index: 0;
         min-width: 120px;
 
+        img.ui.image {
+            display: inline-block;
+        }
+
         a {
             color: $uniba;
             display: block;

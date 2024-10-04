@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {Dropdown, DropdownItem, DropdownMenu } from 'semantic-ui-react';
+import { Dropdown, DropdownItem, DropdownMenu } from 'semantic-ui-react';
 
 const NavbarListItem = ({
     staticLink = true,
@@ -10,7 +10,7 @@ const NavbarListItem = ({
     ...attributes
 }) => {
     const [dropdownContent, setDropdownContent] = useState("");
-    
+
     useEffect(() => {
         if (!staticLink && endpoint) {
             // Effettua la richiesta quando staticLink è false
@@ -23,7 +23,7 @@ const NavbarListItem = ({
                 .catch(error => console.error("Error fetching the content:", error));
         }
     }, [staticLink, endpoint]); // Dipendenze: esegue l'effetto solo quando staticLink o endpoint cambiano
-    
+
     return (
         <li>
             {staticLink ? (

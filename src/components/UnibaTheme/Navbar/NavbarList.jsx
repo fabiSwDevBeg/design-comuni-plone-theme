@@ -41,12 +41,12 @@ const NavbarList = () => {
                 staticLink = {false}
                 href = "https://www.uniba.it/info-for"
                 title = "Info Per"
+                dropdown_json = {info_per_json}
             />
             <NavbarListItem 
                 staticLink = {true}
                 href = "https://www.uniba.it/search"
                 title = "Cerca in uniba"
-                dropdown_json = {info_per_json}
             />
         </ul>
     );

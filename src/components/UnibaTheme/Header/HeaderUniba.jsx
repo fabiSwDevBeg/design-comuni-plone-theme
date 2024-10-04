@@ -1,4 +1,4 @@
-import { NavbarSlim, NavbarBrand , NavbarList} from 'design-comuni-plone-theme/components/UnibaTheme'
+import { NavbarSlim, NavbarBrand , NavbarList, NavbarHeader } from 'design-comuni-plone-theme/components/UnibaTheme'
 
 const HeaderUniba = () => {
     return (
@@ -13,6 +13,7 @@ const HeaderUniba = () => {
                 />
                 <NavbarList />
             </NavbarSlim>
+            <NavbarHeader />
         </header>
     );
 };
