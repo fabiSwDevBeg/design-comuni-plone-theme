@@ -9,9 +9,11 @@
  * };
  */
 
+
 /********* WIDGETS ********* */
 export LogoHome from 'design-comuni-plone-theme/components/UnibaTheme/Logo/LogoHome';
 export LogoText from 'design-comuni-plone-theme/components/UnibaTheme/Logo/LogoText';
+export LogoMain from 'design-comuni-plone-theme/components/UnibaTheme/Logo/LogoMain';
 export HeaderBrand from 'design-comuni-plone-theme/components/UnibaTheme/Header/HeaderBrand';
 export HeaderSlim from 'design-comuni-plone-theme/components/UnibaTheme/Header/HeaderSlim';
 export NavbarSlim from 'design-comuni-plone-theme/components/UnibaTheme/Navbar/NavbarSlim';
@@ -21,3 +23,4 @@ export NavbarListItem from 'design-comuni-plone-theme/components/UnibaTheme/Navb
 export HeaderUniba from 'design-comuni-plone-theme/components/UnibaTheme/Header/HeaderUniba';
 export FooterUniba from 'design-comuni-plone-theme/components/UnibaTheme/Footer/FooterUniba';
 export NavbarHeader from 'design-comuni-plone-theme/components/UnibaTheme/Navbar/NavbarHeader';
+export NavbarCenter from 'design-comuni-plone-theme/components/UnibaTheme/Navbar/NavbarCenter';
