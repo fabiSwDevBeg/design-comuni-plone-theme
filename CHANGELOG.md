@@ -1,5 +1,34 @@
 
 
+## [11.24.2](https://github.com/RedTurtle/design-comuni-plone-theme/compare/v11.24.1...v11.24.2) (2024-10-16)
+
+
+### Bug Fixes
+
+* do not break LinkView for anonymous users ([#786](https://github.com/RedTurtle/design-comuni-plone-theme/issues/786)) ([a45b7e6](https://github.com/RedTurtle/design-comuni-plone-theme/commit/a45b7e6f9f376526e4e382988371ff46bcb6899e))
+
+
+### Documentation
+
+* updated publiccode ([ade6642](https://github.com/RedTurtle/design-comuni-plone-theme/commit/ade66429389d5632b9071a687e2f8fe25b2b84f1))
+
+## [11.24.1](https://github.com/RedTurtle/design-comuni-plone-theme/compare/v11.24.0...v11.24.1) (2024-10-09)
+
+
+### Bug Fixes
+
+* changed double focus to outline and box-shadow ([#785](https://github.com/RedTurtle/design-comuni-plone-theme/issues/785)) ([1e890b5](https://github.com/RedTurtle/design-comuni-plone-theme/commit/1e890b5b8748d7a0a12703fa39a2d4fec4dc2f23))
+
+
+### Maintenance
+
+* fixed io-comune release script ([150c0bb](https://github.com/RedTurtle/design-comuni-plone-theme/commit/150c0bba50bb501f463cdbcf931587dfc0087443))
+
+
+### Documentation
+
+* cleaned up release log ([5423dfe](https://github.com/RedTurtle/design-comuni-plone-theme/commit/5423dfe2480689de9f10a531dcc12046cc0de123))
+
 ## [11.24.0](https://github.com/RedTurtle/design-comuni-plone-theme/compare/v11.23.2...v11.24.0) (2024-10-03)
 
 
