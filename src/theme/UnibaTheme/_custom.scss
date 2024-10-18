@@ -1,0 +1,114 @@
+// utilities
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+//backgrounds
+
+.transparent-bg {
+    background-color: transparent !important;
+}
+
+.bg-main {
+    background-color: $primary;
+}
+
+.bg-tertiary {
+    background-color: $tertiary;
+}
+
+//Text colors
+
+.text-second {
+   color: $secondary !important;
+}
+
+// Header
+
+section.uniba-topbar {
+    background-color: $tertiary;
+}
+
+.uniba-topbar__tornauniba {
+	background-color: $secondary;
+	margin-right: 24px;
+	z-index: 0;
+	&:after {
+		background: $secondary;
+		content: " ";
+		height: 100%;
+		position: absolute;
+		top: 0;
+		z-index: -1;
+		display: block;
+		right: 0;
+		-webkit-transform: skew(-20deg,0deg);
+		transform: skew(-20deg,0deg);
+		-webkit-transform-origin: bottom left;
+		transform-origin: bottom left;
+		width: 24px;
+	}
+	&:before {
+		background: $secondary;
+		content: " ";
+		height: 100%;
+		position: absolute;
+		top: 0;
+		z-index: -1;
+		width: 40vw;
+	}
+}
+
+.navbar-barceloneta {
+    --bs-navbar-color: $gray-light;
+    --bs-navbar-active-color: white;
+    --bs-navbar-hover-color: white;
+    --bs-navbar-background: #f5f5f5;
+    --bs-navbar-active-background: $gray-light;
+    --bs-navbar-hover-background: $gray-light;
+    padding: 0;
+    background-color: $gray-light
+}
+
+  a#portal-logo img {
+    width:310px
+}  
+
+#portal-anontools {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: 2;
+}
+
+#portal-anontools {
+	.pat-plone-modal {
+		color: $secondary !important;
+	}
+}
+
+ol.breadcrumb {
+    margin-bottom: 0 !important;
+}
+
+nav#portal-breadcrumbs {
+    margin-bottom: 0;
+}
+
+/* Banner */
+
+body.col-content {
+	#portal-column-content {
+		padding: 0 !important;
+	}
+}
+
+img.banner-img {
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
