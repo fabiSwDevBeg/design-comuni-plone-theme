@@ -8,9 +8,9 @@ Questo file definisce alcune variabili aggiuntive per design-comuni-plone-theme
 $placeholder: #b8c6c9 !default;
 
 //site
-$primary-h: 229 !default;
-$primary-s: 72 !default;
-// $primary-b: 80 !default;
+$primary-h: 204 !default;
+$primary-s: 100 !default;
+$primary-b: 44 !default;
 
 $primary-text: #fff !default;
 $secondary-text: #fff !default;
@@ -24,8 +24,12 @@ $font-family-monospace-light: Roboto Mono Light !default;
 $enable-header-white-background: false !default;
 // $header-center-bg-color: white;
 // $header-slim-bg-color: #3f3f3f;
+$header-center-icon-size: 270px !important;
 $header-slim-bg-color: #013553;
+$header-center-bg-color: #004071;
 $header-slim-height: 41.6px;
+$header-center-icon-margin: 2rem;
+$over-header-center-max-height: 116px;
 
 // GDPR-BANNER RELATED
 $gdpr-accept-all: #005700 !default;
@@ -36,7 +40,7 @@ $gdpr-link-color: #004285 !default;
 
 $caption-text: #455b71 !default;
 
-$primary-a0: hsl($primary-h, 62%, 97%) !default;
+$primary-a0: #004071 !default;
 
 // ALERT-BLOCK CUSTOM COLORS
 $alert-danger: #a32219 !default;

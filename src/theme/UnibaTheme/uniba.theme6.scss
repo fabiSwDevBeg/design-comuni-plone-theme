@@ -15,6 +15,10 @@
     @include no-margin();
 }
 
+img.ui.image {
+    display: inline !important;
+}
+
 /* Mixins */
 
 /* Image responsive
@@ -178,7 +182,6 @@ prevalente da rendere piu' evidente su mobile.
                 border-left: 1px solid $uniba;
                 text-decoration: none !important;
                 display: block;
-                font-size: 1.4rem;
 
                 @media (max-width: $screen-sm) {
                     /* A */
@@ -505,6 +508,14 @@ nav ul.navTree li a {
 
 body {
     word-wrap: break-word;
+}
+
+body {
+    font-family: "Titillium Web",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #1c2024;
+    background-color: #fff;
 }
 
 /*fix altezza immagine testata*/

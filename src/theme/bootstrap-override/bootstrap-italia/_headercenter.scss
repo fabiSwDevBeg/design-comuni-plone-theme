@@ -1,6 +1,6 @@
 //mobile
 .it-header-center-wrapper {
-  // height: $dvt-header-center-max-height;
+  height: $over-header-center-max-height;
 
   .it-header-center-content-wrapper {
     //right zone
@@ -24,6 +24,16 @@
             border: none !important;
             box-shadow: 0 0 0 2px $inner-focus-shadow !important;
           }
+        }
+      }
+    }
+
+    .it-brand-wrapper {
+      a {
+        .icon {
+          width: 270px;
+          height: 80px;
+          margin-right: 2rem;
         }
       }
     }

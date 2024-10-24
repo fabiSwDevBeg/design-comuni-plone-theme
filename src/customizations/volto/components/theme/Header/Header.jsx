@@ -18,7 +18,7 @@ import {
   HeaderSlim,
   HeaderCenter,
   SubsiteHeader,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-comuni-plone-theme/components/UnibaTheme';
 import { Headers } from 'design-react-kit';
 
 const Header = ({ pathname }) => {
@@ -43,7 +43,6 @@ const Header = ({ pathname }) => {
         {/* <Headers sticky={true} className={mini ? 'is-sticky' : undefined}> */}
         <Headers>
           <HeaderSlim />
-
           <div className="it-nav-wrapper">
             <HeaderCenter />
             <Navigation pathname={pathname} />
