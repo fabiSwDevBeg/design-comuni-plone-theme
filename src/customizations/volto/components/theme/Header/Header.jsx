@@ -45,7 +45,9 @@ const Header = ({ pathname }) => {
           <HeaderSlim />
           <div className="it-nav-wrapper">
             <HeaderCenter />
+            <div class="bo">
             <Navigation pathname={pathname} />
+            </div>
           </div>
         </Headers>
         <SubsiteHeader />

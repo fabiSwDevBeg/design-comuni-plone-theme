@@ -232,20 +232,20 @@ export default function applyConfig(voltoConfig) {
       // spidLogin: true, //se true, nella pagina di errore Unauthorized, mostra il pulsante per il login a Spid.
       headerslimTertiaryMenu: {
         default: [
-          //{ title: 'Contatti', url: '/it/contatti' },
-          //{ title: 'Novità', url: '/it/novita' },
+          // { title: 'Contatti', url: '/it/contatti' },
+          // { title: 'Novità', url: '/it/novita' },
         ],
         it: [
-          //{ title: 'Contatti', url: '/it/contatti' },
-          //{ title: 'Novità', url: '/it/novita' },
+          // { title: 'Contatti', url: '/it/contatti' },
+          // { title: 'Novità', url: '/it/novita' },
         ],
         en: [
-          //{ title: 'Contacts', url: '/en/contacts' },
-          //{ title: 'News', url: '/en/news' },
+          // { title: 'Contacts', url: '/en/contacts' },
+          // { title: 'News', url: '/en/news' },
         ],
         es: [
-          //{ title: 'Contactos', url: '/es/contacts' },
-          //{ title: 'Noticias', url: '/es/news' },
+          // { title: 'Contactos', url: '/es/contacts' },
+          // { title: 'Noticias', url: '/es/news' },
         ],
       },
       smallFooterLinks: {

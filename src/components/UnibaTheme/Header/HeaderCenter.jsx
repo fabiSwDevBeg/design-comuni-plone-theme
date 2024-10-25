@@ -13,7 +13,6 @@ import {
   Logo,
   SocialHeader,
   HeaderSearch,
-  BrandText,
 } from 'design-comuni-plone-theme/components/UnibaTheme';
 import { useHomePath } from 'design-comuni-plone-theme/helpers';
 

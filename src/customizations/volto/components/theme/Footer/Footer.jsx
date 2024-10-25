@@ -23,7 +23,7 @@ const FooterUniba = () => {
                         
                         return (
                             <GridColumn key={index}>
-                                <div className="text-xs-center">
+                                <div>
                                     <List className="list-unstyled">
                                         {Array.from(listItems).map((listItem, idx) => (
                                             <ListItem key={idx}>
@@ -45,7 +45,7 @@ const FooterUniba = () => {
         <footer id="portal-footer-wrapper">
             <div className="portal-main-footer bg-primary">
                 <div className="container position--relative">
-                    <Grid>
+                    <Grid stackable>
                         <GridRow columns={4}>
                             <GridColumn key={1}>
                                 <div className="sedi">
