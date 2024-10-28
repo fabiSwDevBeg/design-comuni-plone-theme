@@ -17,6 +17,7 @@ import {
 import {
   HeaderSlim,
   HeaderCenter,
+  HeaderBanner,
   SubsiteHeader,
 } from 'design-comuni-plone-theme/components/UnibaTheme';
 import { Headers } from 'design-react-kit';
@@ -45,9 +46,8 @@ const Header = ({ pathname }) => {
           <HeaderSlim />
           <div className="it-nav-wrapper">
             <HeaderCenter />
-            <div class="bo">
+            <HeaderBanner />
             <Navigation pathname={pathname} />
-            </div>
           </div>
         </Headers>
         <SubsiteHeader />

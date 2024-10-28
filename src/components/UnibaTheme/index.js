@@ -43,6 +43,7 @@ export LoginButton from 'design-comuni-plone-theme/components/UnibaTheme/Header/
 export TertiaryMenu from 'design-comuni-plone-theme/components/UnibaTheme/Header/HeaderSlim/TertiaryMenu';
 export UserLoggedMenu from 'design-comuni-plone-theme/components/UnibaTheme/Header/HeaderSlim/UserLoggedMenu';
 export HeaderCenter from 'design-comuni-plone-theme/components/UnibaTheme/Header/HeaderCenter';
+export HeaderBanner from 'design-comuni-plone-theme/components/UnibaTheme/Header/HeaderBanner';
 export SocialHeader from 'design-comuni-plone-theme/components/UnibaTheme/Header/SocialHeader';
 export SubsiteHeader from 'design-comuni-plone-theme/components/UnibaTheme/Header/SubsiteHeader';
 export ParentSiteMenu from 'design-comuni-plone-theme/components/UnibaTheme/Header/ParentSiteMenu';
