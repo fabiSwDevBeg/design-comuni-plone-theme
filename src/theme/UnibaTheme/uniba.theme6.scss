@@ -810,7 +810,6 @@ nav.plone-navbar {
                 -ms-hyphens: auto;
                 hyphens: auto;
                 border-bottom-width: 0px !important;
-                text-wrap-mode: wrap;
                 min-width: 14em;
 
                 &:hover {
@@ -818,6 +817,17 @@ nav.plone-navbar {
                     background-color: #e8e8e8 !important;
                 }
             }
+        }
+
+        div.divider.text {
+            position: relative;
+            display: block;
+            padding: 0.2em 0.5em;
+            color: $primary;
+            font-size: 19px;
+            -webkit-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
         }
     }
 

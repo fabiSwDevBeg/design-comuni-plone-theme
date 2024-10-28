@@ -87,7 +87,7 @@ const Navigation = (props) => {
         stackable
         pointing
         secondary
-        className="computer large screen widescreen only"
+        className="container computer large screen widescreen only container"
         onClick={closeMobileMenu}
       >
         <NavItems items={items} lang={lang} />

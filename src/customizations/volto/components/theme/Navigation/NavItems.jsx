@@ -26,7 +26,7 @@ const NavItems = ({ items, lang }) => {
                 closeOnChange={true}
                 open={openDropdown}
                 onClick={() => handleDropdownClick(item)}>
-                <Dropdown.Menu key={item.url} onClick={handleDropdownClick}>
+                <Dropdown.Menu key={item.url}>
                   {item.items.map((dropdownitem) => (
                     <a className="item" href={dropdownitem.url} key={dropdownitem.url}>{dropdownitem.title}</a>
                   ))}
