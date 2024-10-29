@@ -499,6 +499,14 @@ prevalente da rendere piu' evidente su mobile.
 //     }
 
 // }
+
+#portal-globalnav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
 .plone-navbar-nav__children {
     padding-left: $padding-large-horizontal;
     list-style: none;
