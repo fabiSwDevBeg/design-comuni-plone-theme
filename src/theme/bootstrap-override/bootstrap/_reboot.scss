@@ -9,3 +9,9 @@ body.public-ui {
 
   @include font-size($font-size-base);
 }
+
+
+.public-ui ol, .public-ui ul, .public-ui dl {
+	margin-top: 0;
+	margin-bottom: 0;
+}

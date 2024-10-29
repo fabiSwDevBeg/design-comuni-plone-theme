@@ -19,6 +19,14 @@ img.ui.image {
     display: inline !important;
 }
 
+
+html {
+    font-size: 10px !important;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
 /* Mixins */
 
 /* Image responsive
@@ -65,12 +73,18 @@ prevalente da rendere piu' evidente su mobile.
     background-color: $uniba-dark;
     padding: 0px 0;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     @media (min-width: $screen-lg-narrow) {
         max-height: 41.6px;
     }
 
     &__nav {
+        display: flex;
+        align-items: center;  
+        justify-content: flex-start; 
         @media (max-width: $screen-lg-narrow) {
             background-color: $uniba-dark;
             width: 100%;
@@ -119,12 +133,19 @@ prevalente da rendere piu' evidente su mobile.
 
     &__tornauniba {
         background-color: $uniba-light-2;
-        display: inline-block;
+        display: flex;
+        align-items: center;
         margin-right: ($padding-base-horizontal * 2);
         position: relative;
         width: 10vw;
         z-index: 0;
         min-width: 120px;
+        justify-content: flex-end;
+
+        img {
+            max-height: 100%;          
+            vertical-align: middle; 
+        }
 
         a {
             color: $uniba;
@@ -170,7 +191,10 @@ prevalente da rendere piu' evidente su mobile.
         @include no-margin;
         @include no-padding;
 
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding-left: 0 !important;
 
         li {
             display: inline-block;
@@ -181,7 +205,9 @@ prevalente da rendere piu' evidente su mobile.
                 padding: 0.5em;
                 border-left: 1px solid $uniba;
                 text-decoration: none !important;
-                display: block;
+                display: inline-flex;
+                align-items: center;
+                line-height: 1;
                 font-size: 1.4rem;
 
                 @media (max-width: $screen-sm) {
@@ -195,6 +221,10 @@ prevalente da rendere piu' evidente su mobile.
             &:first-child {
                 a {
                     border: none;
+                }
+
+                .divider.text {
+                    border: none !important;
                 }
             }
 
@@ -222,6 +252,11 @@ prevalente da rendere piu' evidente su mobile.
             right: 0;
             width: 100%;
             z-index: 9991;
+        }
+
+        .ui.dropdown {
+            display: inline-flex;
+            align-items: center;
         }
     }
 
@@ -296,6 +331,21 @@ prevalente da rendere piu' evidente su mobile.
                 transform: translateY(6px);
             }
         }
+    }
+
+    i.dropdown.icon {
+        font-size: 2rem !important;
+        color: white;
+    }
+
+    .ui.dropdown .divider.text {
+        color: $uniba-light-2;
+        text-transform: uppercase;
+        padding: 0.5em;
+        border-left: 1px solid $uniba;
+        text-decoration: none !important;
+        display: block;
+        font-size: 1.4rem;
     }
 }
 
