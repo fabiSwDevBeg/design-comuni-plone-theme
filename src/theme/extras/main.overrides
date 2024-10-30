@@ -1,0 +1,59 @@
+.mobile-menu-nav {
+  display: flex;
+  overflow: auto;
+  height: 100%;
+  align-items: @mobileMenuNavAlignItems;
+  justify-content: @mobileMenuNavJustifyContent;
+  text-align: @mobileMenuNavTextAlign;
+
+  &::-webkit-scrollbar {
+    width: @mobileScrollbarWidth;
+    -webkit-appearance: none;
+    background: @mobileScrollbarTrackBackground;
+  }
+
+  .ui.pointing.secondary.stackable.menu {
+    align-items: @mobileMenuNavMenuAlignItems;
+    font-size: @mobileMenuNavMenuFontSize;
+    display: flex;
+    flex-grow: 1;
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      line-height: @mobileMenuNavItemLineHeight;
+    }
+  }
+}
+
+.mobile-menu {
+  position: absolute;
+  z-index: 3;
+  top: 100%;
+  right: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+
+.mobile-menu-enter {
+  transform: translateY(-10px); /* Parte appena sopra il pulsante */
+  opacity: 0; /* Menu trasparente all'inizio */
+}
+
+.mobile-menu-enter.mobile-menu-enter-active {
+  transform: translateY(0); /* Arriva alla posizione finale */
+  opacity: 1; /* Opacità completa */
+  transition: transform 0.5s cubic-bezier(0.09, 0.11, 0.24, 0.91), opacity 0.5s;
+}
+
+.mobile-menu-exit {
+  transform: translateY(0); /* Parte dalla posizione finale */
+  opacity: 1;
+  transition: transform 0.5s cubic-bezier(0.09, 0.11, 0.24, 0.91), opacity 0.5s;
+}
+
+.mobile-menu-exit.mobile-menu-exit-active {
+  transform: translateY(-10px); /* Si sposta verso l'alto */
+  opacity: 0; /* Diventa trasparente */
+}

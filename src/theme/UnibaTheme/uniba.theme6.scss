@@ -285,9 +285,8 @@ prevalente da rendere piu' evidente su mobile.
         }
     }
 
-    .open {
-        .unibaheader_collapse {
-            background-color: #013553;
+    .menu.transition.visible {
+        background-color: #013553;
             padding: 1em;
             position: absolute;
             z-index: 4000;
@@ -307,7 +306,7 @@ prevalente da rendere piu' evidente su mobile.
                 color: $uniba-gray;
             }
 
-            & > div {
+            & > * > * > div {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -324,14 +323,8 @@ prevalente da rendere piu' evidente su mobile.
                     }
                 }
             }
-        }
-
-        .unibaheader-toggle {
-            &:after {
-                transform: translateY(6px);
-            }
-        }
     }
+
 
     i.dropdown.icon {
         font-size: 2rem !important;

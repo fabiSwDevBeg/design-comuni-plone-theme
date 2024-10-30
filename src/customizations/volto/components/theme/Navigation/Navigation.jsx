@@ -102,7 +102,7 @@ const Navigation = (props) => {
           <BodyClass className="has-mobile-menu-open" />
           <div className="mobile-menu-nav">
             <Menu stackable pointing secondary onClick={closeMobileMenu}>
-              <NavItems items={items} lang={lang} />
+              <NavItems items={items} lang={lang} mobile={true}/>
             </Menu>
           </div>
         </div>
