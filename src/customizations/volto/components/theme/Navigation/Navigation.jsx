@@ -94,7 +94,7 @@ const Navigation = (props) => {
       </Menu>
       <CSSTransition
         in={isMobileMenuOpen}
-        timeout={500}
+        timeout={250}
         classNames="mobile-menu"
         unmountOnExit
       >
@@ -102,7 +102,7 @@ const Navigation = (props) => {
           <BodyClass className="has-mobile-menu-open" />
           <div className="mobile-menu-nav">
             <Menu stackable pointing secondary onClick={closeMobileMenu}>
-              <NavItems items={items} lang={lang} mobile={true}/>
+              <NavItems items={items} lang={lang} mobile={true} closeNavigation={closeMobileMenu} />
             </Menu>
           </div>
         </div>
