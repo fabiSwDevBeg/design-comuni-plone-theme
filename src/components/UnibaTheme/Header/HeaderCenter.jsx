@@ -40,7 +40,7 @@ const HeaderCenter = () => {
   return (
     <Header small={false} theme="" type="center">
       <HeaderContent>
-        <div className="it-brand-wrapper ps-4" id="portal-logo">
+        <div className="it-brand-wrapper" id="portal-logo">
           <UniversalLink
             href={subsite?.['@id'] ? flattenToAppURL(subsite['@id']) : homepath}
             title={intl.formatMessage(messages.subsiteUniversalLink)}
