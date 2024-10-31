@@ -12,7 +12,6 @@ import {
 } from 'design-react-kit';
 
 const HeaderSlim = () => {
-
   return (
     <Header small={false} theme="" type="slim" role="navigation">
       <HeaderContent>

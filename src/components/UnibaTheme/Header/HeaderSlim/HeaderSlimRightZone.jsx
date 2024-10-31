@@ -15,13 +15,36 @@ import {
 
 const HeaderSlimRightZone = () => {
   const subsite = useSelector((state) => state.subsite?.data);
+
+  const toggleTopbarList = () => {
+    // Seleziona la lista e il pulsante
+    const topbarList = document.getElementById('topbar-list');
+    const toggleButton = document.getElementById('uniba-topbar_button');
+    
+    if (topbarList && toggleButton) {
+      // Toggle la visibilità della lista
+      topbarList.classList.toggle('in');
+      
+      // Toggle la classe 'collapsed' sul pulsante
+      toggleButton.classList.toggle('collapsed');
+    }
+  };
+
   return (
     <>
       <ParentSiteMenu />
       {!subsite && <TertiaryMenu />}
       <LanguageSelector />
       <span class="uniba-topbar__collapse pull-right">
-        <a role="button" href="#" data-target="#topbar-list" data-toggle="collapse" id="uniba-topbar__button" class="out collapsed" aria-expanded="false">
+        <a 
+          role="button" 
+          href="#" 
+          id="uniba-topbar_button" 
+          class="out collapsed"
+          onClick={(e) => {
+            e.preventDefault();
+            toggleTopbarList();
+          }}>
           <span class="Icon-collapse"></span>
           <span class="Icon-expand"></span>
         </a>
