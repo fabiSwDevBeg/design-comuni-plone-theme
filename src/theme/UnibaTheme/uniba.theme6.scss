@@ -851,6 +851,18 @@ div#banner-uniba {
             justify-content: space-between;
         }
     }
+
+    .hy-image-container img {
+        width: 400px;
+        height: 80px;
+        position: relative;
+    }
+
+    .row.hy-row {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 /* fix menu  */
