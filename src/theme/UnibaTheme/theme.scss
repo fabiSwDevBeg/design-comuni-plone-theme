@@ -101,3 +101,14 @@ $enable-roboto-webfont: false !default;
 // 9. Add additional custom code here
 @import "custom";
 @import "uniba.theme6.scss";
+
+// @import "./fonts/ita.ttf";
+// @import "./fonts/ita.eot";
+// @import "./fonts/ita.woff";
+// @import "./fonts/Barlow-Light.woff";
+// @import "./fonts/Barlow-Light.woff2";
+
+@font-face {
+    font-family: 'ita';
+    src: url('./fonts/ita.ttf');
+}

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'ita';
+    src: url('./fonts/ita.ttf');
+}
+
 /* Mixins UniBa */
 @mixin no-padding {
     padding: 0;
@@ -68,6 +73,19 @@ prevalente da rendere piu' evidente su mobile.
     }
 }
 
+.Icon::before, [class^="Icon-"]::before, [class*=" Icon-"]::before {
+	font-size: 1em;
+	font-family: 'ita' !important;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1;
+	speak: none;
+	text-transform: none;
+}
+
 .uniba-topbar {
     @include no-margin;
     background-color: $uniba-dark;
@@ -108,20 +126,24 @@ prevalente da rendere piu' evidente su mobile.
             &.out {
                 .Icon-collapse {
                     display: inherit;
+                    content: '\23f7';
                 }
 
                 .Icon-expand {
                     display: none;
+                    content: '\23f6';
                 }
             }
 
             &.out.collapsed {
                 .Icon-expand {
                     display: inherit !important;
+                    content: '\23f6';
                 }
 
                 .Icon-collapse {
                     display: none !important;
+                    content: '\23f7';
                 }
             }
 

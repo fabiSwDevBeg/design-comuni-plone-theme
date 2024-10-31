@@ -24,10 +24,10 @@ const HeaderSlim = () => {
             />
             <HeaderSlimList />
           </nav>
+          <HeaderRightZone>
+            <HeaderSlimRightZone />
+          </HeaderRightZone>
         </section>
-        <HeaderRightZone>
-          <HeaderSlimRightZone />
-        </HeaderRightZone>
       </HeaderContent>
     </Header>
   );
