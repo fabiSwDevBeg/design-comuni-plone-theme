@@ -42,7 +42,17 @@ const NavItems = ({ items, lang , mobile = false, closeNavigation = null}) => {
                 }>
                 <Dropdown.Menu key={item.url}>
                   {item.items.map((dropdownitem) => (
-                    <a className="item" href={dropdownitem.url} key={dropdownitem.url}>{dropdownitem.title}</a>
+                    <a 
+                      className="item" 
+                      // href={dropdownitem.url} 
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        history.push(dropdownitem.url);
+                      }}
+                      key={dropdownitem.url}
+                    >
+                        {dropdownitem.title}
+                    </a>
                   ))}
                 </Dropdown.Menu>
               </Dropdown>

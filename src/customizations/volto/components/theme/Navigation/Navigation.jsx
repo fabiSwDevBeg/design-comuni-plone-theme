@@ -89,6 +89,7 @@ const Navigation = (props) => {
         secondary
         className="container computer large screen widescreen only container"
         onClick={closeMobileMenu}
+        style={{ justifyContent: 'space-between' }}
       >
         <NavItems items={items} lang={lang} />
       </Menu>

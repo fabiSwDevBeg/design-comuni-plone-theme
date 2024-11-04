@@ -367,8 +367,9 @@ prevalente da rendere piu' evidente su mobile.
 
 
     i.dropdown.icon {
-        font-size: 2rem !important;
+        font-size: 1.5rem !important;
         color: white;
+        margin-right: 0.5rem !important;
     }
 
     .ui.dropdown .divider.text {
@@ -886,7 +887,6 @@ nav.plone-navbar {
 
     .item {
         i.dropdown.icon {
-            font-size: 2rem;
             right: 10px;
             top: 8px;
         }
@@ -930,6 +930,7 @@ nav.plone-navbar {
                 -webkit-column-count: 2;
                 -moz-column-count: 2;
                 column-count: 2;
+                column-gap: 1em;
                 border-right: 3px solid rgba(0,64,113,0.5);
                 -webkit-transition: opacity ease-out 0.5s !important;
                 transition: opacity ease-out 0.5s !important;
@@ -945,7 +946,7 @@ nav.plone-navbar {
                     border-left: 2px solid #e8e8e8;
                     color: $primary !important;
                     padding: 1em;
-                    font-size: 16px;
+                    font-size: 16px !important;
                     position: relative;
                     padding: 0.2em 0.5em;
                     margin-right: 0 !important;
@@ -954,6 +955,9 @@ nav.plone-navbar {
                     hyphens: auto;
                     border-bottom-width: 0px !important;
                     min-width: 14em;
+                    max-width: 100%;
+                    white-space: normal;
+                    break-inside: avoid;
     
                     &:hover {
                         border-left: 2px solid #004071;

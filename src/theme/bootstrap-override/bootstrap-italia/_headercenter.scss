@@ -57,4 +57,13 @@
       }
     }
   }
+
+  .it-header-center-content-wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 100%;
+  }
 }
