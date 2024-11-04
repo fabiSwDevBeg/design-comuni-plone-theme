@@ -61,6 +61,10 @@ const Actions = (props) => {
     e.preventDefault();
     return window.print();
   };
+  const handleMailTo = (e, item) => {
+    e.preventDefault();
+    return window.location.href = item.url;
+  }
   const handleKeyDown = (e) => {
     if (e.key === 'Enter' || e.code === 'Space') {
       const childElement = e.target.firstChild;
@@ -92,7 +96,7 @@ const Actions = (props) => {
           title={intl.formatMessage(messages.actions)}
         />
 
-        <small>{intl.formatMessage(messages.actions)}</small>
+        <h5>{intl.formatMessage(messages.actions)}</h5>
       </DropdownToggle>
       <DropdownMenu>
         <LinkList>
@@ -131,7 +135,9 @@ const Actions = (props) => {
             else if (item.id === 'mailto')
               buttonProps = {
                 ...commonButtonProps,
-                href: item.url,
+                tag: 'button',
+                onClick: (e) => handleMailTo(e, item),
+                color: 'link',
               };
             return (
               // https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/menu_role#:~:text=within%20the%20menu-,tabindex,-attribute
@@ -141,10 +147,12 @@ const Actions = (props) => {
                 tabIndex={-1}
                 onKeyDown={handleKeyDown}
               >
-                {item.id === 'print' && (
+                {/* {item.id === 'print' && (
                   <Button {...buttonProps}>{icon}</Button>
                 )}
-                {item.id === 'mailto' && <a {...buttonProps}>{icon}</a>}
+                {item.id === 'mailto' && <a {...buttonProps}>{icon}</a>} */
+                <Button {...buttonProps}>{icon}</Button>
+                }
               </LinkListItem>
             );
           })}

@@ -18,7 +18,7 @@ import {
   PageHeaderTassonomiaArgomenti,
   PageHeaderDocumento,
   Sharing,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-comuni-plone-theme/components/UnibaTheme/View';
 import config from '@plone/volto/registry';
 
 const messages = defineMessages({

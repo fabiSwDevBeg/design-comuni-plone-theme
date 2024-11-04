@@ -80,7 +80,7 @@ const Sharing = ({ url, title }) => {
           alt={intl.formatMessage(messages.share)}
           title={intl.formatMessage(messages.share)}
         />
-        <small>{intl.formatMessage(messages.share)}</small>
+        <h5>{intl.formatMessage(messages.share)}</h5>
       </DropdownToggle>
       <DropdownMenu>
         <LinkList>

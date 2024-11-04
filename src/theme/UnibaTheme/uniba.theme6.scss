@@ -950,14 +950,16 @@ nav.plone-navbar {
                     position: relative;
                     padding: 0.2em 0.5em;
                     margin-right: 0 !important;
-                    -webkit-hyphens: auto;
-                    -ms-hyphens: auto;
-                    hyphens: auto;
+                    -webkit-hyphens: none;
+                    -ms-hyphens: none;
+                    hyphens: none;
                     border-bottom-width: 0px !important;
                     min-width: 14em;
                     max-width: 100%;
                     white-space: normal;
                     break-inside: avoid;
+                    word-break: break-word;
+                    overflow-wrap: break-word;
     
                     &:hover {
                         border-left: 2px solid #004071;

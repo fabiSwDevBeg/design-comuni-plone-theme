@@ -35,18 +35,18 @@ const HeaderSlimRightZone = () => {
       <ParentSiteMenu />
       {!subsite && <TertiaryMenu />}
       <LanguageSelector />
-      <span class="uniba-topbar__collapse pull-right">
+      <span className="uniba-topbar__collapse pull-right">
         <a 
           role="button" 
           href="#" 
           id="uniba-topbar_button" 
-          class="out collapsed"
+          className="out collapsed"
           onClick={(e) => {
             e.preventDefault();
             toggleTopbarList();
           }}>
-          <span class="Icon-collapse"></span>
-          <span class="Icon-expand"></span>
+          <span className="Icon-collapse"></span>
+          <span className="Icon-expand"></span>
         </a>
       </span>
       <HeaderLogin />
