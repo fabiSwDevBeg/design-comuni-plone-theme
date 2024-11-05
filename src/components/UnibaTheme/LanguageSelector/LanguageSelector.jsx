@@ -8,7 +8,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { find, map } from 'lodash';
 import { Link } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import cx from 'classnames';
 import { Helmet, flattenToAppURL, langmap } from '@plone/volto/helpers';
 import {
@@ -22,6 +22,7 @@ import {
 } from 'design-react-kit';
 import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
 import config from '@plone/volto/registry';
+import { changeLanguage } from '../../../actions/changeLanguage';
 
 const languagesISO392 = {
   de: 'deu',
@@ -43,11 +44,16 @@ const languagesISO392 = {
  */
 const LanguageSelector = (props) => {
   const currentLang = useSelector((state) => state.intl.locale);
-
+  const dispatch = useDispatch();
+  
   const translations = useSelector(
     (state) => state.content.data?.['@components']?.translations?.items,
   );
 
+  const handleChangeLanguage = (newLang) => {
+    dispatch(changeLanguage(newLang));
+  };
+  console.log(currentLang);
   return config.settings.isMultilingual ? (
     <UncontrolledDropdown nav tag="div">
       <DropdownToggle aria-haspopup caret color="secondary" nav>
@@ -70,7 +76,7 @@ const LanguageSelector = (props) => {
                     }
                     title={langmap[lang].nativeName}
                     onClick={() => {
-                      props.onClickAction();
+                      handleChangeLanguage(lang);
                     }}
                     key={`language-selector-${lang}`}
                     tag={Link}

@@ -34,6 +34,7 @@
         text-decoration: underline;
         display: flex;
         align-items: center;
+        color: white;
         &[aria-expanded='true'] {
           & > .icon:last-of-type {
             transform: scaleY(-1);

@@ -27,39 +27,49 @@ const NavItems = ({ items, lang , mobile = false, closeNavigation = null}) => {
   var dropdownClassName = mobile ? "item" : "item simple";
   return (
     <>
-      {items.map((item) =>
-            item && item.items && item.items.length > 0 ? (
-              <Dropdown 
-                text={item.title} 
-                className={`${dropdownClassName}${(location.pathname === item.url || location.pathname.includes(item.url)) ? ' inPath' : ''}`}
+      {items.map((item, index) => {
+        // Calcola l'indice a metà della lista
+        const halfIndex = Math.ceil(items.length / 2);
+        
+        // Determina la classe in base alla posizione rispetto a metà
+        const transitionClass = index < halfIndex ? 'transition-right' : 'transition-left';
+        const inPath = (location.pathname === item.url || location.pathname.includes(item.url));
+        return (
+          item && item.items && item.items.length > 0 ? (
+            <Dropdown 
+              text={item.title} 
+              className={`${dropdownClassName}${inPath ? ' inPath' : ''}`}
+              key={item.url} 
+              closeOnChange={true}
+              open={openDropdown === item.url}
+              onClick={(e) =>
+                mobile
+                  ? handleDropdownToggle(item, e) // Solo per mobile
+                  : handleDropdownClick(item) // Per desktop, naviga al link
+              }>
+              <Dropdown.Menu 
                 key={item.url} 
-                closeOnChange={true}
-                open={openDropdown === item.url}
-                onClick={(e) =>
-                  mobile
-                    ? handleDropdownToggle(item, e) // Solo per mobile
-                    : handleDropdownClick(item) // Per desktop, naviga al link
-                }>
-                <Dropdown.Menu key={item.url}>
-                  {item.items.map((dropdownitem) => (
-                    <a 
-                      className="item" 
-                      // href={dropdownitem.url} 
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        history.push(dropdownitem.url);
-                      }}
-                      key={dropdownitem.url}
-                    >
-                        {dropdownitem.title}
-                    </a>
-                  ))}
-                </Dropdown.Menu>
-              </Dropdown>
-            ) : (
-              <NavItem item={item} lang={lang} key={item.url} />
-            ),
-          )}
+                className={transitionClass}
+              >
+                {item.items.map((dropdownitem) => (
+                  <a 
+                    className="item" 
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      history.push(dropdownitem.url);
+                    }}
+                    key={dropdownitem.url}
+                  >
+                    {dropdownitem.title}
+                  </a>
+                ))}
+              </Dropdown.Menu>
+            </Dropdown>
+          ) : (
+            <NavItem item={item} lang={lang} key={item.url} />
+          )
+        );
+      })}
     </>
   );
 };

@@ -13,6 +13,7 @@ import { modulisticaItems } from './modulisticaItems';
 import { originalQueryReducer } from './originalQueryReducer';
 import { searchBandiFiltersReducer } from './searchBandiFiltersReducer';
 import { breadcrumbs } from './breadcrumbs';
+import intlReducer from './changeLanguageReducer';
 
 /**
  * Root reducer.
@@ -32,6 +33,7 @@ const reducers = {
   originalQuery: originalQueryReducer,
   searchBandiFilters: searchBandiFiltersReducer,
   breadcrumbs: breadcrumbs,
+  intl: intlReducer,
 };
 
 export default reducers;

@@ -1,5 +1,5 @@
 const defaultPanelConfig = {
-  last_updated: '2022-03-03T11:25:00+00:00', //it is used to know whether to resubmit the banner to the user if the choices have changed.
+  last_updated: '2024-11-03T11:25:00+00:00', //it is used to know whether to resubmit the banner to the user if the choices have changed.
   focusTrapEnabled: true,
 
   text: {
@@ -55,6 +55,21 @@ const defaultPanelConfig = {
     //technical cookies
     choices: [
       {
+        config_key: 'WEBANALYTICS', //reference to config.gdprPrivacyConfig keys
+        text: {
+          it: {
+            title: 'Webanalytics Italia',
+            description:
+              "I cookie di Webanalytics Italia sono usati per analizzare la navigazione sul sito al fine di migliorarla e fornire all'utente un'esperienza di navigazione migliore possibile.",
+          },
+          en: {
+            title: 'Webanalytics Italia',
+            description:
+              'Webanalytics Italia cookies are used to analyze navigation on the site in order to improve it and provide the user with the best possible browsing experience.',
+          },
+        },
+      },
+      /* {
         config_key: 'GANALYTICS', //reference to config.gdprPrivacyConfig keys
         text: {
           it: {
@@ -78,8 +93,8 @@ const defaultPanelConfig = {
               "Les cookies de Google Analytics sont utilisés pour analyser la navigation sur le site afin de l'améliorer et offrir à l'utilisateur la meilleure expérience de navigation possible.",
           },
         },
-      },
-      {
+      }, */
+      /* {
         config_key: 'GRECAPTCHA',
         text: {
           it: {
@@ -103,7 +118,7 @@ const defaultPanelConfig = {
               "Les cookies de Google Re-Captcha sont utilisés pour analyser la navigation sur le site afin de l'améliorer et offrir à l'utilisateur la meilleure expérience de navigation possible.",
           },
         },
-      },
+      }, */
     ],
   },
 
@@ -172,6 +187,18 @@ const defaultPanelConfig = {
         },
       },
       {
+        config_key: 'CANVA',
+        referenceUrls: ['www.canva.com'],
+        text: {
+          it: {
+            title: 'Canva',
+          },
+          en: {
+            title: 'Canva',
+          },
+        },
+      }
+      /* {
         config_key: 'VIMEO',
         referenceUrls: ['vimeo.com'],
         text: {
@@ -208,7 +235,7 @@ const defaultPanelConfig = {
               'Pour voir la vidéo, veuillez accepter les cookies Vimeo.',
           },
         },
-      },
+      }, */
       /*{
         config_key: 'GOOGLEMAPS',
         referenceUrls: ['google.com/maps'],
@@ -247,7 +274,7 @@ const defaultPanelConfig = {
           },
         },
       },*/
-      {
+      /* {
         config_key: 'META',
         referenceUrls: ['facebook.com', 'instagram.com'],
         text: {
@@ -284,7 +311,7 @@ const defaultPanelConfig = {
               'Pour afficher le contenu Meta, veuillez accepter les cookies Meta.',
           },
         },
-      },
+      }, */
     ],
   },
 };

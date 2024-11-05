@@ -942,6 +942,16 @@ nav.plone-navbar {
                 -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.17);
                 box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.17);
                 
+                &.transition-left {
+                    right: 0;
+                    left: auto;
+                }
+
+                &.transition-right {
+                    right:auto;
+                    left:0;
+                }
+
                 a {
                     border-left: 2px solid #e8e8e8;
                     color: $primary !important;
