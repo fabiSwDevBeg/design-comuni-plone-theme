@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Dropdown, DropdownItem, DropdownMenu } from 'semantic-ui-react';
-
+import { useSelector } from 'react-redux';
 const HeaderSlimListItem = ({
     staticLink = true,
     endpoint = "",
@@ -10,11 +10,13 @@ const HeaderSlimListItem = ({
     ...attributes
 }) => {
     const [dropdownContent, setDropdownContent] = useState("");
+    const lang = useSelector((state) => state.intl.locale);
 
     useEffect(() => {
         if (!staticLink && endpoint) {
             // Effettua la richiesta quando staticLink è false
-            const fullEndpoint = `${window.location.origin}${endpoint}`;
+            
+            const fullEndpoint = `${window.location.origin}/++api++/${lang}${endpoint}`;
             fetch(fullEndpoint)
                 .then(response => response.text()) // Ottieni il contenuto come testo
                 .then(html => {

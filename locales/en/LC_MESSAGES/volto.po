@@ -4225,3 +4225,38 @@ msgstr "This event lasts all day"
 # defaultMessage: Si
 msgid "yes"
 msgstr "Yes"
+
+#: components/UnibaTheme/Header/HeaderSlim/HeaderSlimList
+# defaultMessage: Servizi Online
+msgid "servizi_online_title"
+msgstr "Online Services"
+
+#: components/UnibaTheme/Header/HeaderSlim/HeaderSlimList
+# defaultMessage: Esse3
+msgid "esse3_title"
+msgstr "Esse3"
+
+#: components/UnibaTheme/Header/HeaderSlim/HeaderSlimList
+# defaultMessage: Rubrica
+msgid "rubrica_title"
+msgstr "People"
+
+#: components/UnibaTheme/Header/HeaderSlim/HeaderSlimList
+# defaultMessage: Webmail
+msgid "webmail_title"
+msgstr "Webmail"
+
+#: components/UnibaTheme/Header/HeaderSlim/HeaderSlimList
+# defaultMessage: App Uniba
+msgid "app_uniba_title"
+msgstr "App Uniba"
+
+#: components/UnibaTheme/Header/HeaderSlim/HeaderSlimList
+# defaultMessage: Info per
+msgid "info_per_title"
+msgstr "Info for"
+
+#: components/UnibaTheme/Header/HeaderSlim/HeaderSlimList
+# defaultMessage: Cerca in uniba
+msgid "cerca_in_uniba_title"
+msgstr "Search in uniba"

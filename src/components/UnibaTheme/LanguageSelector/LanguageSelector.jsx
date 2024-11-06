@@ -53,7 +53,6 @@ const LanguageSelector = (props) => {
   const handleChangeLanguage = (newLang) => {
     dispatch(changeLanguage(newLang));
   };
-  console.log(currentLang);
   return config.settings.isMultilingual ? (
     <UncontrolledDropdown nav tag="div">
       <DropdownToggle aria-haspopup caret color="secondary" nav>

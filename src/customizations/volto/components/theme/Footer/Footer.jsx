@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Grid, GridRow, GridColumn, Image, List, ListItem } from 'semantic-ui-react';
+import { useSelector } from 'react-redux';
 import FacebookSVG from '../../../../../theme/UnibaTheme/images/ico-facebook.svg';
 import InstagramSVG from '../../../../../theme/UnibaTheme/images/ico-instagram.svg';
 import LinkedinSVG from '../../../../../theme/UnibaTheme/images/ico-linkedin.svg';
@@ -8,10 +9,11 @@ import YoutubeSVG from '../../../../../theme/UnibaTheme/images/ico-youtube.svg';
 
 const FooterUniba = () => {
     const [parsedColumns, setParsedColumns] = useState([]);
+    const lang = useSelector((state) => state.intl.locale);
 
     useEffect(() => {
         // Funzione per recuperare i dati dall'endpoint
-        const fullEndpoint = `${window.location.origin}${'/++api++/@@uniba.footer'}`;
+        const fullEndpoint = `${window.location.origin}/++api++/${lang}/@@uniba.footer`;
         fetch(fullEndpoint)
                 .then(response => response.text()) // Ottieni il contenuto come testo
                 .then(html => {
