@@ -9,3 +9,12 @@
 	box-shadow: none !important;
 	transition: none !important;
 }
+
+.navigation .ui.secondary.pointing.menu .item, .tools .ui.secondary.pointing.menu .item {
+	padding: 0;
+	margin: 0;
+}
+
+.ui.menu::after {
+	display: none;
+}

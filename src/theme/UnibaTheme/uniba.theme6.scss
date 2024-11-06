@@ -895,19 +895,22 @@ div#banner-uniba {
     padding: 0;
 }
 
+
 nav.plone-navbar {
     background-color: #f5f5f5;
     color: $primary !important;
     position: relative;
-    min-height: 2.6rem;
+    height: $navbar-height;
     margin-bottom: 0;
     padding-left: 0;
     list-style: none;
     background-color: #f5f5f5;
     z-index: 2;
-    max-height: 47px;
+
 
     .item {
+        height: $navbar-height;
+
         i.dropdown.icon {
             right: 10px;
             top: 3px;
@@ -923,17 +926,28 @@ nav.plone-navbar {
             -ms-hyphens: auto;
             hyphens: auto;
         }
-    }
 
-    .inPath.item {
-        background-color: $primary !important;
-        color: white !important;
-        .divider.text {
+        &.inPath {
+            background-color: $primary !important;
             color: white !important;
+            .divider.text {
+                color: white !important;
+            }
         }
     }
 
     .computer.large.screen {
+
+        a.item {
+            position: relative;
+            display: flex;
+            padding: 0 !important;
+            color: #004071;
+            font-size: 19px;
+            hyphens: auto;
+            height: $navbar-height;
+        }
+
         .item {
 
             &:not(.inPath) {
