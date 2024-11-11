@@ -19,7 +19,7 @@ EOT
 USER node
 
 COPY --chown=node:node ./ /app/src/addons/${ADDON_PATH}/
-COPY --chown=node:node dockerfiles/helper.js /app/
+COPY --chown=node:node /helper.js /app/
 
 RUN <<EOT
     set -e
