@@ -6,7 +6,7 @@ import {
   RichTextSection,
   richTextHasContent,
   OfficeCard,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const ServizioAccedi = ({ content }) => {
   const intl = useIntl();

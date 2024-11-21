@@ -12,7 +12,7 @@ import { injectIntl, defineMessages, useIntl } from 'react-intl';
 import loadable from '@loadable/component';
 import { flattenToAppURL } from '@plone/volto/helpers';
 
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 
 const Dropzone = loadable(() => import('react-dropzone'));
 const imageMimetypes = [

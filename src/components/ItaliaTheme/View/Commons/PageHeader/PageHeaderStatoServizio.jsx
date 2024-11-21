@@ -3,7 +3,7 @@ import { Chip, ChipLabel } from 'design-react-kit';
 import {
   RichText,
   richTextHasContent,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const PageHeaderServizio = ({ content }) => {
   const intl = useIntl();

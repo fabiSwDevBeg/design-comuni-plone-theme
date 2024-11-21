@@ -7,7 +7,7 @@ import moment from 'moment';
 import cx from 'classnames';
 import { OSMMap } from 'volto-venue';
 import { Row, Col, Container } from 'design-react-kit';
-import { ListingLinkMore } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { ListingLinkMore } from 'design-uniba-volto/components/ItaliaTheme';
 
 const messages = defineMessages({
   default_detail_link: {

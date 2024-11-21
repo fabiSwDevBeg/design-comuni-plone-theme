@@ -20,7 +20,7 @@ import {
   RelatedItems,
   RelatedItemInEvidence,
   useSideMenu,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 // import { getBaseUrl } from '@plone/volto/helpers';
 

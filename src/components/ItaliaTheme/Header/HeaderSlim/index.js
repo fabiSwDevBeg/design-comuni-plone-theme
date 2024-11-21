@@ -1,3 +1,3 @@
-import HeaderSlim from 'design-comuni-plone-theme/components/ItaliaTheme/Header/HeaderSlim/HeaderSlim';
+import HeaderSlim from 'design-uniba-volto/components/ItaliaTheme/Header/HeaderSlim/HeaderSlim';
 
 export default HeaderSlim;

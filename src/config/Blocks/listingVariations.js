@@ -1,54 +1,54 @@
-import SimpleCardTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/SimpleCard/SimpleCardTemplate';
+import SimpleCardTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/SimpleCard/SimpleCardTemplate';
 
-import CardWithImageTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/CardWithImageTemplate';
-import CardWithImageTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/CardWithImageTemplateSkeleton';
+import CardWithImageTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/CardWithImageTemplate';
+import CardWithImageTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/CardWithImageTemplateSkeleton';
 
-import InEvidenceTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/InEvidenceTemplate';
-import InEvidenceTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/InEvidenceTemplateSkeleton';
+import InEvidenceTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/InEvidenceTemplate';
+import InEvidenceTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/InEvidenceTemplateSkeleton';
 
-import ContentInEvidenceTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/ContentInEvidenceTemplate';
-import ContentInEvidenceTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/ContentInEvidenceTemplateSkeleton';
+import ContentInEvidenceTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/ContentInEvidenceTemplate';
+import ContentInEvidenceTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/ContentInEvidenceTemplateSkeleton';
 
-import RibbonCardTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/RibbonCardTemplate';
-import RibbonCardTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/RibbonCardTemplateSkeleton';
+import RibbonCardTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/RibbonCardTemplate';
+import RibbonCardTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/RibbonCardTemplateSkeleton';
 
-import MapTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/MapTemplate';
-import MapTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/MapTemplateSkeleton';
+import MapTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/MapTemplate';
+import MapTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/MapTemplateSkeleton';
 
-import SmallBlockLinksTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/SmallBlockLinksTemplate';
-import SmallBlockLinksTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/SmallBlockLinksTemplateSkeleton';
+import SmallBlockLinksTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/SmallBlockLinksTemplate';
+import SmallBlockLinksTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/SmallBlockLinksTemplateSkeleton';
 
-import CompleteBlockLinksTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/CompleteBlockLinksTemplate';
-import CompleteBlockLinksTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/CompleteBlockLinksTemplateSkeleton';
+import CompleteBlockLinksTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/CompleteBlockLinksTemplate';
+import CompleteBlockLinksTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/CompleteBlockLinksTemplateSkeleton';
 
-import PhotogalleryTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/PhotogalleryTemplate';
-import PhotogalleryTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/PhotogalleryTemplateSkeleton';
+import PhotogalleryTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/PhotogalleryTemplate';
+import PhotogalleryTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/PhotogalleryTemplateSkeleton';
 
-import SliderTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/SliderTemplate';
-import SliderTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/SliderTemplateSkeleton';
-import SlideItemDefault from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/Slider/SlideItemDefault';
-import SlideItemSimpleCard from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/SimpleCard/Card/SimpleCardDefault';
-import SlideItemImageCard from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/CardWithImage/CardWithImageDefault';
+import SliderTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/SliderTemplate';
+import SliderTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/SliderTemplateSkeleton';
+import SlideItemDefault from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/Slider/SlideItemDefault';
+import SlideItemSimpleCard from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/SimpleCard/Card/SimpleCardDefault';
+import SlideItemImageCard from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/CardWithImage/CardWithImageDefault';
 
-import GridGalleryTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/GridGalleryTemplate';
-import GridGalleryTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/GridGalleryTemplateSkeleton';
+import GridGalleryTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/GridGalleryTemplate';
+import GridGalleryTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/GridGalleryTemplateSkeleton';
 
-import BandiInEvidenceTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/BandiInEvidenceTemplate';
-import BandiInEvidenceTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/BandiInEvidenceTemplateSkeleton';
+import BandiInEvidenceTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/BandiInEvidenceTemplate';
+import BandiInEvidenceTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/BandiInEvidenceTemplateSkeleton';
 
-import SquaresImageTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/SquaresImageTemplate';
-import SquaresImageTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/SquaresImageTemplateSkeleton';
+import SquaresImageTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/SquaresImageTemplate';
+import SquaresImageTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/SquaresImageTemplateSkeleton';
 
-import SimpleListTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/SimpleListTemplate';
-import SimpleListTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/SimpleListTemplateSkeleton';
+import SimpleListTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/SimpleListTemplate';
+import SimpleListTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/SimpleListTemplateSkeleton';
 
-import CardWithSlideUpTextTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/CardWithSlideUpTextTemplate';
-import CardWithSlideUpTextTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/CardWithSlideUpTextTemplateSkeleton';
+import CardWithSlideUpTextTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/CardWithSlideUpTextTemplate';
+import CardWithSlideUpTextTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/CardWithSlideUpTextTemplateSkeleton';
 
-import AttachmentCardTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/AttachmentCardTemplate';
+import AttachmentCardTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/AttachmentCardTemplate';
 
-// import AmministrazioneTrasparenteTablesTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/AmministrazioneTrasparenteTablesTemplate';
-// import AmministrazioneTrasparenteTablesTemplateSkeleton from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/AmministrazioneTrasparenteTablesTemplateSkeleton';
+// import AmministrazioneTrasparenteTablesTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/AmministrazioneTrasparenteTablesTemplate';
+// import AmministrazioneTrasparenteTablesTemplateSkeleton from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/TemplatesSkeletons/AmministrazioneTrasparenteTablesTemplateSkeleton';
 
 import {
   addSimpleCardTemplateOptions,
@@ -67,9 +67,9 @@ import {
   addSmallBlockLinksTemplateOptions,
   addAttachmentCardTemplateOptions,
   cloneBlock,
-} from 'design-comuni-plone-theme/config/Blocks/ListingOptions';
+} from 'design-uniba-volto/config/Blocks/ListingOptions';
 
-import { addLighthouseField } from 'design-comuni-plone-theme/config/Blocks/ListingOptions/utils';
+import { addLighthouseField } from 'design-uniba-volto/config/Blocks/ListingOptions/utils';
 
 const italiaListingVariations = [
   {

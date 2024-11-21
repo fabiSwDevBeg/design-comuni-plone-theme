@@ -2,7 +2,7 @@ import React from 'react';
 import cx from 'classnames';
 import { useIntl } from 'react-intl';
 import { SiteProperty } from 'volto-site-settings';
-import { getSiteProperty } from 'design-comuni-plone-theme/helpers';
+import { getSiteProperty } from 'design-uniba-volto/helpers';
 
 const BrandText = ({ mobile = false, subsite, getParent = false }) => {
   const intl = useIntl();

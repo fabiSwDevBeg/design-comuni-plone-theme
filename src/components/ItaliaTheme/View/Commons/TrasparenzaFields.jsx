@@ -3,7 +3,7 @@ import { FormattedMessage, defineMessages, useIntl } from 'react-intl';
 import {
   RichTextSection,
   RichTextRender,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 import { UniversalLink } from '@plone/volto/components';
 
 const messages = defineMessages({

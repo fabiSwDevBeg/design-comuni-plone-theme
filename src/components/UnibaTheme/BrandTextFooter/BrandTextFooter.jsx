@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrandText } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { BrandText } from 'design-uniba-volto/components/ItaliaTheme';
 
 const BrandTextFooter = () => {
   return <BrandText getParent={true} />;

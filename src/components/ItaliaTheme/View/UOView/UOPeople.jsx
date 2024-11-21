@@ -1,6 +1,6 @@
 import React from 'react';
 import { defineMessages, useIntl } from 'react-intl';
-import { CardPersona } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { CardPersona } from 'design-uniba-volto/components/ItaliaTheme';
 import { Row, Col } from 'design-react-kit';
 
 const messages = defineMessages({

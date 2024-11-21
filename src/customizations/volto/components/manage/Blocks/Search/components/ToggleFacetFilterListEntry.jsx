@@ -4,7 +4,7 @@
 import React, { useMemo } from 'react';
 import { Label, Icon, Button } from 'design-react-kit';
 import { defineMessages } from 'react-intl';
-import { commonSearchBlockMessages } from 'design-comuni-plone-theme/helpers';
+import { commonSearchBlockMessages } from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({
   yes: {

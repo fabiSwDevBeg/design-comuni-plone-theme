@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Segment } from 'semantic-ui-react';
 import { defineMessages, FormattedMessage, injectIntl } from 'react-intl';
 import { FileWidget } from '@plone/volto/components';
-import { ColorListWidget } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { ColorListWidget } from 'design-uniba-volto/components/ItaliaTheme';
 import ImageSizeWidget from '@plone/volto/components/manage/Widgets/ImageSizeWidget';
 
 const messages = defineMessages({

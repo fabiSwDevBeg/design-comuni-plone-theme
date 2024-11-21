@@ -1,7 +1,7 @@
 import React from 'react';
 import { useIntl, defineMessages } from 'react-intl';
 import PropTypes from 'prop-types';
-import Icon from 'design-comuni-plone-theme/components/ItaliaTheme/Icons/Icon';
+import Icon from 'design-uniba-volto/components/ItaliaTheme/Icons/Icon';
 
 /**
  * Dates view component class.

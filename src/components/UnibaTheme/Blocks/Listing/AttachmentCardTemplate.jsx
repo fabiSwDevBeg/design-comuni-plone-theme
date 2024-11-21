@@ -7,7 +7,7 @@ import { Container, Card, CardBody, CardTitle } from 'design-react-kit';
 import {
   Icon,
   ListingLinkMore,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 
 const messages = defineMessages({
   link: {

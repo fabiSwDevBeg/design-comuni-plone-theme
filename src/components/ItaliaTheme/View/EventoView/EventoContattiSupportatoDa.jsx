@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { defineMessages, useIntl } from 'react-intl';
-import { OfficeCard } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { OfficeCard } from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const messages = defineMessages({
   supported_by: {

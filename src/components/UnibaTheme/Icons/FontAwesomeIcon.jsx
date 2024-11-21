@@ -4,7 +4,7 @@
  */
 import React, { useMemo } from 'react';
 import { v4 as uuid } from 'uuid';
-import { fontAwesomeAliases } from 'design-comuni-plone-theme/helpers/index';
+import { fontAwesomeAliases } from 'design-uniba-volto/helpers/index';
 
 const FontAwesomeIcon = (props) => {
   const { className, icon, prefix, title } = props;
@@ -53,7 +53,7 @@ const FontAwesomeIcon = (props) => {
       (iconName !== loadedIcon.iconName || prefixFolder !== loadedIcon.family)
     ) {
       import(
-        `design-comuni-plone-theme/icons/fontawesome-free-6.4.0-web/svgs/${prefixFolder}/${iconName}.svg`
+        `design-uniba-volto/icons/fontawesome-free-6.4.0-web/svgs/${prefixFolder}/${iconName}.svg`
       )
         .then((_loadedIcon) => {
           setLoadedIcon({

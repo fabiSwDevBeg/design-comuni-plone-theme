@@ -7,7 +7,7 @@ import { TextWidget, CheckboxWidget } from '@plone/volto/components';
 import {
   LinkToWidget,
   ColorListWidget,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 
 const messages = defineMessages({
   News: {

@@ -25,7 +25,7 @@ import {
   ContentTypeViewSections,
   EventoSponsors,
   useSideMenu,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 export const EventoViewSectionsOrder = [
   {

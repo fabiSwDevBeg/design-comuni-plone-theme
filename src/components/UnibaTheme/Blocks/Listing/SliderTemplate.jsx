@@ -2,7 +2,7 @@
  * Slider
  */
 import 'slick-carousel/slick/slick.css';
-import 'design-comuni-plone-theme/components/slick-carousel/slick/slick-theme.css';
+import 'design-uniba-volto/components/slick-carousel/slick/slick-theme.css';
 import { Col, Container, Row } from 'design-react-kit';
 import {
   ListingImage,
@@ -10,8 +10,8 @@ import {
   SingleSlideWrapper,
   CarouselWrapper,
   ButtonPlayPause,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { useSlider } from 'design-comuni-plone-theme/components/ItaliaTheme/Slider/slider';
+} from 'design-uniba-volto/components/ItaliaTheme';
+import { useSlider } from 'design-uniba-volto/components/ItaliaTheme/Slider/slider';
 import React, { useState } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
 import PropTypes from 'prop-types';

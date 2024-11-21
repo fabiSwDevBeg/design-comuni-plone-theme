@@ -19,7 +19,7 @@ import {
   HeaderCenter,
   HeaderBanner,
   SubsiteHeader,
-} from 'design-comuni-plone-theme/components/UnibaTheme';
+} from 'design-uniba-volto/components/UnibaTheme';
 import { Headers } from 'design-react-kit';
 
 const Header = ({ pathname }) => {

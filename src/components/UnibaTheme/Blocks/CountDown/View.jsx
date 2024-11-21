@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import redraft from 'redraft';
-import { checkRedraftHasContent } from 'design-comuni-plone-theme/helpers';
+import { checkRedraftHasContent } from 'design-uniba-volto/helpers';
 import { Container, Row, Col } from 'design-react-kit';
 import { addAppURL, flattenToAppURL } from '@plone/volto/helpers';
 import cx from 'classnames';
-import CountDown from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/CountDown/CountDown';
+import CountDown from 'design-uniba-volto/components/ItaliaTheme/Blocks/CountDown/CountDown';
 import config from '@plone/volto/registry';
 
 const View = ({ data, id }) => {

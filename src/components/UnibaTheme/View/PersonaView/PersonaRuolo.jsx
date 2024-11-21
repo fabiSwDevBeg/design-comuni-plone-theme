@@ -7,11 +7,11 @@ import {
   OfficeCard,
   Gallery,
   Attachment,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 import {
   contentFolderHasItems,
   viewDate,
-} from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({
   ruolo: {

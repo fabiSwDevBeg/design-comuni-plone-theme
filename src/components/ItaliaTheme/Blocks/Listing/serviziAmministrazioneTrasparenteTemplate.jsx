@@ -6,7 +6,7 @@ import moment from 'moment';
 import { Container, Row, Col } from 'design-react-kit';
 import { flattenToAppURL } from '@plone/volto/helpers';
 import { UniversalLink } from '@plone/volto/components';
-import { ListingLinkMore } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { ListingLinkMore } from 'design-uniba-volto/components/ItaliaTheme';
 
 const messages = defineMessages({
   nominativo: {

@@ -4,9 +4,9 @@ import {
   RichTextSection,
   Attachment,
   Attachments,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
-import { contentFolderHasItems } from 'design-comuni-plone-theme/helpers';
+import { contentFolderHasItems } from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({
   curriculum_vitae: {

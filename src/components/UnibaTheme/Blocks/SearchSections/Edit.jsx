@@ -6,8 +6,8 @@ import { SidebarPortal } from '@plone/volto/components';
 import {
   BlockSearchSectionsSidebar,
   BlockSearchSectionsBody,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { SearchUtils } from 'design-comuni-plone-theme/components';
+} from 'design-uniba-volto/components/ItaliaTheme';
+import { SearchUtils } from 'design-uniba-volto/components';
 
 const Edit = ({
   data,

@@ -11,7 +11,7 @@
  */
 
 /* SVG example
- import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+ import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
  const Logo = () => <Icon color="" icon="it-pa" padding={false} size="" />;
 */
 

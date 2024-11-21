@@ -5,7 +5,7 @@ import cx from 'classnames';
 import {
   viewDate,
   getRealStartAndEndWithRecurrence,
-} from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/helpers';
 
 import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';
 

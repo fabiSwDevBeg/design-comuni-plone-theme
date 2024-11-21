@@ -1,7 +1,7 @@
 import React from 'react';
 import { defineMessages, useIntl } from 'react-intl';
-import { OfficeCard } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
-import { CardPersona } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { OfficeCard } from 'design-uniba-volto/components/ItaliaTheme/View';
+import { CardPersona } from 'design-uniba-volto/components/ItaliaTheme';
 import { Row, Col } from 'design-react-kit';
 
 const messages = defineMessages({

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import { rrulei18n } from '@plone/volto/components/manage/Widgets/RecurrenceWidget/Utils';
 import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';
-import { getRealEventEnd } from 'design-comuni-plone-theme/helpers';
+import { getRealEventEnd } from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({
   dateStart: {

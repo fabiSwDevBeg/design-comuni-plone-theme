@@ -14,8 +14,8 @@ import {
   SocialHeader,
   HeaderSearch,
   BrandText,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { useHomePath } from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/components/ItaliaTheme';
+import { useHomePath } from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({
   logoSubsiteAlt: {

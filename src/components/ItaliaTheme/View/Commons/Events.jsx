@@ -4,8 +4,8 @@ import { Card, CardBody, CardReadMore, CardTitle } from 'design-react-kit';
 import config from '@plone/volto/registry';
 import { UniversalLink } from '@plone/volto/components';
 import { flattenToAppURL } from '@plone/volto/helpers';
-import { RichTextSection } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
-import { viewDate } from 'design-comuni-plone-theme/helpers';
+import { RichTextSection } from 'design-uniba-volto/components/ItaliaTheme/View';
+import { viewDate } from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({
   events: {

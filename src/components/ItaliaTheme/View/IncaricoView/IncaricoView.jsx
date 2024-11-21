@@ -19,8 +19,8 @@ import {
   IncaricoPlaceholderAfterRelatedItems,
   RelatedItems,
   IncaricoPersone,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
-import { contentFolderHasItems } from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
+import { contentFolderHasItems } from 'design-uniba-volto/helpers';
 import { UniversalLink } from '@plone/volto/components';
 import { flattenToAppURL } from '@plone/volto/helpers';
 import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';

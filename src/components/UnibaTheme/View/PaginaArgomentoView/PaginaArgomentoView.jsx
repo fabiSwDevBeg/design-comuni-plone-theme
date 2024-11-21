@@ -20,7 +20,7 @@ import { getContent, resetContent } from '@plone/volto/actions';
 import {
   CardCategory,
   Breadcrumbs,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 import {
   ArgumentIcon,
   PaginaArgomentoPlaceholderAfterContent,
@@ -31,7 +31,7 @@ import {
   RelatedItems,
   RelatedItemInEvidence,
   richTextHasContent,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 import config from '@plone/volto/registry';
 
 /**

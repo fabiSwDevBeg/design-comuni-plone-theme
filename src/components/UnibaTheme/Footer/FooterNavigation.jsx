@@ -10,7 +10,7 @@ import { defineMessages, useIntl } from 'react-intl';
 import { isEqual } from 'lodash';
 import { UniversalLink } from '@plone/volto/components';
 import { Row, Col, LinkList, LinkListItem } from 'design-react-kit';
-import { SectionIcon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { SectionIcon } from 'design-uniba-volto/components/ItaliaTheme';
 import config from '@plone/volto/registry';
 
 const messages = defineMessages({

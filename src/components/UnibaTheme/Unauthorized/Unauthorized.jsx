@@ -13,7 +13,7 @@ import { BodyClass } from '@plone/volto/helpers';
 import { useLocation } from 'react-router-dom';
 import { getBaseUrl } from '@plone/volto/helpers';
 import config from '@plone/volto/registry';
-import { LoginAgidButtons } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { LoginAgidButtons } from 'design-uniba-volto/components/ItaliaTheme';
 
 /**
  * unauthorized function.

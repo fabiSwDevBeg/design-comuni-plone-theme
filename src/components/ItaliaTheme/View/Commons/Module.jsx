@@ -12,7 +12,7 @@ import { getContent, resetContent } from '@plone/volto/actions';
 
 import { Card, CardBody, CardTitle } from 'design-react-kit';
 
-import { DownloadFileFormat } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { DownloadFileFormat } from 'design-uniba-volto/components/ItaliaTheme/View';
 
 /**
  * Module view component class.

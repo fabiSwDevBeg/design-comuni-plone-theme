@@ -4,7 +4,7 @@ import cx from 'classnames';
 import { flattenDeep, values } from 'lodash';
 import { flattenHTMLToAppURL } from '@plone/volto/helpers';
 import { hasBlocksData } from '@plone/volto/helpers';
-import { RenderBlocks } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { RenderBlocks } from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const richTextHasContent = (data) => {
   if (hasBlocksData(data)) {

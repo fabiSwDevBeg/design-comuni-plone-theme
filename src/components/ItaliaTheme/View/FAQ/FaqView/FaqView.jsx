@@ -14,7 +14,7 @@ import {
   PageMetadata,
   FaqPlaceholderAfterContent,
   FaqPlaceholderAfterRelatedItems,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 /**
  * FaqView view component class.

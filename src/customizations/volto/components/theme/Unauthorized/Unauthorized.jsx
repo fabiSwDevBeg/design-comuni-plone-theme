@@ -4,7 +4,7 @@
 
 import React from 'react';
 
-import { Unauthorized as UnauthorizedItalia } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Unauthorized as UnauthorizedItalia } from 'design-uniba-volto/components/ItaliaTheme';
 
 /**
  * unauthorized function.

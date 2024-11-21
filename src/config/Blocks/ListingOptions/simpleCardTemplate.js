@@ -4,9 +4,9 @@ import {
   addSchemaField,
   addDefaultOptions,
   templatesOptions,
-} from 'design-comuni-plone-theme/config/Blocks/ListingOptions';
+} from 'design-uniba-volto/config/Blocks/ListingOptions';
 
-import { addLighthouseField } from 'design-comuni-plone-theme/config/Blocks/ListingOptions/utils';
+import { addLighthouseField } from 'design-uniba-volto/config/Blocks/ListingOptions/utils';
 
 const messages = defineMessages({
   appearance: {

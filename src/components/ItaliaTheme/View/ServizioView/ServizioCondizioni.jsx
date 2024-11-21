@@ -3,9 +3,9 @@ import { defineMessages, useIntl } from 'react-intl';
 import prettybytes from 'pretty-bytes';
 
 import { UniversalLink } from '@plone/volto/components';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { RichTextSection } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
-import { getFileViewFormat } from 'design-comuni-plone-theme/helpers';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
+import { RichTextSection } from 'design-uniba-volto/components/ItaliaTheme/View';
+import { getFileViewFormat } from 'design-uniba-volto/helpers';
 
 const ServizioCondizioni = ({ content }) => {
   const intl = useIntl();

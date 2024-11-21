@@ -32,6 +32,6 @@ jobs:
           cache-to: type=inline
           # platforms: linux/amd64,linux/arm64
           build-args: |
-            ADDON_NAME=design-comuni-plone-theme
-            ADDON_PATH=design-comuni-plone-theme
+            ADDON_NAME=design-uniba-volto
+            ADDON_PATH=design-uniba-volto
             VOLTO_VERSION=17.19.0

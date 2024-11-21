@@ -5,7 +5,7 @@ import { Card, CardBody, CardTitle } from 'design-react-kit';
 import { defineMessages, useIntl } from 'react-intl';
 import PropTypes from 'prop-types';
 import redraft from 'redraft';
-import { TextEditorWidget } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { TextEditorWidget } from 'design-uniba-volto/components/ItaliaTheme';
 import { Divider } from 'semantic-ui-react';
 import cx from 'classnames';
 import config from '@plone/volto/registry';

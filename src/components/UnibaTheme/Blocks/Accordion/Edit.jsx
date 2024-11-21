@@ -18,7 +18,7 @@ import Sidebar from './Sidebar.jsx';
 
 import { defineMessages } from 'react-intl';
 
-import { TextEditorWidget } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { TextEditorWidget } from 'design-uniba-volto/components/ItaliaTheme';
 
 const messages = defineMessages({
   addItem: {

@@ -11,7 +11,7 @@ import { defineMessages, useIntl } from 'react-intl';
 import { withRouter } from 'react-router-dom';
 import { Login } from '@plone/volto/components';
 import { Row, Col, Container } from 'design-react-kit';
-import { LoginAgidButtons } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { LoginAgidButtons } from 'design-uniba-volto/components/ItaliaTheme';
 import { Button } from 'design-react-kit';
 import { useLocation } from 'react-router-dom';
 import { getBaseUrl } from '@plone/volto/helpers';

@@ -2,7 +2,7 @@
  * Customizzato:
  * - cambiato l'import di AnchorPlugin per poterlo customizzare
  */
-import createLinkPlugin from 'design-comuni-plone-theme/config/RichTextEditor/Plugins/AnchorPlugin';
+import createLinkPlugin from 'design-uniba-volto/config/RichTextEditor/Plugins/AnchorPlugin';
 
 import Styles from '@plone/volto/config/RichTextEditor/Styles';
 

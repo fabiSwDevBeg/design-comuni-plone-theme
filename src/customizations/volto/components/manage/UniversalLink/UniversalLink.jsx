@@ -18,7 +18,7 @@ import {
   URLUtils,
 } from '@plone/volto/helpers/Url/Url';
 import { matchPath } from 'react-router';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 
 import config from '@plone/volto/registry';
 

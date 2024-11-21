@@ -3,7 +3,7 @@
   - Use with more plone.app.querystring.date operations
 */
 import React, { useState } from 'react';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 import { defineMessages, injectIntl } from 'react-intl';
 import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';
 import { compose } from 'redux';

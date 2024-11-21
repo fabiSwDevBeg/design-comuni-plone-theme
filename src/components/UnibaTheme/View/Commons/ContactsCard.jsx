@@ -1,7 +1,7 @@
 import { Card, CardBody, CardText, CardTitle, Icon } from 'design-react-kit';
 import { UniversalLink } from '@plone/volto/components';
 
-import { renderPDCItemValue } from 'design-comuni-plone-theme/helpers';
+import { renderPDCItemValue } from 'design-uniba-volto/helpers';
 import { useIntl } from 'react-intl';
 
 const ContactsCard = ({ contact = {}, show_title = false, ...rest }) => {

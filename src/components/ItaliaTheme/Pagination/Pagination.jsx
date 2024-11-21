@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { defineMessages, injectIntl } from 'react-intl';
-import createPaginationItems from 'design-comuni-plone-theme/components/ItaliaTheme/Pagination/createPaginationItems';
+import createPaginationItems from 'design-uniba-volto/components/ItaliaTheme/Pagination/createPaginationItems';
 import { Pager } from 'design-react-kit';
-import PaginationItem from 'design-comuni-plone-theme/components/ItaliaTheme/Pagination/PaginationItem';
+import PaginationItem from 'design-uniba-volto/components/ItaliaTheme/Pagination/PaginationItem';
 import { invoke, isNil, map } from 'lodash';
 
 /**

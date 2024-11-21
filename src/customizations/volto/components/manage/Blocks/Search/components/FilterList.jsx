@@ -10,7 +10,7 @@ import { resolveExtension } from '@plone/volto/helpers';
 import cx from 'classnames';
 import { compose } from 'redux';
 import { useClickOutside } from '../utils';
-import { commonSearchBlockMessages } from 'design-comuni-plone-theme/helpers';
+import { commonSearchBlockMessages } from 'design-uniba-volto/helpers';
 import config from '@plone/volto/registry';
 
 const messages = defineMessages({

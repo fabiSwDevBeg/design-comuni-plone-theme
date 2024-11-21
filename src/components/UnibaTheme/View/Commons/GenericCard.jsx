@@ -4,13 +4,13 @@ import cx from 'classnames';
 
 import { UniversalLink } from '@plone/volto/components';
 import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';
-import { getCalendarDate } from 'design-comuni-plone-theme/helpers';
+import { getCalendarDate } from 'design-uniba-volto/helpers';
 import {
   Icon,
   CardCategory,
   getItemIcon,
   ListingCategory,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 import config from '@plone/volto/registry';
 
 /**

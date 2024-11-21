@@ -23,13 +23,13 @@ import {
   ListingText,
   ListingLinkMore,
   RassegnaInfo,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 import {
   getCalendarDate,
   getEventRecurrenceMore,
   getComponentWithFallback,
-} from 'design-comuni-plone-theme/helpers';
-import { getCategory } from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/Commons/utils';
+} from 'design-uniba-volto/helpers';
+import { getCategory } from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/Commons/utils';
 
 const messages = defineMessages({
   default_detail_link: {

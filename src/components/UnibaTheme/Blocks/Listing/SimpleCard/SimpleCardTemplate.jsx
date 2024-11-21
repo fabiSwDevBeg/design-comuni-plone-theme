@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Container } from 'design-react-kit';
-import SimpleCardTemplateDefault from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/SimpleCard/SimpleCardTemplateDefault';
-import SimpleCardTemplateCompact from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/SimpleCard/SimpleCardTemplateCompact';
-import SimpleCardTemplateOneForRow from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/SimpleCard/SimpleCardTemplateOneForRow';
+import SimpleCardTemplateDefault from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/SimpleCard/SimpleCardTemplateDefault';
+import SimpleCardTemplateCompact from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/SimpleCard/SimpleCardTemplateCompact';
+import SimpleCardTemplateOneForRow from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/SimpleCard/SimpleCardTemplateOneForRow';
 
 import {
   SimpleCardTemplateAppearance_COMPACT,
   SimpleCardTemplateAppearance_ONEFORROW,
-} from 'design-comuni-plone-theme/config/Blocks/ListingOptions';
+} from 'design-uniba-volto/config/Blocks/ListingOptions';
 
 const SimpleCardTemplate = (data) => {
   let content = null;

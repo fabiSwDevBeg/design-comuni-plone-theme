@@ -7,10 +7,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import redraft from 'redraft';
 
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 import { Card, CardBody } from 'design-react-kit';
 import config from '@plone/volto/registry';
-import { checkRedraftHasContent } from 'design-comuni-plone-theme/helpers';
+import { checkRedraftHasContent } from 'design-uniba-volto/helpers';
 
 /**
  * ViewBlock class.

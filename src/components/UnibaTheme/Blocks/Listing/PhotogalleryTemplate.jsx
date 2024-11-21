@@ -2,7 +2,7 @@
  * Photogallery
  */
 import 'slick-carousel/slick/slick.css';
-import 'design-comuni-plone-theme/components/slick-carousel/slick/slick-theme.css';
+import 'design-uniba-volto/components/slick-carousel/slick/slick-theme.css';
 
 import React, { useRef, useState } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
@@ -22,8 +22,8 @@ import {
   SingleSlideWrapper,
   CarouselWrapper,
   ButtonPlayPause,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { GalleryPreview } from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
+import { GalleryPreview } from 'design-uniba-volto/components/ItaliaTheme';
 
 const messages = defineMessages({
   viewImage: {

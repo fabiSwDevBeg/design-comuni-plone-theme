@@ -11,10 +11,10 @@ import {
   SubblocksEdit,
   SubblocksWrapper,
 } from 'volto-subblocks';
-import Sidebar from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/VideoGallery/Sidebar';
-import Body from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/VideoGallery/Body';
-import EditBlock from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/VideoGallery/Block/EditBlock';
-import { SingleSlideWrapper } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import Sidebar from 'design-uniba-volto/components/ItaliaTheme/Blocks/VideoGallery/Sidebar';
+import Body from 'design-uniba-volto/components/ItaliaTheme/Blocks/VideoGallery/Body';
+import EditBlock from 'design-uniba-volto/components/ItaliaTheme/Blocks/VideoGallery/Block/EditBlock';
+import { SingleSlideWrapper } from 'design-uniba-volto/components/ItaliaTheme';
 
 const messages = defineMessages({
   addItem: {

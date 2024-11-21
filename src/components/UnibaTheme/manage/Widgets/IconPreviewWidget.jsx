@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { FontAwesomeIcon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { FontAwesomeIcon } from 'design-uniba-volto/components/ItaliaTheme';
 import { defineMessages, useIntl } from 'react-intl';
 import { Form, Grid } from 'semantic-ui-react';
 

@@ -1,13 +1,13 @@
 import React from 'react';
 import { defineMessages, useIntl } from 'react-intl';
 
-import { contentFolderHasItems } from 'design-comuni-plone-theme/helpers';
+import { contentFolderHasItems } from 'design-uniba-volto/helpers';
 import {
   RichTextSection,
   richTextHasContent,
   Gallery,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
-import { DocumentoAutori } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
+import { DocumentoAutori } from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const messages = defineMessages({
   descrizione: {

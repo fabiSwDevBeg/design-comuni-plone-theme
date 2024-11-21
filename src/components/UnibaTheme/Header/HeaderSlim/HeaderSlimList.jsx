@@ -1,4 +1,4 @@
-import {HeaderSlimListItem} from 'design-comuni-plone-theme/components/UnibaTheme';
+import {HeaderSlimListItem} from 'design-uniba-volto/components/UnibaTheme';
 import { FormattedMessage } from 'react-intl';
 import { useIntl } from 'react-intl';
 

@@ -13,7 +13,7 @@ import {
   CarouselWrapper,
   NextArrow,
   PrevArrow,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 import { Container } from 'design-react-kit';
 import { UniversalLink } from '@plone/volto/components';
 

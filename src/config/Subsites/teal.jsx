@@ -1,1 +1,1 @@
-import 'design-comuni-plone-theme/theme/ItaliaTheme/Subsites/teal.scss';
+import 'design-uniba-volto/theme/ItaliaTheme/Subsites/teal.scss';

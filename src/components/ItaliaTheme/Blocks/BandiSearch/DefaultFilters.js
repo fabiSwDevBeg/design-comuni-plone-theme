@@ -7,8 +7,8 @@ import {
   TextFilter,
   SelectFilter,
   DateFilter,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Common/SearchFilters';
-import { getSearchBandiFilters } from 'design-comuni-plone-theme/actions';
+} from 'design-uniba-volto/components/ItaliaTheme/Blocks/Common/SearchFilters';
+import { getSearchBandiFilters } from 'design-uniba-volto/actions';
 
 const messages = defineMessages({
   text_filter: {

@@ -11,7 +11,7 @@ import { Nav, NavItem, NavLink } from 'design-react-kit';
 import { UniversalLink } from '@plone/volto/components';
 import { flattenToAppURL } from '@plone/volto/helpers';
 import { useIntl } from 'react-intl';
-import { getSiteProperty } from 'design-comuni-plone-theme/helpers';
+import { getSiteProperty } from 'design-uniba-volto/helpers';
 import { getSlimHeader, getItemsByPath } from 'volto-slimheader';
 
 const TertiaryMenu = () => {

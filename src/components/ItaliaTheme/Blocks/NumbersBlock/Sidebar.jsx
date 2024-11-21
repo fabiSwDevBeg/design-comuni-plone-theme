@@ -5,8 +5,8 @@ import { Segment, Accordion } from 'semantic-ui-react';
 import { FormattedMessage, injectIntl } from 'react-intl';
 
 import { ObjectBrowserWidget } from '@plone/volto/components';
-import IconWidget from 'design-comuni-plone-theme/components/ItaliaTheme/manage/Widgets/IconWidget';
-import { defaultIconWidgetOptions } from 'design-comuni-plone-theme/helpers/index';
+import IconWidget from 'design-uniba-volto/components/ItaliaTheme/manage/Widgets/IconWidget';
+import { defaultIconWidgetOptions } from 'design-uniba-volto/helpers/index';
 
 const messages = defineMessages({
   linkMoreTitle: {

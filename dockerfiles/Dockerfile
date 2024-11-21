@@ -36,7 +36,7 @@ EOT
 FROM plone/frontend-prod-config:${VOLTO_VERSION}
 
 LABEL maintainer="RedTurtle" \
-      org.label-schema.name="design-comuni-plone-theme" \
+      org.label-schema.name="design-uniba-volto" \
       org.label-schema.description="Plone theme for Italian Public Administration" \
       org.label-schema.vendor="RedTurtle"
 

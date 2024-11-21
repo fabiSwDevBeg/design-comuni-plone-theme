@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import BodyWrapper from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/CTABlock/BodyWrapper';
+import BodyWrapper from 'design-uniba-volto/components/ItaliaTheme/Blocks/CTABlock/BodyWrapper';
 
-import Block from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/CTABlock/Block';
+import Block from 'design-uniba-volto/components/ItaliaTheme/Blocks/CTABlock/Block';
 
 const View = ({ data, id }) => {
   return (

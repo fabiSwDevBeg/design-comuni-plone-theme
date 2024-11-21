@@ -9,7 +9,7 @@ import thunk from 'redux-thunk';
 const middlewares = [thunk];
 const mockStore = configureStore(middlewares);
 
-jest.mock('design-comuni-plone-theme/components/ItaliaTheme/Icons/Icon');
+jest.mock('design-uniba-volto/components/ItaliaTheme/Icons/Icon');
 jest.mock('@plone/volto/helpers/Loadable/Loadable');
 beforeAll(
   async () =>

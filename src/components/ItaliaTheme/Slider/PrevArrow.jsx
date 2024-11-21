@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 import { defineMessages, useIntl } from 'react-intl';
 
 const messages = defineMessages({

@@ -16,8 +16,8 @@ import {
   IncaricoPersone,
   RichTextSection,
   RelatedItemsChipsPDC,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
-import { renderPDCItemValue } from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
+import { renderPDCItemValue } from 'design-uniba-volto/helpers';
 import { defineMessages, useIntl } from 'react-intl';
 
 const messages = defineMessages({

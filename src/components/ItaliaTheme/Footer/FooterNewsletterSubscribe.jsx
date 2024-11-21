@@ -7,7 +7,7 @@ import React from 'react';
 
 import { defineMessages, useIntl } from 'react-intl';
 import { Form, Label, Input, Button } from 'design-react-kit';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 
 const messages = defineMessages({
   subscribe: {

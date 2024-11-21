@@ -3,11 +3,11 @@ import { Card, CardBody, CardTitle, CardText } from 'design-react-kit';
 import cx from 'classnames';
 
 import { UniversalLink } from '@plone/volto/components';
-import { CardCategory } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { CardCategory } from 'design-uniba-volto/components/ItaliaTheme';
 import {
   ListingCategory,
   ListingImage,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 
 export const CardPersona = ({
   item,

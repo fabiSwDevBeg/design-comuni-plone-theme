@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import {
   RichTextSection,
   Module,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 /**
  * Modules view component class.

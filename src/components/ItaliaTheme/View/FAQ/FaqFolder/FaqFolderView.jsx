@@ -19,8 +19,8 @@ import {
   PageMetadata,
   FaqFolderSearchBar,
   FaqFolderTree,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
-import { useDebouncedEffect } from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
+import { useDebouncedEffect } from 'design-uniba-volto/helpers';
 import { resetContent } from '@plone/volto/actions';
 import { flattenToAppURL } from '@plone/volto/helpers';
 

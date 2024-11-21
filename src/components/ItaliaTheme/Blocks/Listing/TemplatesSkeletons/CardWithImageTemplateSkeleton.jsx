@@ -13,7 +13,7 @@ import {
   Chip,
 } from 'design-react-kit';
 
-import { CardCategory } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { CardCategory } from 'design-uniba-volto/components/ItaliaTheme';
 
 const CardWithImageTemplateSkeleton = ({
   isEditMode,

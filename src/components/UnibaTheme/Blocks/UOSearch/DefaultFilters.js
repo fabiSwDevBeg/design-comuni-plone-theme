@@ -3,7 +3,7 @@ import moment from 'moment';
 import {
   TextFilter,
   SelectFilter,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Common/SearchFilters';
+} from 'design-uniba-volto/components/ItaliaTheme/Blocks/Common/SearchFilters';
 
 const messages = defineMessages({
   text_filter: {

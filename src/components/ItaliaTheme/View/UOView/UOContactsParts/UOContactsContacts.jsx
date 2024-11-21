@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ContactsCard } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { ContactsCard } from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const UOContactsContacts = ({ content }) => {
   return (

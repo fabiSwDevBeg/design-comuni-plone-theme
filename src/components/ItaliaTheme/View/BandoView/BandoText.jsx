@@ -5,11 +5,11 @@ import {
   RichText,
   RichTextSection,
   richTextHasContent,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
-import BandoTextTipologia from 'design-comuni-plone-theme/components/ItaliaTheme/View/BandoView/BandoTextTipologia';
-import BandoTextDestinatari from 'design-comuni-plone-theme/components/ItaliaTheme/View/BandoView/BandoTextDestinatari';
-import BandoTextEnte from 'design-comuni-plone-theme/components/ItaliaTheme/View/BandoView/BandoTextEnte';
+import BandoTextTipologia from 'design-uniba-volto/components/ItaliaTheme/View/BandoView/BandoTextTipologia';
+import BandoTextDestinatari from 'design-uniba-volto/components/ItaliaTheme/View/BandoView/BandoTextDestinatari';
+import BandoTextEnte from 'design-uniba-volto/components/ItaliaTheme/View/BandoView/BandoTextEnte';
 
 const messages = defineMessages({
   descrizione: {

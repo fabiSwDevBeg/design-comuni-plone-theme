@@ -18,7 +18,7 @@ import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';
 import {
   blockIsNotEmptyPlaceholder,
   SSRRenderHtml,
-} from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/helpers';
 
 /**
  * Enhanced diff words utility

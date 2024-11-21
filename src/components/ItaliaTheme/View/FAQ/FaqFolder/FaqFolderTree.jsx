@@ -4,8 +4,8 @@
  */
 
 import React, { useState } from 'react';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { TextOrBlocks } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
+import { TextOrBlocks } from 'design-uniba-volto/components/ItaliaTheme/View';
 import { UniversalLink } from '@plone/volto/components';
 import { Accordion, AccordionHeader, AccordionBody } from 'design-react-kit';
 

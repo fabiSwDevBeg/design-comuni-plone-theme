@@ -19,7 +19,7 @@ import {
   SkipToMainContent,
   ContentTypeViewSections,
   useSideMenu,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 export const PersonaViewSectionsOrder = [
   { /* RUOLO */ component: PersonaRuolo },

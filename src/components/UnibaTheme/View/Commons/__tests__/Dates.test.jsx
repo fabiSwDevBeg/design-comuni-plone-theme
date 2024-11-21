@@ -7,7 +7,7 @@ import { Provider } from 'react-intl-redux';
 import { MemoryRouter } from 'react-router-dom';
 import thunk from 'redux-thunk';
 
-jest.mock('design-comuni-plone-theme/components/ItaliaTheme/Icons/Icon');
+jest.mock('design-uniba-volto/components/ItaliaTheme/Icons/Icon');
 jest.mock('@plone/volto/helpers/Loadable/Loadable');
 beforeAll(
   async () =>

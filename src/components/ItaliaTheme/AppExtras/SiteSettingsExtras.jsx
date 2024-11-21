@@ -8,7 +8,7 @@ import { useIntl } from 'react-intl';
 import { useSelector } from 'react-redux';
 import { Helmet } from '@plone/volto/helpers';
 import { SiteProperty } from 'volto-site-settings';
-import { getSiteProperty } from 'design-comuni-plone-theme/helpers';
+import { getSiteProperty } from 'design-uniba-volto/helpers';
 
 const SiteSettingsExtras = (props) => {
   const intl = useIntl();

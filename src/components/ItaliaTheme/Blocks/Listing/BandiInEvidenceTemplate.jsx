@@ -16,10 +16,10 @@ import { UniversalLink } from '@plone/volto/components';
 import {
   ListingText,
   ListingLinkMore,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { viewDate } from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/components/ItaliaTheme';
+import { viewDate } from 'design-uniba-volto/helpers';
 
-import { BandoStatus } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { BandoStatus } from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const messages = defineMessages({
   vedi: {

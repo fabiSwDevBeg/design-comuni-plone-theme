@@ -1,4 +1,4 @@
-import { ORIGINAL_QUERY } from 'design-comuni-plone-theme/actions';
+import { ORIGINAL_QUERY } from 'design-uniba-volto/actions';
 
 const initialState = {};
 

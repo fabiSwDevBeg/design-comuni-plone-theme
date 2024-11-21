@@ -1,71 +1,71 @@
 import newsSVG from '@plone/volto/icons/news.svg';
 import searchIcon from 'bootstrap-italia/src/svg/it-search.svg';
-import HighlightedContentView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/HighlightedContent/View';
-import HighlightedContentEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/HighlightedContent/Edit';
+import HighlightedContentView from 'design-uniba-volto/components/ItaliaTheme/Blocks/HighlightedContent/View';
+import HighlightedContentEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/HighlightedContent/Edit';
 import noteSvg from 'bootstrap-italia/src/svg/it-note.svg';
 import calendarSvg from 'bootstrap-italia/src/svg/it-calendar.svg';
 
 import alertSVG from '@plone/volto/icons/alert.svg';
-import AlertView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Alert/View';
-import AlertEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Alert/Edit';
+import AlertView from 'design-uniba-volto/components/ItaliaTheme/Blocks/Alert/View';
+import AlertEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/Alert/Edit';
 
 import divideHorizontalSVG from '@plone/volto/icons/divide-horizontal.svg';
-import ViewBreak from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Break/View';
-import EditBreak from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Break/Edit';
+import ViewBreak from 'design-uniba-volto/components/ItaliaTheme/Blocks/Break/View';
+import EditBreak from 'design-uniba-volto/components/ItaliaTheme/Blocks/Break/Edit';
 
-import SearchSectionsView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/SearchSections/View';
-import SearchSectionsEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/SearchSections/Edit';
-import ArgumentsInEvidenceEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/ArgumentsInEvidence/Edit';
-import ArgumentsInEvidenceView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/ArgumentsInEvidence/View';
+import SearchSectionsView from 'design-uniba-volto/components/ItaliaTheme/Blocks/SearchSections/View';
+import SearchSectionsEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/SearchSections/Edit';
+import ArgumentsInEvidenceEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/ArgumentsInEvidence/Edit';
+import ArgumentsInEvidenceView from 'design-uniba-volto/components/ItaliaTheme/Blocks/ArgumentsInEvidence/View';
 
-import CalendarView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Calendar/View';
-import CalendarEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Calendar/Edit';
+import CalendarView from 'design-uniba-volto/components/ItaliaTheme/Blocks/Calendar/View';
+import CalendarEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/Calendar/Edit';
 
-import EventSearchView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/EventSearch/View';
-import EventSearchEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/EventSearch/Edit';
+import EventSearchView from 'design-uniba-volto/components/ItaliaTheme/Blocks/EventSearch/View';
+import EventSearchEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/EventSearch/Edit';
 
-import simpleTextCardSVG from 'design-comuni-plone-theme/icons/card-semplice.svg';
-import TextCardView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/TextCard/SimpleCard/View';
-import TextCardEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/TextCard/SimpleCard/Edit';
-import imageTextCardSVG from 'design-comuni-plone-theme/icons/card-immagine.svg';
-import TextCardWithImageView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/TextCard/CardWithImage/View';
-import TextCardWithImageEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/TextCard/CardWithImage/Edit';
+import simpleTextCardSVG from 'design-uniba-volto/icons/card-semplice.svg';
+import TextCardView from 'design-uniba-volto/components/ItaliaTheme/Blocks/TextCard/SimpleCard/View';
+import TextCardEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/TextCard/SimpleCard/Edit';
+import imageTextCardSVG from 'design-uniba-volto/icons/card-immagine.svg';
+import TextCardWithImageView from 'design-uniba-volto/components/ItaliaTheme/Blocks/TextCard/CardWithImage/View';
+import TextCardWithImageEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/TextCard/CardWithImage/Edit';
 
 import listArrowsSVG from '@plone/volto/icons/list-arrows.svg';
-import AccordionView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Accordion/View';
-import AccordionEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Accordion/Edit';
+import AccordionView from 'design-uniba-volto/components/ItaliaTheme/Blocks/Accordion/View';
+import AccordionEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/Accordion/Edit';
 
 import videoSVG from '@plone/volto/icons/video.svg';
-import VideoGalleryView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/VideoGallery/View';
-import VideoGalleryEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/VideoGallery/Edit';
+import VideoGalleryView from 'design-uniba-volto/components/ItaliaTheme/Blocks/VideoGallery/View';
+import VideoGalleryEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/VideoGallery/Edit';
 
-import iconBlocksSVG from 'design-comuni-plone-theme/icons/blocco-icone.svg';
-import IconBlocksView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/IconBlocks/View';
-import IconBlocksEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/IconBlocks/Edit';
+import iconBlocksSVG from 'design-uniba-volto/icons/blocco-icone.svg';
+import IconBlocksView from 'design-uniba-volto/components/ItaliaTheme/Blocks/IconBlocks/View';
+import IconBlocksEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/IconBlocks/Edit';
 
 import emailSVG from '@plone/volto/icons/email.svg';
-import ContactsBlockView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/ContactsBlock/View';
-import ContactsBlockEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/ContactsBlock/Edit';
+import ContactsBlockView from 'design-uniba-volto/components/ItaliaTheme/Blocks/ContactsBlock/View';
+import ContactsBlockEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/ContactsBlock/Edit';
 
-import numbersBlockSVG from 'design-comuni-plone-theme/icons/numeri.svg';
-import NumbersBlockView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/NumbersBlock/View';
-import NumbersBlockEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/NumbersBlock/Edit';
+import numbersBlockSVG from 'design-uniba-volto/icons/numeri.svg';
+import NumbersBlockView from 'design-uniba-volto/components/ItaliaTheme/Blocks/NumbersBlock/View';
+import NumbersBlockEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/NumbersBlock/Edit';
 
-import BandiSearchView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/BandiSearch/View';
-import BandiSearchEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/BandiSearch/Edit';
+import BandiSearchView from 'design-uniba-volto/components/ItaliaTheme/Blocks/BandiSearch/View';
+import BandiSearchEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/BandiSearch/Edit';
 
-import UOSearchView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/UOSearch/View';
-import UOSearchEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/UOSearch/Edit';
+import UOSearchView from 'design-uniba-volto/components/ItaliaTheme/Blocks/UOSearch/View';
+import UOSearchEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/UOSearch/Edit';
 
 import flashSVG from '@plone/volto/icons/flash.svg';
-import CTABlockView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/CTABlock/View';
-import CTABlockEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/CTABlock/Edit';
+import CTABlockView from 'design-uniba-volto/components/ItaliaTheme/Blocks/CTABlock/View';
+import CTABlockEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/CTABlock/Edit';
 
-import countDownSVG from 'design-comuni-plone-theme/icons/count-down.svg';
-import CountDownBlockView from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/CountDown/View';
-import CountDownBlockEdit from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/CountDown/Edit';
+import countDownSVG from 'design-uniba-volto/icons/count-down.svg';
+import CountDownBlockView from 'design-uniba-volto/components/ItaliaTheme/Blocks/CountDown/View';
+import CountDownBlockEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/CountDown/Edit';
 
-import { cloneBlock } from 'design-comuni-plone-theme/config/Blocks/ListingOptions';
+import { cloneBlock } from 'design-uniba-volto/config/Blocks/ListingOptions';
 
 const italiaBlocks = {
   highlitedContent: {

@@ -1,8 +1,8 @@
 import { defineMessages } from 'react-intl';
 
-import { addSchemaField } from 'design-comuni-plone-theme/config/Blocks/ListingOptions';
-import { simpleCardTemplateOptions_appearance_default } from 'design-comuni-plone-theme/config/Blocks/ListingOptions/simpleCardTemplate';
-import { imageCardTemplateOptions } from 'design-comuni-plone-theme/config/Blocks/ListingOptions/cardWithImageTemplate';
+import { addSchemaField } from 'design-uniba-volto/config/Blocks/ListingOptions';
+import { simpleCardTemplateOptions_appearance_default } from 'design-uniba-volto/config/Blocks/ListingOptions/simpleCardTemplate';
+import { imageCardTemplateOptions } from 'design-uniba-volto/config/Blocks/ListingOptions/cardWithImageTemplate';
 
 const messages = defineMessages({
   show_full_width: {

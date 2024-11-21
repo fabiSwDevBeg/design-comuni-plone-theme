@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { flattenToAppURL } from '@plone/volto/helpers';
-import { FontAwesomeIcon as IconFA } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { FontAwesomeIcon as IconFA } from 'design-uniba-volto/components/ItaliaTheme';
 import { defineMessages, useIntl } from 'react-intl';
 import { Icon } from '@plone/volto/components';
-import { getFileViewFormat } from 'design-comuni-plone-theme/helpers';
+import { getFileViewFormat } from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({
   download_in_format: {

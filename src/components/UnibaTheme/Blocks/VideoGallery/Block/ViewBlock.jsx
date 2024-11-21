@@ -8,8 +8,8 @@ import PropTypes from 'prop-types';
 import { Embed } from 'semantic-ui-react';
 import { isInternalURL, getParentUrl } from '@plone/volto/helpers';
 import { ConditionalEmbed } from 'volto-gdpr-privacy';
-import { FontAwesomeIcon } from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { videoUrlHelper } from 'design-comuni-plone-theme/helpers';
+import { FontAwesomeIcon } from 'design-uniba-volto/components/ItaliaTheme';
+import { videoUrlHelper } from 'design-uniba-volto/helpers';
 import { useIntl, defineMessages } from 'react-intl';
 import config from '@plone/volto/registry';
 

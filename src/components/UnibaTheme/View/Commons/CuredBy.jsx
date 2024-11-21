@@ -11,7 +11,7 @@ import { UniversalLink } from '@plone/volto/components';
 import {
   OfficeCard,
   RichTextSection,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const messages = defineMessages({
   cured_by: {

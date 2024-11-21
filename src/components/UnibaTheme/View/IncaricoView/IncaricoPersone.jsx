@@ -3,7 +3,7 @@ import { defineMessages, useIntl } from 'react-intl';
 import { Link } from 'react-router-dom';
 import { flattenToAppURL } from '@plone/volto/helpers';
 import { Chip, ChipLabel } from 'design-react-kit';
-import { RichTextSection } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { RichTextSection } from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const messages = defineMessages({
   persona: {

@@ -10,7 +10,7 @@ import {
   Button,
 } from 'design-react-kit';
 import { toPublicURL } from '@plone/volto/helpers';
-import Icon from 'design-comuni-plone-theme/components/ItaliaTheme/Icons/Icon';
+import Icon from 'design-uniba-volto/components/ItaliaTheme/Icons/Icon';
 
 /**
  * Actions view component class.

@@ -14,8 +14,8 @@ import {
   LogoFooter,
   BrandTextFooter,
   FooterPNRRLogo,
-} from 'design-comuni-plone-theme/components/UnibaTheme/';
-import { useHomePath } from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/components/UnibaTheme/';
+import { useHomePath } from 'design-uniba-volto/helpers';
 
 /**
  * FooterMain component class.

@@ -2,7 +2,7 @@ import { useIntl, defineMessages } from 'react-intl';
 import { UniversalLink } from '@plone/volto/components';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 import config from '@plone/volto/registry';
 
 /**

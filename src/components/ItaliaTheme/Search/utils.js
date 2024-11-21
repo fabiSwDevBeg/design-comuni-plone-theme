@@ -3,7 +3,7 @@ import moment from 'moment';
 import qs from 'query-string';
 import { flattenToAppURL } from '@plone/volto/helpers';
 import config from '@plone/volto/registry';
-import { getItemsByPath } from 'design-comuni-plone-theme/helpers';
+import { getItemsByPath } from 'design-uniba-volto/helpers';
 
 const defaultOptions = {
   activeContent: false,

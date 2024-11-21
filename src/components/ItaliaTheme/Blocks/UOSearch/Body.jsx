@@ -6,10 +6,10 @@ import cx from 'classnames';
 
 import { getQueryStringResults } from '@plone/volto/actions';
 import { flattenToAppURL } from '@plone/volto/helpers';
-import CardWithImageTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/CardWithImageTemplate';
-import { Pagination } from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { resetQuerystringResults } from 'design-comuni-plone-theme/actions';
-import FiltersConfig from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/UOSearch/FiltersConfig';
+import CardWithImageTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/CardWithImageTemplate';
+import { Pagination } from 'design-uniba-volto/components/ItaliaTheme';
+import { resetQuerystringResults } from 'design-uniba-volto/actions';
+import FiltersConfig from 'design-uniba-volto/components/ItaliaTheme/Blocks/UOSearch/FiltersConfig';
 
 const messages = defineMessages({
   find: {

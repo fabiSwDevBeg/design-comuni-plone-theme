@@ -16,13 +16,13 @@ import {
 import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';
 import { UniversalLink } from '@plone/volto/components';
 import { flattenToAppURL } from '@plone/volto/helpers';
-import { CardCategory } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { CardCategory } from 'design-uniba-volto/components/ItaliaTheme';
 import {
   getCalendarDate,
   getEventRecurrenceMore,
   getComponentWithFallback,
-} from 'design-comuni-plone-theme/helpers';
-import { getCategory } from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/Commons/utils';
+} from 'design-uniba-volto/helpers';
+import { getCategory } from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/Commons/utils';
 
 import {
   getItemIcon,
@@ -32,7 +32,7 @@ import {
   ListingText,
   CardPersona,
   RassegnaInfo,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 
 const CardWithImageDefault = (props) => {
   const {

@@ -4,10 +4,10 @@ import {
   richTextHasContent,
   RichTextSection,
   ContactsCard,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
-import EventoContattiOrganizzatoreEsterno from 'design-comuni-plone-theme/components/ItaliaTheme/View/EventoView/EventoContattiOrganizzatoreEsterno';
-import EventoContattiOrganizzatoreInterno from 'design-comuni-plone-theme/components/ItaliaTheme/View/EventoView/EventoContattiOrganizzatoreInterno';
-import EventoContattiSupportatoDa from 'design-comuni-plone-theme/components/ItaliaTheme/View/EventoView/EventoContattiSupportatoDa';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
+import EventoContattiOrganizzatoreEsterno from 'design-uniba-volto/components/ItaliaTheme/View/EventoView/EventoContattiOrganizzatoreEsterno';
+import EventoContattiOrganizzatoreInterno from 'design-uniba-volto/components/ItaliaTheme/View/EventoView/EventoContattiOrganizzatoreInterno';
+import EventoContattiSupportatoDa from 'design-uniba-volto/components/ItaliaTheme/View/EventoView/EventoContattiSupportatoDa';
 
 const messages = defineMessages({
   contatti: {

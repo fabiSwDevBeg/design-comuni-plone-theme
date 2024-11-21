@@ -6,9 +6,9 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 
 import { Container, Row, Col } from 'design-react-kit';
-import { ListingLinkMore } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { ListingLinkMore } from 'design-uniba-volto/components/ItaliaTheme';
 
-import CardWithImageDefault from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/CardWithImage/CardWithImageDefault';
+import CardWithImageDefault from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/CardWithImage/CardWithImageDefault';
 
 const CardWithImageTemplate = (props) => {
   const {

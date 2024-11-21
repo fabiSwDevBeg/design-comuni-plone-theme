@@ -9,7 +9,7 @@ import redraft from 'redraft';
 import { useIntl, defineMessages } from 'react-intl';
 import { UniversalLink } from '@plone/volto/components';
 
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 import { Card, CardBody, CardReadMore } from 'design-react-kit';
 import config from '@plone/volto/registry';
 

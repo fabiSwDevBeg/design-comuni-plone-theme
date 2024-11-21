@@ -9,8 +9,8 @@ module.exports = {
   },
   testMatch: ['**/src/addons/**/?(*.)+(spec|test).[jt]s?(x)'],
   modulePathIgnorePatterns: [
-    '<rootDir>/src/addons/design-comuni-plone-theme/addon-testing-project',
-    '<rootDir>/src/addons/design-comuni-plone-theme/project',
+    '<rootDir>/src/addons/design-uniba-volto/addon-testing-project',
+    '<rootDir>/src/addons/design-uniba-volto/project',
   ],
   transformIgnorePatterns: [
     'node_modules/(?!(volto-slate|@plone/volto|design-react-kit|volto-))',
@@ -27,10 +27,10 @@ module.exports = {
     '~/(.*)$': '<rootDir>/src/$1',
     'load-volto-addons':
       '<rootDir>/node_modules/@plone/volto/jest-addons-loader.js',
-    '^design-comuni-plone-theme/icons/fontawesome-free-6.4.0-web/svgs/\\${prefixFolder}/\\${iconName}\\.svg':
-      '<rootDir>/src/addons/design-comuni-plone-theme/src/icons/fontawesome-free-6.4.0-web/svgs/regular/moon.svg',
-    '^design-comuni-plone-theme/(.*)$':
-      '<rootDir>/src/addons/design-comuni-plone-theme/src/$1',
+    '^design-uniba-volto/icons/fontawesome-free-6.4.0-web/svgs/\\${prefixFolder}/\\${iconName}\\.svg':
+      '<rootDir>/src/addons/design-uniba-volto/src/icons/fontawesome-free-6.4.0-web/svgs/regular/moon.svg',
+    '^design-uniba-volto/(.*)$':
+      '<rootDir>/src/addons/design-uniba-volto/src/$1',
     '^volto-gdpr-privacy/(.*)$':
       '<rootDir>/node_modules/volto-gdpr-privacy/src/$1',
     '^volto-venue/(.*)$': '<rootDir>/node_modules/volto-venue/src/$1',
@@ -58,7 +58,7 @@ module.exports = {
   setupFiles: [
     '@plone/volto/test-setup-globals.js',
     '@plone/volto/test-setup-config.js',
-    './src/addons/design-comuni-plone-theme/test-setup-config.js',
+    './src/addons/design-uniba-volto/test-setup-config.js',
   ],
   globalSetup: '@plone/volto/global-test-setup.js',
   globals: {

@@ -5,7 +5,7 @@ import classNames from 'classnames';
 
 import { Collapse as CollapseBase } from 'reactstrap';
 
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 
 const messages = defineMessages({
   CloseMenu: {

@@ -2,7 +2,7 @@ import { useRef, useEffect } from 'react';
 import {
   NextArrow,
   PrevArrow,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 
 export const useSlider = (userAutoplay, setUserAutoplay, block_id) => {
   const slider = useRef(null);

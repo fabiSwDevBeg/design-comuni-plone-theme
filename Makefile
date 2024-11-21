@@ -24,13 +24,13 @@ CURRENT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 # KGS5=plone.restapi==8.32.6 plone.volto==4.0.0 plone.rest==2.0.0
 
 # DIR=$(shell basename $$(pwd))
-# ADDON ?= "design-comuni-plone-theme"
+# ADDON ?= "design-uniba-volto"
 
 PLONE_VERSION=6
 VOLTO_VERSION=17.19.0
 
-ADDON_NAME='design-comuni-plone-theme'
-ADDON_PATH='design-comuni-plone-theme'
+ADDON_NAME='design-uniba-volto'
+ADDON_PATH='design-uniba-volto'
 DEV_COMPOSE=dockerfiles/docker-compose.yml
 ACCEPTANCE_COMPOSE=acceptance/docker-compose.yml
 CMD=BUILDKIT_PROGRESS=plain CURRENT_DIR=${CURRENT_DIR} ADDON_NAME=${ADDON_NAME} ADDON_PATH=${ADDON_PATH} VOLTO_VERSION=${VOLTO_VERSION} PLONE_VERSION=${PLONE_VERSION} docker compose

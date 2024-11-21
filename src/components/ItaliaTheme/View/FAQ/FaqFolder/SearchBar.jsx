@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 import { useIntl, defineMessages } from 'react-intl';
 import cx from 'classnames';
 import { Container } from 'design-react-kit';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 
 const messages = defineMessages({
   search_faq: {

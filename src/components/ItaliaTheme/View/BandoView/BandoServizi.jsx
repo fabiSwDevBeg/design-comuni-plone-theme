@@ -7,7 +7,7 @@ import { defineMessages, useIntl } from 'react-intl';
 import {
   RichTextSection,
   GenericCard,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const messages = defineMessages({
   servizi_correlati: {

@@ -12,7 +12,7 @@ import {
 } from 'design-react-kit';
 import cx from 'classnames';
 
-import { CardCategory } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { CardCategory } from 'design-uniba-volto/components/ItaliaTheme';
 
 const InEvidenceTemplateSkeleton = ({
   title,

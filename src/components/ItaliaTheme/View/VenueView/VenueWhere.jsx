@@ -6,7 +6,7 @@ import {
   richTextHasContent,
   RichText,
   RichTextSection,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 import { OSMMap } from 'volto-venue';
 
 const messages = defineMessages({

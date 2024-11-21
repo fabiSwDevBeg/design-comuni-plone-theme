@@ -16,7 +16,7 @@ import { flattenToAppURL } from '@plone/volto/helpers';
 import {
   getSiteProperty,
   useHomePath,
-} from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({
   goToPage: {

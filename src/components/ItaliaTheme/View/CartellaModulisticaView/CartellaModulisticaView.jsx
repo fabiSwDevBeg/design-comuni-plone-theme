@@ -10,7 +10,7 @@ import { flattenToAppURL } from '@plone/volto/helpers';
 import {
   getModulisticaItems,
   resetModulisticaItems,
-} from 'design-comuni-plone-theme/actions';
+} from 'design-uniba-volto/actions';
 import {
   PageHeader,
   RelatedItems,
@@ -20,7 +20,7 @@ import {
   TextOrBlocks,
   RelatedItemInEvidence,
   PageMetadata,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 import DocRow from './DocRow';
 

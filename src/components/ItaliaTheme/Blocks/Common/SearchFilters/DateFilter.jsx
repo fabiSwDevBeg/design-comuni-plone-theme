@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useIntl, defineMessages } from 'react-intl';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 
 import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';
 

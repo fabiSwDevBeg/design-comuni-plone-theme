@@ -5,7 +5,7 @@ import {
   RichText,
   RichTextSection,
   richTextHasContent,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const messages = defineMessages({
   news_item_contenuto: {

@@ -1,12 +1,12 @@
 {
-  "name": "design-comuni-plone-theme",
-  "description": "Volto Theme for Italia design guidelines",
+  "name": "design-uniba-volto",
+  "description": "Volto Theme for UniBA based on design-comuni-plone-theme",
   "license": "GPL-v3",
   "version": "11.24.3",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RedTurtle/design-comuni-plone-theme"
+    "url": "https://asia.ict.uniba.it/repo/design.uniba.volto/-/tree/uniba"
   },
   "keywords": [
     "volto-addon",

@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { HeaderSlimRightZone, HeaderSlimBrand, HeaderSlimList} from 'design-comuni-plone-theme/components/UnibaTheme';
+import { HeaderSlimRightZone, HeaderSlimBrand, HeaderSlimList} from 'design-uniba-volto/components/UnibaTheme';
 import {
   Header,
   HeaderContent,

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
 import PropTypes from 'prop-types';
 import { Modal, ModalBody, Button, ModalHeader } from 'design-react-kit';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 import Image from '@plone/volto/components/theme/Image/Image';
 
 const messages = defineMessages({

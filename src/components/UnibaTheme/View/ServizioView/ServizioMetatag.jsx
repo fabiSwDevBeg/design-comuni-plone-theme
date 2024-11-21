@@ -1,8 +1,8 @@
 import { useIntl } from 'react-intl';
 import { Helmet, toPublicURL, isInternalURL } from '@plone/volto/helpers';
 import { SiteProperty } from 'volto-site-settings';
-import { getSiteProperty } from 'design-comuni-plone-theme/helpers';
-import { richTextHasContent } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { getSiteProperty } from 'design-uniba-volto/helpers';
+import { richTextHasContent } from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const fieldDataToPlainText = (field) => {
   return field.blocks_layout.items.reduce((accumulator, item, index) => {

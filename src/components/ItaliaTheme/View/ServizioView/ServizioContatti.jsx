@@ -6,7 +6,7 @@ import {
   RichTextSection,
   OfficeCard,
   ContactsCard,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const messages = defineMessages({
   contatti: {

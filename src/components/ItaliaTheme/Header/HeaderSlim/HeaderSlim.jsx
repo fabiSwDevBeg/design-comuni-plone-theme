@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { HeaderSlimRightZone } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { HeaderSlimRightZone } from 'design-uniba-volto/components/ItaliaTheme';
 import {
   Header,
   HeaderBrand,
@@ -16,7 +16,7 @@ import { useIntl } from 'react-intl';
 import {
   getSiteProperty,
   useHomePath,
-} from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/helpers';
 import { SiteProperty } from 'volto-site-settings';
 
 const HeaderSlim = () => {

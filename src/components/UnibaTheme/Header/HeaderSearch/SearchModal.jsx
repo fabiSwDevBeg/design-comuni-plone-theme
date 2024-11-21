@@ -30,9 +30,9 @@ import {
   Toggle,
 } from 'design-react-kit';
 
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { getSearchFilters } from 'design-comuni-plone-theme/actions';
-import { SearchUtils, Checkbox } from 'design-comuni-plone-theme/components';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
+import { getSearchFilters } from 'design-uniba-volto/actions';
+import { SearchUtils, Checkbox } from 'design-uniba-volto/components';
 
 const {
   defaultOptions,

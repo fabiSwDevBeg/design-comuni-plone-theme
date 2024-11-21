@@ -6,7 +6,7 @@
 import {
   GET_MODULISTICA_ITEMS,
   RESET_MODULISTICA_ITEMS,
-} from 'design-comuni-plone-theme/actions';
+} from 'design-uniba-volto/actions';
 
 const initialState = {
   error: null,

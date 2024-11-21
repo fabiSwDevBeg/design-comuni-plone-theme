@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { IntlProvider } from 'react-intl';
 import { renderToString } from 'react-dom/server';
-import { SideMenu } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { SideMenu } from 'design-uniba-volto/components/ItaliaTheme/View';
 import config from '@plone/volto/registry';
 
 export const readingTime = (title, description, htmlBody) => {

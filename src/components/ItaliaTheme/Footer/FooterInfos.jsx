@@ -15,9 +15,9 @@ import { getEditableFooterColumns, getItemsByPath } from 'volto-editablefooter';
 import {
   FooterNewsletterSubscribe,
   FooterSocials,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 
-import { useHomePath } from 'design-comuni-plone-theme/helpers';
+import { useHomePath } from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({
   goToPage: {

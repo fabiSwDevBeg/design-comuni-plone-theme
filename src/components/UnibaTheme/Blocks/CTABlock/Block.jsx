@@ -3,7 +3,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
 
 import PropTypes from 'prop-types';
-import { TextEditorWidget } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { TextEditorWidget } from 'design-uniba-volto/components/ItaliaTheme';
 import { UniversalLink } from '@plone/volto/components';
 import config from '@plone/volto/registry';
 import cx from 'classnames';

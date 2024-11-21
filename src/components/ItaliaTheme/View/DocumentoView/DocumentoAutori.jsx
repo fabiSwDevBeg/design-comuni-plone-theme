@@ -3,8 +3,8 @@ import { defineMessages, useIntl } from 'react-intl';
 import PropTypes from 'prop-types';
 
 import { Row, Col } from 'design-react-kit';
-import { CardPersona } from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { RichTextSection } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { CardPersona } from 'design-uniba-volto/components/ItaliaTheme';
+import { RichTextSection } from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const messages = defineMessages({
   autore: {

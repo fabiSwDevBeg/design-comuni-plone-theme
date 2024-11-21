@@ -15,7 +15,7 @@ import { getBackgroundClass } from '@plone/volto/components/manage/Blocks/Search
 import {
   RichText,
   richTextHasContent,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const FacetWrapper = ({ children }) => (
   <Col basic className="facet pt-4">

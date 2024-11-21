@@ -7,8 +7,8 @@ import linkStrategy, {
   matchesEntityType,
 } from '@plone/volto/components/manage/AnchorPlugin/linkStrategy';
 
-import DefaultLink from 'design-comuni-plone-theme/config/RichTextEditor/Plugins/AnchorPlugin/components/Link';
-import LinkButton from 'design-comuni-plone-theme/config/RichTextEditor/Plugins/AnchorPlugin/components/LinkButton';
+import DefaultLink from 'design-uniba-volto/config/RichTextEditor/Plugins/AnchorPlugin/components/Link';
+import LinkButton from 'design-uniba-volto/config/RichTextEditor/Plugins/AnchorPlugin/components/LinkButton';
 
 function unboundRemoveEntity(editorState) {
   const contentState = editorState.getCurrentContent();

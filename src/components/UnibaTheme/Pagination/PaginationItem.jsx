@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import { Component } from 'react';
 import { injectIntl, defineMessages } from 'react-intl';
 import { PagerItem, PagerLink } from 'design-react-kit';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 
 const messages = defineMessages({
   prevPage: {

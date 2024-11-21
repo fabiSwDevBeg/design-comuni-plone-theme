@@ -13,19 +13,19 @@ import {
 import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';
 import { UniversalLink } from '@plone/volto/components';
 
-import { CardCategory } from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { getCategory } from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/Commons/utils';
+import { CardCategory } from 'design-uniba-volto/components/ItaliaTheme';
+import { getCategory } from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/Commons/utils';
 import {
   getItemIcon,
   ListingCategory,
   ListingText,
   RassegnaInfo,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 import {
   getCalendarDate,
   getEventRecurrenceMore,
   getComponentWithFallback,
-} from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/helpers';
 import config from '@plone/volto/registry';
 
 const messages = defineMessages({

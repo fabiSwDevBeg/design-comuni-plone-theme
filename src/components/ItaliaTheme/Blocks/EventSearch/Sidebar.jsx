@@ -9,10 +9,10 @@ import {
   ObjectBrowserWidget,
   CheckboxWidget,
 } from '@plone/volto/components';
-import { ColorListWidget } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { ColorListWidget } from 'design-uniba-volto/components/ItaliaTheme';
 import upSVG from '@plone/volto/icons/up-key.svg';
 import downSVG from '@plone/volto/icons/down-key.svg';
-import FiltersConfig from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/EventSearch/FiltersConfig';
+import FiltersConfig from 'design-uniba-volto/components/ItaliaTheme/Blocks/EventSearch/FiltersConfig';
 
 const messages = defineMessages({
   help: {

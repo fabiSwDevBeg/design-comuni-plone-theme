@@ -16,15 +16,15 @@ import {
 
 import { flattenToAppURL } from '@plone/volto/helpers';
 
-import { getCategory } from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/Commons/utils';
+import { getCategory } from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/Commons/utils';
 import {
   CardCategory,
   getItemIcon,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 import {
   viewDate,
   getComponentWithFallback,
-} from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/helpers';
 import config from '@plone/volto/registry';
 
 const Body = (props) => {

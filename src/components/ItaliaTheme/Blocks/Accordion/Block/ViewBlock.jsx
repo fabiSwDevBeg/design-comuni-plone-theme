@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import redraft from 'redraft';
 import { useIntl, defineMessages } from 'react-intl';
 import cx from 'classnames';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 import { UniversalLink } from '@plone/volto/components';
 import config from '@plone/volto/registry';
 

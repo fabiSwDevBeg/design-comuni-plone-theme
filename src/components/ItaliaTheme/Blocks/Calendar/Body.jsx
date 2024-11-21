@@ -8,7 +8,7 @@ import {
   SingleSlideWrapper,
   NextArrow,
   PrevArrow,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 import { Card, Row, Col, Container, Button } from 'design-react-kit';
 import cx from 'classnames';
 
@@ -17,9 +17,9 @@ import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';
 import {
   getCalendarResults,
   setOriginalQuery,
-} from 'design-comuni-plone-theme/actions';
-import Item from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Calendar/Item';
-import { viewDate } from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/actions';
+import Item from 'design-uniba-volto/components/ItaliaTheme/Blocks/Calendar/Item';
+import { viewDate } from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({
   insert_filter: {

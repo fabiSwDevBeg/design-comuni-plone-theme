@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
-import { OfficeCard } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
-import { usePaginatedItemsSection } from 'design-comuni-plone-theme/helpers';
-import { Pagination } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { OfficeCard } from 'design-uniba-volto/components/ItaliaTheme/View';
+import { usePaginatedItemsSection } from 'design-uniba-volto/helpers';
+import { Pagination } from 'design-uniba-volto/components/ItaliaTheme';
 
 const RelatedArticles = ({
   id = 'related-articles',

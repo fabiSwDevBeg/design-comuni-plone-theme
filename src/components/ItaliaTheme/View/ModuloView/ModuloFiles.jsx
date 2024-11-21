@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import {
   ModuloFilePrincipale,
   ModuloFormatiAlternativi,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const ModuloFiles = ({ content }) => {
   return (

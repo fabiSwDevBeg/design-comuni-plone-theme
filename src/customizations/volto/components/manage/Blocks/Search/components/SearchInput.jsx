@@ -5,7 +5,7 @@
 import React, { useState } from 'react';
 import { Button, Icon, Input, Label } from 'design-react-kit';
 import { useIntl } from 'react-intl';
-import { commonSearchBlockMessages } from 'design-comuni-plone-theme/helpers';
+import { commonSearchBlockMessages } from 'design-uniba-volto/helpers';
 
 const SearchInput = (props) => {
   const {

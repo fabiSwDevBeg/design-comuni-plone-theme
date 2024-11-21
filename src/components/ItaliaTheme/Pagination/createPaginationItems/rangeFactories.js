@@ -2,7 +2,7 @@ import _ from 'lodash';
 import {
   createInnerPrefix,
   createInnerSuffix,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/Pagination/createPaginationItems/suffixFactories';
+} from 'design-uniba-volto/components/ItaliaTheme/Pagination/createPaginationItems/suffixFactories';
 
 export const createSimpleRange = (start, end, pageFactory) =>
   _.map(_.range(start, end + 1), pageFactory);

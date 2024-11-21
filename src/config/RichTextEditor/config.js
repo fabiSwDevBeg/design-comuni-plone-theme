@@ -7,14 +7,14 @@ import Plugins from '@plone/volto/config/RichTextEditor/Plugins';
 import Blocks from '@plone/volto/config/RichTextEditor/Blocks';
 //import FromHTMLCustomBlockFn from '@plone/volto/config/RichTextEditor/FromHTML';
 
-import UnderlineButton from 'design-comuni-plone-theme/config/RichTextEditor/ToolbarButtons/UnderlineButton';
-import HeadingsButton from 'design-comuni-plone-theme/config/RichTextEditor/ToolbarButtons/HeadingsButton';
-import AlignButton from 'design-comuni-plone-theme/config/RichTextEditor/ToolbarButtons/AlignButton';
-import CalloutsButton from 'design-comuni-plone-theme/config/RichTextEditor/ToolbarButtons/CalloutsButton';
-import ButtonsButton from 'design-comuni-plone-theme/config/RichTextEditor/ToolbarButtons/ButtonsButton';
-import TextSizeButton from 'design-comuni-plone-theme/config/RichTextEditor/ToolbarButtons/TextSizeButton';
+import UnderlineButton from 'design-uniba-volto/config/RichTextEditor/ToolbarButtons/UnderlineButton';
+import HeadingsButton from 'design-uniba-volto/config/RichTextEditor/ToolbarButtons/HeadingsButton';
+import AlignButton from 'design-uniba-volto/config/RichTextEditor/ToolbarButtons/AlignButton';
+import CalloutsButton from 'design-uniba-volto/config/RichTextEditor/ToolbarButtons/CalloutsButton';
+import ButtonsButton from 'design-uniba-volto/config/RichTextEditor/ToolbarButtons/ButtonsButton';
+import TextSizeButton from 'design-uniba-volto/config/RichTextEditor/ToolbarButtons/TextSizeButton';
 
-import LinkEntity from 'design-comuni-plone-theme/config/RichTextEditor/LinkEntity';
+import LinkEntity from 'design-uniba-volto/config/RichTextEditor/LinkEntity';
 
 const ItaliaRichTextEditorPlugins = (props) => [];
 const ItaliaRichTextEditorInlineToolbarButtons = (props, plugins) => {

@@ -2,7 +2,7 @@ import React from 'react';
 import { defineMessages, useIntl } from 'react-intl';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 
-// import DraftJsDropdownButton from 'design-comuni-plone-theme/config/RichTextEditor/ToolbarButtons/DraftJsDropdownButton';
+// import DraftJsDropdownButton from 'design-uniba-volto/config/RichTextEditor/ToolbarButtons/DraftJsDropdownButton';
 
 import formatSVG from '@plone/volto/icons/format.svg';
 

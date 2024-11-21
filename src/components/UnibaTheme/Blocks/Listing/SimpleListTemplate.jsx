@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 import { ConditionalLink } from '@plone/volto/components';
 import { Container, Row, Col } from 'design-react-kit';
-import { ListingLinkMore } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { ListingLinkMore } from 'design-uniba-volto/components/ItaliaTheme';
 
 const SimpleListTemplate = ({
   items,

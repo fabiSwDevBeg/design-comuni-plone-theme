@@ -34,17 +34,17 @@ import {
   SearchCTs,
   Icon,
   SearchResultItem,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 import {
   SearchUtils,
   TextInput,
   SelectInput,
-} from 'design-comuni-plone-theme/components';
+} from 'design-uniba-volto/components';
 import {
   getSearchFilters,
   getSearchResults,
-} from 'design-comuni-plone-theme/actions';
-import { useDebouncedEffect } from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/actions';
+import { useDebouncedEffect } from 'design-uniba-volto/helpers';
 import config from '@plone/volto/registry';
 
 const {

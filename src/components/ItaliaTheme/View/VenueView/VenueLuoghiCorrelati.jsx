@@ -1,8 +1,8 @@
 import React from 'react';
 import { defineMessages, useIntl } from 'react-intl';
-import { RichTextSection } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { RichTextSection } from 'design-uniba-volto/components/ItaliaTheme/View';
 
-import LocationItem from 'design-comuni-plone-theme/components/ItaliaTheme/View/Commons/LocationItem';
+import LocationItem from 'design-uniba-volto/components/ItaliaTheme/View/Commons/LocationItem';
 
 const messages = defineMessages({
   luoghi_correlati: {

@@ -31,7 +31,7 @@ import {
   getSpecificDataGridFieldValidation,
   realWidgetType,
   CUSTOM_DGFIELD_VALIDATION,
-} from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/helpers';
 import config from '@plone/volto/registry';
 
 /**

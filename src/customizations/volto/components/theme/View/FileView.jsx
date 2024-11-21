@@ -7,7 +7,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Container, Row, Col } from 'design-react-kit';
-import { DownloadFileFormat } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { DownloadFileFormat } from 'design-uniba-volto/components/ItaliaTheme/View';
 
 /**
  * File view component class.

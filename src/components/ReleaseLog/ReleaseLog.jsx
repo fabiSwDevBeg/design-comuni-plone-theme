@@ -29,9 +29,9 @@ const ReleaseLog = () => {
   let ReleaseIoCittadino = null;
   let ReleaseIoPrenoto = null;
   try {
-    ReleaseDCPT = require('design-comuni-plone-theme/../RELEASE.md');
+    ReleaseDCPT = require('design-uniba-volto/../RELEASE.md');
   } catch {
-    console.log("design-comuni-plone-theme/../RELEASE.md doesn't exists");
+    console.log("design-uniba-volto/../RELEASE.md doesn't exists");
   }
   try {
     ReleaseIoCittadino = require('@redturtle/volto-io-cittadino/../RELEASE.md');

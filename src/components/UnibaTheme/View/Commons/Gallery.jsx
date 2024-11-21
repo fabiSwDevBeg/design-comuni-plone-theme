@@ -1,5 +1,5 @@
 import 'slick-carousel/slick/slick.css';
-import 'design-comuni-plone-theme/components/slick-carousel/slick/slick-theme.css';
+import 'design-uniba-volto/components/slick-carousel/slick/slick-theme.css';
 
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react';
@@ -12,10 +12,10 @@ import {
   GalleryPreview,
   SingleSlideWrapper,
   CarouselWrapper,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { useSlider } from 'design-comuni-plone-theme/components/ItaliaTheme/Slider/slider';
+} from 'design-uniba-volto/components/ItaliaTheme';
+import { useSlider } from 'design-uniba-volto/components/ItaliaTheme/Slider/slider';
 import PropTypes from 'prop-types';
-import { contentFolderHasItems } from 'design-comuni-plone-theme/helpers';
+import { contentFolderHasItems } from 'design-uniba-volto/helpers';
 import { UniversalLink } from '@plone/volto/components';
 import { flattenToAppURL } from '@plone/volto/helpers';
 import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';

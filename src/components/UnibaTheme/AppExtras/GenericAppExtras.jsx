@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { useLocation } from 'react-router-dom';
 import { BodyClass } from '@plone/volto/helpers';
-import ScrollToTop from 'design-comuni-plone-theme/components/ItaliaTheme/ScrollToTop/ScrollToTop';
+import ScrollToTop from 'design-uniba-volto/components/ItaliaTheme/ScrollToTop/ScrollToTop';
 import { SubsiteLoader } from 'volto-subsites';
 import config from '@plone/volto/registry';
 

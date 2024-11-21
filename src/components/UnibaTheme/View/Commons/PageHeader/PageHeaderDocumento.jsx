@@ -1,5 +1,5 @@
 import { defineMessages, useIntl } from 'react-intl';
-import { viewDate } from 'design-comuni-plone-theme/helpers';
+import { viewDate } from 'design-uniba-volto/helpers';
 
 export default function PageHeaderDocumento({ content }) {
   const intl = useIntl();

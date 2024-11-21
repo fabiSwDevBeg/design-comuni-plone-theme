@@ -19,7 +19,7 @@ import {
   Sharing,
   Actions,
   PageMetadata,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 import { defineMessages, useIntl } from 'react-intl';
 import { getLayoutFieldname } from '@plone/volto/helpers';
 import config from '@plone/volto/registry';

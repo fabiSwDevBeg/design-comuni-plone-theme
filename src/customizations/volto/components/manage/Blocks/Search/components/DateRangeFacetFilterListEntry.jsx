@@ -5,7 +5,7 @@
 import React, { useMemo } from 'react';
 import { Label, Icon, Button } from 'design-react-kit';
 import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';
-import { commonSearchBlockMessages } from 'design-comuni-plone-theme/helpers';
+import { commonSearchBlockMessages } from 'design-uniba-volto/helpers';
 
 function DateRangeFacetFilterListEntry(props) {
   const {

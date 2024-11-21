@@ -2,7 +2,7 @@
   - Agid styling
 
 */
-import { commonSearchBlockMessages } from 'design-comuni-plone-theme/helpers';
+import { commonSearchBlockMessages } from 'design-uniba-volto/helpers';
 import { defineMessages, useIntl } from 'react-intl';
 
 const messages = defineMessages({

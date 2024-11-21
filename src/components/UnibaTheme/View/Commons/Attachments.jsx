@@ -6,8 +6,8 @@ import { flattenToAppURL } from '@plone/volto/helpers';
 import {
   Attachment,
   RichTextSection,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
-import { contentFolderHasItems } from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
+import { contentFolderHasItems } from 'design-uniba-volto/helpers';
 import PropTypes from 'prop-types';
 
 const messages = defineMessages({

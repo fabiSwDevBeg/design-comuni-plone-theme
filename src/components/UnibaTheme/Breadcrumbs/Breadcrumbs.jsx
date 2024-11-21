@@ -20,8 +20,8 @@ import {
 
 import { UniversalLink } from '@plone/volto/components';
 import { Row, Col, BreadcrumbItem } from 'design-react-kit';
-import GoogleBreadcrumbs from 'design-comuni-plone-theme/components/ItaliaTheme/Breadcrumbs/GoogleBreadcrumbs';
-import { useHomePath } from 'design-comuni-plone-theme/helpers';
+import GoogleBreadcrumbs from 'design-uniba-volto/components/ItaliaTheme/Breadcrumbs/GoogleBreadcrumbs';
+import { useHomePath } from 'design-uniba-volto/helpers';
 import config from '@plone/volto/registry';
 
 const messages = defineMessages({

@@ -1,4 +1,4 @@
-import { createEllipsisItem } from 'design-comuni-plone-theme/components/ItaliaTheme/Pagination/createPaginationItems/itemFactories';
+import { createEllipsisItem } from 'design-uniba-volto/components/ItaliaTheme/Pagination/createPaginationItems/itemFactories';
 
 export const createInnerPrefix = (
   firstGroupEnd,

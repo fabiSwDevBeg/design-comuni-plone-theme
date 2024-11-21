@@ -30,7 +30,7 @@ import {
   Icon,
   UserLoggedMenu,
   LoginButton,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 import { getBaseUrl } from '@plone/volto/helpers';
 import { useLocation } from 'react-router-dom';
 

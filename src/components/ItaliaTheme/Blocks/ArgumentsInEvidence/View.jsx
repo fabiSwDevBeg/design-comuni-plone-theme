@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import BodyWrapper from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/ArgumentsInEvidence/BodyWrapper';
-import BottomBody from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/ArgumentsInEvidence/BottomBody';
-import Block from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/ArgumentsInEvidence/Block';
-import { ArgumentsInEvidenceBackground } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import BodyWrapper from 'design-uniba-volto/components/ItaliaTheme/Blocks/ArgumentsInEvidence/BodyWrapper';
+import BottomBody from 'design-uniba-volto/components/ItaliaTheme/Blocks/ArgumentsInEvidence/BottomBody';
+import Block from 'design-uniba-volto/components/ItaliaTheme/Blocks/ArgumentsInEvidence/Block';
+import { ArgumentsInEvidenceBackground } from 'design-uniba-volto/components/ItaliaTheme';
 import { useIntl } from 'react-intl';
 
 const View = ({ data, id }) => {

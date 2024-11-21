@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect } from 'react';
-import { SelectInput } from 'design-comuni-plone-theme/components';
+import { SelectInput } from 'design-uniba-volto/components';
 import { useDispatch, useSelector } from 'react-redux';
 import { searchContent, getVocabulary } from '@plone/volto/actions';
 

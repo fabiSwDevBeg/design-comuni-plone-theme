@@ -1,5 +1,5 @@
 import { defineMessages } from 'react-intl';
-import { addSchemaField } from 'design-comuni-plone-theme/config/Blocks/ListingOptions';
+import { addSchemaField } from 'design-uniba-volto/config/Blocks/ListingOptions';
 
 const messages = defineMessages({
   id_lighthouse: {

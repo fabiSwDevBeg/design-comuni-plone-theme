@@ -11,8 +11,8 @@ import {
   RichTextSection,
   richTextHasContent,
   Gallery,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
-import { contentFolderHasItems } from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
+import { contentFolderHasItems } from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({
   cos_e: {

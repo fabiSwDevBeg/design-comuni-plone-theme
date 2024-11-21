@@ -4,7 +4,7 @@ import { defineMessages, useIntl } from 'react-intl';
 import {
   RichTextSection,
   richTextHasContent,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const ServizioCosaSiOttiene = ({ content }) => {
   const intl = useIntl();

@@ -7,7 +7,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { useLocation } from 'react-router-dom';
 import { flattenHTMLToAppURL, isCmsUi } from '@plone/volto/helpers';
-import { richTextHasContent } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { richTextHasContent } from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const SubsiteFooter = () => {
   const location = useLocation();

@@ -5,53 +5,53 @@
  * export { Api } from './Api/Api';
  */
 
-export { defaultIconWidgetOptions } from 'design-comuni-plone-theme/helpers/IconWidget/IconWidgetHelper';
-export { fontAwesomeAliases } from 'design-comuni-plone-theme/helpers/IconWidget/IconAliasHelper';
+export { defaultIconWidgetOptions } from 'design-uniba-volto/helpers/IconWidget/IconWidgetHelper';
+export { fontAwesomeAliases } from 'design-uniba-volto/helpers/IconWidget/IconAliasHelper';
 export {
   getCalendarDate,
   getEventRecurrenceMore,
-} from 'design-comuni-plone-theme/helpers/ListingHelper';
+} from 'design-uniba-volto/helpers/ListingHelper';
 export {
   contentFolderHasItems,
   renderPDCItemValue,
-} from 'design-comuni-plone-theme/helpers/contentHelper';
-export { checkRedraftHasContent } from 'design-comuni-plone-theme/helpers/redraftHelper';
-export { getTableRowData } from 'design-comuni-plone-theme/helpers/amministrazioneTrasparenteHelper';
-export { getItemsByPath } from 'design-comuni-plone-theme/helpers/getItemsByPath';
+} from 'design-uniba-volto/helpers/contentHelper';
+export { checkRedraftHasContent } from 'design-uniba-volto/helpers/redraftHelper';
+export { getTableRowData } from 'design-uniba-volto/helpers/amministrazioneTrasparenteHelper';
+export { getItemsByPath } from 'design-uniba-volto/helpers/getItemsByPath';
 export {
   viewDate,
   getRealStartAndEndWithRecurrence,
   getRealEventEnd,
-} from 'design-comuni-plone-theme/helpers/dates';
-export { getSiteProperty } from 'design-comuni-plone-theme/helpers/config';
-export { useDebouncedEffect } from 'design-comuni-plone-theme/helpers/debounce';
+} from 'design-uniba-volto/helpers/dates';
+export { getSiteProperty } from 'design-uniba-volto/helpers/config';
+export { useDebouncedEffect } from 'design-uniba-volto/helpers/debounce';
 export {
   FILE_FORMATS,
   FILE_EXTENSIONS,
   getFileViewFormat,
-} from 'design-comuni-plone-theme/helpers/files';
+} from 'design-uniba-volto/helpers/files';
 export {
   videoUrlHelper,
   checkIfValidVideoLink,
-} from 'design-comuni-plone-theme/helpers/videoUrlHelper';
+} from 'design-uniba-volto/helpers/videoUrlHelper';
 export {
   blockIsNotEmptyPlaceholder,
   SSRRenderHtml,
-} from 'design-comuni-plone-theme/helpers/htmlDiff';
+} from 'design-uniba-volto/helpers/htmlDiff';
 export {
   serviceFormValidationHelper,
   blocksFieldIsEmpty,
   getRealEmptyField,
   eventFormValidationHelper,
-} from 'design-comuni-plone-theme/helpers/FormValidation/FormValidationHelpers';
+} from 'design-uniba-volto/helpers/FormValidation/FormValidationHelpers';
 export {
   getSpecificDataGridFieldValidation,
   realWidgetType,
   CUSTOM_DGFIELD_VALIDATION,
-} from 'design-comuni-plone-theme/helpers/FormValidation/DataGridFormValidationHelpers';
+} from 'design-uniba-volto/helpers/FormValidation/DataGridFormValidationHelpers';
 
-export { commonSearchBlockMessages } from 'design-comuni-plone-theme/helpers/Translations/searchBlockExtendedTranslations';
+export { commonSearchBlockMessages } from 'design-uniba-volto/helpers/Translations/searchBlockExtendedTranslations';
 
-export { getComponentWithFallback } from 'design-comuni-plone-theme/helpers/registry';
-export { useHomePath } from 'design-comuni-plone-theme/helpers/url';
-export { usePaginatedItemsSection } from 'design-comuni-plone-theme/helpers/usePaginatedItemsSection.hook.ts';
+export { getComponentWithFallback } from 'design-uniba-volto/helpers/registry';
+export { useHomePath } from 'design-uniba-volto/helpers/url';
+export { usePaginatedItemsSection } from 'design-uniba-volto/helpers/usePaginatedItemsSection.hook.ts';

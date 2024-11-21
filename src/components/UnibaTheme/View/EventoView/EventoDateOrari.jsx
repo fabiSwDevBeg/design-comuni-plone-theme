@@ -8,7 +8,7 @@ import {
   RichTextSection,
   Dates,
   richTextHasContent,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const messages = defineMessages({
   date_e_orari: {

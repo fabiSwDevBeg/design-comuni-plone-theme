@@ -8,7 +8,7 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { flattenToAppURL } from '@plone/volto/helpers';
 import { Nav, NavItem, NavLink } from 'design-react-kit';
-import { useHomePath } from 'design-comuni-plone-theme/helpers';
+import { useHomePath } from 'design-uniba-volto/helpers';
 
 const ParentSiteMenu = () => {
   const dropdownMenu = useSelector(

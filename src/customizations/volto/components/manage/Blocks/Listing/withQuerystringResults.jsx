@@ -15,7 +15,7 @@ import useDeepCompareEffect from 'use-deep-compare-effect';
 import { flattenToAppURL, getBaseUrl } from '@plone/volto/helpers';
 import config from '@plone/volto/registry';
 
-import { setOriginalQuery } from 'design-comuni-plone-theme/actions';
+import { setOriginalQuery } from 'design-uniba-volto/actions';
 
 function getDisplayName(WrappedComponent) {
   return WrappedComponent.displayName || WrappedComponent.name || 'Component';

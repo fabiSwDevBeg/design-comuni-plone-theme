@@ -3,7 +3,7 @@ import { defineMessages, useIntl } from 'react-intl';
 import PropTypes from 'prop-types';
 import { LinkList, LinkListItem, Collapse } from 'design-react-kit';
 import { UniversalLink } from '@plone/volto/components';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 
 /**
  * PageHeaderNav view component class.

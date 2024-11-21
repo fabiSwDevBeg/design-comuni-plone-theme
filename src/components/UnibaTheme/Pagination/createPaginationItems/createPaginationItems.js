@@ -4,15 +4,15 @@ import {
   createNextItem,
   createPageFactory,
   createPrevItem,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/Pagination/createPaginationItems/itemFactories';
+} from 'design-uniba-volto/components/ItaliaTheme/Pagination/createPaginationItems/itemFactories';
 import {
   createComplexRange,
   createSimpleRange,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/Pagination/createPaginationItems/rangeFactories';
+} from 'design-uniba-volto/components/ItaliaTheme/Pagination/createPaginationItems/rangeFactories';
 import {
   isSimplePagination,
   typifyOptions,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/Pagination/createPaginationItems/paginationUtils';
+} from 'design-uniba-volto/components/ItaliaTheme/Pagination/createPaginationItems/paginationUtils';
 
 /**
  * @param {object} rawOptions

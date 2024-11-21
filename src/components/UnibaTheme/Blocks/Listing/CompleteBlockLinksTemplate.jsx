@@ -17,9 +17,9 @@ import {
 import {
   ListingLinkMore,
   ListingImage,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { getComponentWithFallback } from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
+import { getComponentWithFallback } from 'design-uniba-volto/helpers';
 import { isInternalURL } from '@plone/volto/helpers/Url/Url';
 
 import config from '@plone/volto/registry';

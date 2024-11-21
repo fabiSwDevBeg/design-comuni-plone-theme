@@ -1,7 +1,7 @@
 import React from 'react';
 import { defineMessages, useIntl } from 'react-intl';
-import { Gallery } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
-import { contentFolderHasItems } from 'design-comuni-plone-theme/helpers';
+import { Gallery } from 'design-uniba-volto/components/ItaliaTheme/View';
+import { contentFolderHasItems } from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({
   video: {

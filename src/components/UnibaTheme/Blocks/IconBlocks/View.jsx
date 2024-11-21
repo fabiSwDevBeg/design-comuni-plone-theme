@@ -11,7 +11,7 @@ import { Container, Row, Col } from 'design-react-kit';
 import { flattenToAppURL } from '@plone/volto/helpers';
 import { UniversalLink } from '@plone/volto/components';
 import config from '@plone/volto/registry';
-import { checkRedraftHasContent } from 'design-comuni-plone-theme/helpers';
+import { checkRedraftHasContent } from 'design-uniba-volto/helpers';
 
 /**
  * View IconsBlock block class.

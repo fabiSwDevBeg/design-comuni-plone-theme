@@ -10,9 +10,9 @@ import { UniversalLink } from '@plone/volto/components';
 import { injectDNDSubblocks, SubblockEdit, Subblock } from 'volto-subblocks';
 
 import { Card, CardBody, CardReadMore } from 'design-react-kit';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 
-import { TextEditorWidget } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { TextEditorWidget } from 'design-uniba-volto/components/ItaliaTheme';
 
 const messages = defineMessages({
   titlePlaceholder: {

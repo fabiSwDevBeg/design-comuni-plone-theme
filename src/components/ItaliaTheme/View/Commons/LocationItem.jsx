@@ -7,7 +7,7 @@ import { defineMessages, useIntl } from 'react-intl';
 import { UniversalLink } from '@plone/volto/components';
 import PropTypes from 'prop-types';
 import { flattenToAppURL } from '@plone/volto/helpers';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 import config from '@plone/volto/registry';
 
 const messages = defineMessages({

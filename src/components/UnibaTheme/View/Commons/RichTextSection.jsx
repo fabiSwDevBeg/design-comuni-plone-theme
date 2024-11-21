@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import cx from 'classnames';
-import { RichTextRender } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { RichTextRender } from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const RichTextSection = ({
   title,

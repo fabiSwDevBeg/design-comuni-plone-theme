@@ -1,9 +1,9 @@
-import faFileXml from 'design-comuni-plone-theme/icons/file-xml.svg';
-import faFileXsd from 'design-comuni-plone-theme/icons/file-xsd.svg';
-import faFileOdp from 'design-comuni-plone-theme/icons/file-odp.svg';
-import faFileOds from 'design-comuni-plone-theme/icons/file-ods.svg';
-import faFileOdt from 'design-comuni-plone-theme/icons/file-odt.svg';
-import faFileCSV from 'design-comuni-plone-theme/icons/file-csv.svg';
+import faFileXml from 'design-uniba-volto/icons/file-xml.svg';
+import faFileXsd from 'design-uniba-volto/icons/file-xsd.svg';
+import faFileOdp from 'design-uniba-volto/icons/file-odp.svg';
+import faFileOds from 'design-uniba-volto/icons/file-ods.svg';
+import faFileOdt from 'design-uniba-volto/icons/file-odt.svg';
+import faFileCSV from 'design-uniba-volto/icons/file-csv.svg';
 
 export const FILE_FORMATS = {
   'text/rtf': { icon: { lib: 'far', name: 'file-alt' }, format_name: 'rtf' },

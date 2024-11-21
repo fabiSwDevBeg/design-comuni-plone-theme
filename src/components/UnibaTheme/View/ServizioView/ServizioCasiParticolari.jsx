@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { defineMessages, useIntl } from 'react-intl';
 
-import { RichTextSection } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { RichTextSection } from 'design-uniba-volto/components/ItaliaTheme/View';
 
 const messages = defineMessages({
   casi_particolari: {

@@ -5,8 +5,8 @@
 
 import React, { useState } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { SearchModal } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
+import { SearchModal } from 'design-uniba-volto/components/ItaliaTheme';
 
 const messages = defineMessages({
   search: {

@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Body from './Body';
 import ViewBlock from './Block/ViewBlock';
-import { SingleSlideWrapper } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { SingleSlideWrapper } from 'design-uniba-volto/components/ItaliaTheme';
 
 /**
  * View icons blocks class.

@@ -1,25 +1,25 @@
 import { defineMessages } from 'react-intl';
 
-import PageView from 'design-comuni-plone-theme/components/ItaliaTheme/View/PageView/PageView';
-import NewsItemView from 'design-comuni-plone-theme/components/ItaliaTheme/View/NewsItemView/NewsItemView';
-import UOView from 'design-comuni-plone-theme/components/ItaliaTheme/View/UOView/UOView';
-import PersonaView from 'design-comuni-plone-theme/components/ItaliaTheme/View/PersonaView/PersonaView';
-import VenueView from 'design-comuni-plone-theme/components/ItaliaTheme/View/VenueView/VenueView';
-import ServizioView from 'design-comuni-plone-theme/components/ItaliaTheme/View/ServizioView/ServizioView';
-import EventoView from 'design-comuni-plone-theme/components/ItaliaTheme/View/EventoView/EventoView';
-import PaginaArgomentoView from 'design-comuni-plone-theme/components/ItaliaTheme/View/PaginaArgomentoView/PaginaArgomentoView';
-import CartellaModulisticaView from 'design-comuni-plone-theme/components/ItaliaTheme/View/CartellaModulisticaView/CartellaModulisticaView';
-import DocumentoView from 'design-comuni-plone-theme/components/ItaliaTheme/View/DocumentoView/DocumentoView';
-import ModuloView from 'design-comuni-plone-theme/components/ItaliaTheme/View/ModuloView/ModuloView';
-import BandoView from 'design-comuni-plone-theme/components/ItaliaTheme/View/BandoView/BandoView';
+import PageView from 'design-uniba-volto/components/ItaliaTheme/View/PageView/PageView';
+import NewsItemView from 'design-uniba-volto/components/ItaliaTheme/View/NewsItemView/NewsItemView';
+import UOView from 'design-uniba-volto/components/ItaliaTheme/View/UOView/UOView';
+import PersonaView from 'design-uniba-volto/components/ItaliaTheme/View/PersonaView/PersonaView';
+import VenueView from 'design-uniba-volto/components/ItaliaTheme/View/VenueView/VenueView';
+import ServizioView from 'design-uniba-volto/components/ItaliaTheme/View/ServizioView/ServizioView';
+import EventoView from 'design-uniba-volto/components/ItaliaTheme/View/EventoView/EventoView';
+import PaginaArgomentoView from 'design-uniba-volto/components/ItaliaTheme/View/PaginaArgomentoView/PaginaArgomentoView';
+import CartellaModulisticaView from 'design-uniba-volto/components/ItaliaTheme/View/CartellaModulisticaView/CartellaModulisticaView';
+import DocumentoView from 'design-uniba-volto/components/ItaliaTheme/View/DocumentoView/DocumentoView';
+import ModuloView from 'design-uniba-volto/components/ItaliaTheme/View/ModuloView/ModuloView';
+import BandoView from 'design-uniba-volto/components/ItaliaTheme/View/BandoView/BandoView';
 
-import FaqFolderView from 'design-comuni-plone-theme/components/ItaliaTheme/View/FAQ/FaqFolder/FaqFolderView';
-import FaqView from 'design-comuni-plone-theme/components/ItaliaTheme/View/FAQ/FaqView/FaqView';
+import FaqFolderView from 'design-uniba-volto/components/ItaliaTheme/View/FAQ/FaqFolder/FaqFolderView';
+import FaqView from 'design-uniba-volto/components/ItaliaTheme/View/FAQ/FaqView/FaqView';
 
-import TrasparenzaView from 'design-comuni-plone-theme/components/ItaliaTheme/View/TrasparenzaView/TrasparenzaView';
-import DettagliProcedimentiView from 'design-comuni-plone-theme/components/ItaliaTheme/View/TrasparenzaView/DettagliProcedimentiView';
-import PuntoDiContattoView from 'design-comuni-plone-theme/components/ItaliaTheme/View/PuntoDiContattoView/PuntoDiContattoView';
-import IncaricoView from 'design-comuni-plone-theme/components/ItaliaTheme/View/IncaricoView/IncaricoView';
+import TrasparenzaView from 'design-uniba-volto/components/ItaliaTheme/View/TrasparenzaView/TrasparenzaView';
+import DettagliProcedimentiView from 'design-uniba-volto/components/ItaliaTheme/View/TrasparenzaView/DettagliProcedimentiView';
+import PuntoDiContattoView from 'design-uniba-volto/components/ItaliaTheme/View/PuntoDiContattoView/PuntoDiContattoView';
+import IncaricoView from 'design-uniba-volto/components/ItaliaTheme/View/IncaricoView/IncaricoView';
 
 defineMessages({
   modulistica_view: {

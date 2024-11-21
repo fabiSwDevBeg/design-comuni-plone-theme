@@ -10,7 +10,7 @@ import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';
 import EditorUtils from '@plone/volto/components/manage/AnchorPlugin/utils/EditorUtils';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 
-import AddLinkForm from 'design-comuni-plone-theme/config/RichTextEditor/Plugins/AnchorPlugin/components/LinkButton/AddLinkForm';
+import AddLinkForm from 'design-uniba-volto/config/RichTextEditor/Plugins/AnchorPlugin/components/LinkButton/AddLinkForm';
 
 import linkSVG from '@plone/volto/icons/link.svg';
 import unlinkSVG from '@plone/volto/icons/unlink.svg';

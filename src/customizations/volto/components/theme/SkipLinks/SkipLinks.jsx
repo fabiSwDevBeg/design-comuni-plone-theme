@@ -1,3 +1,3 @@
-import SkipLinks from 'design-comuni-plone-theme/components/ItaliaTheme/SkipLinks/SkipLinks';
+import SkipLinks from 'design-uniba-volto/components/ItaliaTheme/SkipLinks/SkipLinks';
 
 export default SkipLinks;

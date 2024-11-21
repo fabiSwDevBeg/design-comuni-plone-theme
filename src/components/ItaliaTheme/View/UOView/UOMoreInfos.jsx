@@ -2,7 +2,7 @@ import React from 'react';
 import {
   RichTextSection,
   richTextHasContent,
-} from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+} from 'design-uniba-volto/components/ItaliaTheme/View';
 import { defineMessages, useIntl } from 'react-intl';
 
 const UOMoreInfos = ({ content }) => {

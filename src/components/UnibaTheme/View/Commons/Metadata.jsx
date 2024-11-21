@@ -4,7 +4,7 @@ import cx from 'classnames';
 import { Chip, ChipLabel } from 'design-react-kit';
 import PropTypes from 'prop-types';
 
-import { viewDate } from 'design-comuni-plone-theme/helpers';
+import { viewDate } from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({
   modified: {

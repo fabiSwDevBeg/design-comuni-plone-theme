@@ -3,9 +3,9 @@ import { defineMessages, useIntl } from 'react-intl';
 import cx from 'classnames';
 import PropTypes from 'prop-types';
 
-import { Icon } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Icon } from 'design-uniba-volto/components/ItaliaTheme';
 
-import { BandoStatus } from 'design-comuni-plone-theme/components/ItaliaTheme/View';
+import { BandoStatus } from 'design-uniba-volto/components/ItaliaTheme/View';
 
 /**
  * PageHeaderBando view component class.

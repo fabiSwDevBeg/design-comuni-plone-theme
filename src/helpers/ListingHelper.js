@@ -7,11 +7,11 @@ import { When } from '@plone/volto/components/theme/View/EventDatesInfo';
 import {
   viewDate,
   getRealStartAndEndWithRecurrence,
-} from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/helpers';
 import {
   getCalendarDate_extend,
   getEventRecurrenceMore_extend,
-} from 'design-comuni-plone-theme/helpers/ListingHelper_extend';
+} from 'design-uniba-volto/helpers/ListingHelper_extend';
 
 const messages = defineMessages({
   from: {

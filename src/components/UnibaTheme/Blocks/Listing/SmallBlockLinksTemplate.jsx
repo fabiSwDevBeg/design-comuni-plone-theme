@@ -10,7 +10,7 @@ import cx from 'classnames';
 import {
   ListingLinkMore,
   ListingImage,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 
 const SmallBlockLinksTemplate = ({
   items,

@@ -13,11 +13,11 @@ import { UniversalLink } from '@plone/volto/components';
 import {
   Icon,
   LoginButton,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 import { Icon as BaseIcon } from '@plone/volto/components';
 import { useLocation } from 'react-router-dom';
 import config from '@plone/volto/registry';
-import cieSVG from 'design-comuni-plone-theme/icons/entra_con_cie.svg';
+import cieSVG from 'design-uniba-volto/icons/entra_con_cie.svg';
 
 const messages = defineMessages({
   loginSpid: {

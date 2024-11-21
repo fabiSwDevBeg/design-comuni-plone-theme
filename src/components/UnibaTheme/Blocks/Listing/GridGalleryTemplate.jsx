@@ -5,7 +5,7 @@ import { Alert, Col, Container, Row } from 'design-react-kit';
 import {
   ListingImage,
   ListingLinkMore,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 import { defineMessages, useIntl } from 'react-intl';
 
 import PropTypes from 'prop-types';

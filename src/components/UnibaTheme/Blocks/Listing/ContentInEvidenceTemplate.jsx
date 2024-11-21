@@ -23,7 +23,7 @@ import {
   getCalendarDate,
   getEventRecurrenceMore,
   getComponentWithFallback,
-} from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/helpers';
 import {
   ListingCategory,
   ListingText,
@@ -32,7 +32,7 @@ import {
   // ListingLinkMore,
   ListingImage,
   RassegnaInfo,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 
 const ContentInEvidenceTemplate = (props) => {
   const {

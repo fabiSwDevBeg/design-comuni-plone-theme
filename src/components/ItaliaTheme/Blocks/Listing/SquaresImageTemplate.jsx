@@ -7,7 +7,7 @@ import cx from 'classnames';
 import {
   ListingLinkMore,
   getListingImageBackground,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 
 const SquaresImageTemplate = ({
   items,

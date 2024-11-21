@@ -23,7 +23,7 @@ import { injectLazyLibs } from '@plone/volto/helpers/Loadable/Loadable';
 import {
   getCalendarDate,
   getEventRecurrenceMore,
-} from 'design-comuni-plone-theme/helpers';
+} from 'design-uniba-volto/helpers';
 import {
   CardCalendar,
   getItemIcon,
@@ -34,8 +34,8 @@ import {
   CardCategory,
   CardPersona,
   RassegnaInfo,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { getCategory } from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/Commons/utils';
+} from 'design-uniba-volto/components/ItaliaTheme';
+import { getCategory } from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/Commons/utils';
 
 const InEvidenceTemplate = (props) => {
   const {

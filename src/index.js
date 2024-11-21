@@ -1,4 +1,4 @@
-import applyItaliaConfig from 'design-comuni-plone-theme/config/italiaConfig';
+import applyItaliaConfig from 'design-uniba-volto/config/italiaConfig';
 
 export default function applyConfig(config) {
   return applyItaliaConfig(config);

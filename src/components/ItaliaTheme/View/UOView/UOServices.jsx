@@ -9,9 +9,9 @@ import {
   CardTitle,
   CardText,
 } from 'design-react-kit';
-import { Pagination } from 'design-comuni-plone-theme/components/ItaliaTheme';
+import { Pagination } from 'design-uniba-volto/components/ItaliaTheme';
 import { UniversalLink } from '@plone/volto/components';
-import { usePaginatedItemsSection } from 'design-comuni-plone-theme/helpers';
+import { usePaginatedItemsSection } from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({
   servizi_offerti: {

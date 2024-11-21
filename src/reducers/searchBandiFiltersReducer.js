@@ -1,5 +1,5 @@
 import { omit } from 'lodash';
-import { GET_SEARCH_BANDI_FILTERS } from 'design-comuni-plone-theme/actions';
+import { GET_SEARCH_BANDI_FILTERS } from 'design-uniba-volto/actions';
 
 const RESET_SEARCH_BANDI_FILTERS_RESULTS = 'RESET_SEARCH_BANDI_FILTERS_RESULTS';
 

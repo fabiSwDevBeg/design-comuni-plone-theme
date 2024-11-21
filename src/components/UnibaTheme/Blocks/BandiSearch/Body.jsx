@@ -7,10 +7,10 @@ import cx from 'classnames';
 
 import { getQueryStringResults } from '@plone/volto/actions';
 import { flattenToAppURL } from '@plone/volto/helpers';
-import BandiInEvidenceTemplate from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/Listing/BandiInEvidenceTemplate';
-import { Pagination } from 'design-comuni-plone-theme/components/ItaliaTheme';
-import { resetQuerystringResults } from 'design-comuni-plone-theme/actions';
-import FiltersConfig from 'design-comuni-plone-theme/components/ItaliaTheme/Blocks/BandiSearch/FiltersConfig';
+import BandiInEvidenceTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/Listing/BandiInEvidenceTemplate';
+import { Pagination } from 'design-uniba-volto/components/ItaliaTheme';
+import { resetQuerystringResults } from 'design-uniba-volto/actions';
+import FiltersConfig from 'design-uniba-volto/components/ItaliaTheme/Blocks/BandiSearch/FiltersConfig';
 
 const messages = defineMessages({
   find: {
