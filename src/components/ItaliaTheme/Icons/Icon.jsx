@@ -12,6 +12,7 @@ import { FontAwesomeIcon } from 'design-uniba-volto/components/ItaliaTheme';
 
 const Icon = (props) => {
   const { icon, className, color, size, padding, ...rest } = props;
+
   if (icon) {
     const classes = classNames(
       'icon',

@@ -1,5 +1,52 @@
 
 
+## [11.24.6](https://github.com/RedTurtle/design-comuni-plone-theme/compare/v11.24.5...v11.24.6) (2024-11-22)
+
+
+### Bug Fixes
+
+* removed getContent from Documento, Bando, Argomento and LocationsMap ([#803](https://github.com/RedTurtle/design-comuni-plone-theme/issues/803)) ([ca1f0f0](https://github.com/RedTurtle/design-comuni-plone-theme/commit/ca1f0f0b0e8b02d2a50d420e2aa371c97517a8f9))
+
+
+### Documentation
+
+* updated publiccode ([ebcf3d0](https://github.com/RedTurtle/design-comuni-plone-theme/commit/ebcf3d05408cc5e175e9f610ba752b53d28082b9))
+
+## [11.24.5](https://github.com/RedTurtle/design-comuni-plone-theme/compare/v11.24.4...v11.24.5) (2024-11-22)
+
+
+### Bug Fixes
+
+* added info on contents file upload modal on restraint in servizio-modulistica folder ([#796](https://github.com/RedTurtle/design-comuni-plone-theme/issues/796)) ([cb7b3c8](https://github.com/RedTurtle/design-comuni-plone-theme/commit/cb7b3c83325f6aa3da94faa29eaf0c940e216a93))
+* removed whole day condition in page header subtitle ([#800](https://github.com/RedTurtle/design-comuni-plone-theme/issues/800)) ([cc7d668](https://github.com/RedTurtle/design-comuni-plone-theme/commit/cc7d6686dc91aaaf3eaef51102c8e035540efe46))
+* safari rendering issues and overhaul old dynamic bootstrap italia icons import using cache map ([#810](https://github.com/RedTurtle/design-comuni-plone-theme/issues/810)) ([9c23ac6](https://github.com/RedTurtle/design-comuni-plone-theme/commit/9c23ac6fd172f31c0aa4723d4db008a92100b1a1))
+* updated lockfile ([8d1cf74](https://github.com/RedTurtle/design-comuni-plone-theme/commit/8d1cf74defdec9059dff9a1e1b4313fa7b4c0402))
+* updated volto-gdpr-privacy addon version to 2.2.9([#806](https://github.com/RedTurtle/design-comuni-plone-theme/issues/806)) ([f785ddd](https://github.com/RedTurtle/design-comuni-plone-theme/commit/f785ddd651e1528439a58852f852a9331df2a57e))
+
+
+### Maintenance
+
+* removed additional info from release.md from september ([#799](https://github.com/RedTurtle/design-comuni-plone-theme/issues/799)) ([60052e7](https://github.com/RedTurtle/design-comuni-plone-theme/commit/60052e77b71a9f9dbb59714240acadc01e14ee0a))
+
+
+### Documentation
+
+* updated publiccode and release log ([6a5e490](https://github.com/RedTurtle/design-comuni-plone-theme/commit/6a5e490248df7e53784b5f730b096ab9d6553ad8))
+
+## [11.24.4](https://github.com/RedTurtle/design-comuni-plone-theme/compare/v11.24.3...v11.24.4) (2024-11-07)
+
+
+### Bug Fixes
+
+* arlogin styles in 992px-1200px media query space ([#802](https://github.com/RedTurtle/design-comuni-plone-theme/issues/802)) ([eebf6e4](https://github.com/RedTurtle/design-comuni-plone-theme/commit/eebf6e4129c021dc361638c940b62b67a5b15739))
+* page freeze when updateSideMenuOnLoadingBlocks=true and page has gallery ([#805](https://github.com/RedTurtle/design-comuni-plone-theme/issues/805)) ([cab333e](https://github.com/RedTurtle/design-comuni-plone-theme/commit/cab333e35dc7faac5fbc61a41fdec02922378b00))
+
+
+### Documentation
+
+* update docs link in publiccode.yml ([#190](https://github.com/RedTurtle/design-comuni-plone-theme/issues/190)) ([34a35b2](https://github.com/RedTurtle/design-comuni-plone-theme/commit/34a35b2ac7c6301e1bbf22a6109fef8d8135db3f))
+* updated publiccode and release log ([67a062c](https://github.com/RedTurtle/design-comuni-plone-theme/commit/67a062cf007333435046c1b3cf8cf0d34bf59abc))
+
 ## [11.24.3](https://github.com/RedTurtle/design-comuni-plone-theme/compare/v11.24.2...v11.24.3) (2024-10-24)
 
 
