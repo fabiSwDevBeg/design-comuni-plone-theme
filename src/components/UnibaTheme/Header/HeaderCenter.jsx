@@ -10,10 +10,10 @@ import { useSelector } from 'react-redux';
 import { Header, HeaderContent, HeaderRightZone } from 'design-react-kit';
 import { flattenToAppURL } from '@plone/volto/helpers';
 import {
-  Logo,
   SocialHeader,
   HeaderSearch,
-} from 'design-uniba-volto/components/UnibaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
+import { Logo } from 'design-uniba-volto/components/UnibaTheme'
 import { useHomePath } from 'design-uniba-volto/helpers';
 
 const messages = defineMessages({

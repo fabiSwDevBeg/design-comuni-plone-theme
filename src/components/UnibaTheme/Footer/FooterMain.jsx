@@ -11,10 +11,10 @@ import { FooterTop } from 'volto-editablefooter';
 import {
   FooterNavigation,
   FooterInfos,
-  LogoFooter,
   BrandTextFooter,
   FooterPNRRLogo,
-} from 'design-uniba-volto/components/UnibaTheme/';
+} from 'design-uniba-volto/components/ItaliaTheme/';
+import { LogoFooter } from 'design-uniba-volto/components/UnibaTheme/';
 import { useHomePath } from 'design-uniba-volto/helpers';
 
 /**

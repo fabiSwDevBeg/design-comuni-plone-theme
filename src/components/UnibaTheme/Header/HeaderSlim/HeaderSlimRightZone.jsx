@@ -11,7 +11,7 @@ import {
   LanguageSelector,
   HeaderLogin,
   TertiaryMenu,
-} from 'design-uniba-volto/components/UnibaTheme';
+} from 'design-uniba-volto/components/ItaliaTheme';
 
 const HeaderSlimRightZone = () => {
   const subsite = useSelector((state) => state.subsite?.data);
