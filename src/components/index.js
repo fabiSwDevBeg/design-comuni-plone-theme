@@ -15,6 +15,7 @@ import TextInput from 'design-uniba-volto/components/TextInput';
 import SearchUtils from 'design-uniba-volto/components/ItaliaTheme/Search/utils';
 import SelectInput from 'design-uniba-volto/components/SelectInput/SelectInput';
 import Collapse from 'design-uniba-volto/components/Collapse';
+import SearchUtilsUniba from 'design-uniba-volto/components/UnibaTheme/Search/utils';
 
 export {
   LanguageSelector,
@@ -22,5 +23,6 @@ export {
   TextInput,
   SelectInput,
   SearchUtils,
+  SearchUtilsUniba,
   Collapse,
 };

@@ -13,9 +13,11 @@ import {
   getItaliaListingVariations,
   removeListingVariation,
 } from 'design-uniba-volto/config/Blocks/listingVariations.js';
-import getItaliaBlocks from 'design-uniba-volto/config/Blocks/blocks.js';
+import getItaliaBlocks from 'design-uniba-volto/config/Blocks/blocks_italia.js';
 import getItaliaViews from 'design-uniba-volto/config/Views/views';
 import getItaliaWidgets from 'design-uniba-volto/config/Widgets/widgets';
+
+import getUnibaBlocks from 'design-uniba-volto/config/Blocks/blocks_uniba.js';
 
 import { rssBlock as customRssBlock } from 'volto-rss-block';
 import CardWithImageRssTemplate from 'design-uniba-volto/components/ItaliaTheme/Blocks/RssBlock/CardWithImageRssTemplate';
@@ -415,6 +417,7 @@ export default function applyConfig(voltoConfig) {
 
   const customBlocks = {
     ...getItaliaBlocks(config),
+    ...getUnibaBlocks(config),
 
     listing: {
       ...config.blocks.blocksConfig.listing,

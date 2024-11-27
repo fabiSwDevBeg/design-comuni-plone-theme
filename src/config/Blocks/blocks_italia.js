@@ -15,6 +15,7 @@ import EditBreak from 'design-uniba-volto/components/ItaliaTheme/Blocks/Break/Ed
 
 import SearchSectionsView from 'design-uniba-volto/components/ItaliaTheme/Blocks/SearchSections/View';
 import SearchSectionsEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/SearchSections/Edit';
+
 import ArgumentsInEvidenceEdit from 'design-uniba-volto/components/ItaliaTheme/Blocks/ArgumentsInEvidence/Edit';
 import ArgumentsInEvidenceView from 'design-uniba-volto/components/ItaliaTheme/Blocks/ArgumentsInEvidence/View';
 
@@ -371,3 +372,4 @@ const getItaliaBlocks = (config) => {
   return italiaBlocks;
 };
 export default getItaliaBlocks;
+

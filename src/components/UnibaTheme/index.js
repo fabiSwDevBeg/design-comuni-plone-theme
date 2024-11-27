@@ -25,3 +25,10 @@ export HeaderCenter from 'design-uniba-volto/components/UnibaTheme/Header/Header
 export HeaderBanner from 'design-uniba-volto/components/UnibaTheme/Header/HeaderBanner';
 export SubsiteHeader from 'design-uniba-volto/components/UnibaTheme/Header/SubsiteHeader';
 export FooterMain from 'design-uniba-volto/components/UnibaTheme/Footer/FooterMain';
+
+/********* BLOCKS ********* */
+export SearchRubrica from 'design-uniba-volto/components/UnibaTheme/Search/SearchRubrica';
+export BlockSearchRubricaSidebar from 'design-uniba-volto/components/UnibaTheme/Blocks/SearchRubrica/SideBar';
+export BlockSearchRubricaBody from 'design-uniba-volto/components/UnibaTheme/Blocks/SearchRubrica/Body';
+export SearchRubricaBackground from 'design-uniba-volto/components/UnibaTheme/Blocks/SearchRubrica/Background';
+export SearchRubricaBackgroundUser from 'design-uniba-volto/components/UnibaTheme/Blocks/SearchRubrica/BackgroundUser';
