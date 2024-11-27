@@ -41,6 +41,19 @@
 - ...
  -->
 
+## Versione 11.25.0 (26/11/2024)
+
+### Migliorie
+
+- Rimossa dal CT Evento la data di scadenza del CT per evitare confusione con le date effettive dell'evento
+- Durante la ricerca nel sito dalla popup che compare cliccando sul bottone 'Cerca' nella testa del sito, viene mostrato un loader in overlay durante il caricamento della pagina dei risultati perchè questo potrebbe richiedere un po' di tempo. Prima di questa modifica non era chiaro se la ricerca fosse iniziata.
+- Nel CT Evento per una rassegna, se gli eventi figli hanno una ricorrenza o un periodo di date impostato, il range di date verrà mostrato nella card all'interno dell'evento padre.
+- Se l'url di una immagine è rotto, viene mostrato un avviso al posto dell'immagine rotta.
+
+### Novità
+
+- E' ora possibile decidere se mostrare l'immagine di anteprima per tutte le card nel blocco di ricerca Evento e Unità Organizzativa.
+
 ## Versione 11.24.5 (22/11/2024)
 
 ### Migliorie
