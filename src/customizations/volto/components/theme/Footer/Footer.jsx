@@ -8,7 +8,7 @@ import { useSelector } from 'react-redux';
 import { useGoogleAnalytics } from 'volto-google-analytics';
 
 import {
-  FooterMain,
+  FooterMainUniba,
   FooterSmall,
   SubsiteFooter,
 } from 'design-comuni-plone-theme/components/ItaliaTheme/';
@@ -37,7 +37,7 @@ const Footer = () => {
 
       <SubsiteFooter />
       <footer className="it-footer" id="footer">
-        <FooterMain />
+        <FooterMainUniba />
         <FooterSmall />
       </footer>
     </>

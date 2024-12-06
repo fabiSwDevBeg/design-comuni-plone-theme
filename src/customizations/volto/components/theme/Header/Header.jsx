@@ -15,8 +15,9 @@ import {
 } from '@plone/volto/components';
 
 import {
-  HeaderSlim,
-  HeaderCenter,
+  HeaderSlimUniba,
+  HeaderCenterUniba,
+  HeaderBannerUniba,
   SubsiteHeader,
 } from 'design-comuni-plone-theme/components/ItaliaTheme';
 import { Headers } from 'design-react-kit';
@@ -42,10 +43,11 @@ const Header = ({ pathname }) => {
       /> */}
         {/* <Headers sticky={true} className={mini ? 'is-sticky' : undefined}> */}
         <Headers>
-          <HeaderSlim />
+          <HeaderSlimUniba />
 
           <div className="it-nav-wrapper">
-            <HeaderCenter />
+            <HeaderCenterUniba />
+            <HeaderBannerUniba />
             <Navigation pathname={pathname} />
           </div>
         </Headers>

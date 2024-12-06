@@ -1,0 +1,47 @@
+#footer {
+
+    .portal-main-footer { 
+        padding: 2.5rem 0;
+
+        li,
+        p,
+        a,
+        div {
+            color: #d7eeff;
+            font-size: 1.25rem;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .sedi {
+            .row {
+                text-align: center;
+                a {
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                    white-space: nowrap;
+                    
+                }
+            }
+        }
+
+        .socials {
+            text-align: center;
+            margin: 1.5rem 0;
+
+            .col {
+                margin: 0.5rem 0;
+                text-align: center;
+                a {
+                    display: inline-block;
+                    img {
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

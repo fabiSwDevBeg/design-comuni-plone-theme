@@ -1,6 +1,10 @@
 @import 'addonsThemeCustomizationsVariables';
+
 @import 'site-variables';
 @import 'bootstrap-override/bootstrap-italia-site';
+@import 'UnibaTheme/variables';
+
+
 @import 'cms-ui';
 @import 'mixins';
 @import 'extras/blocks';
@@ -143,6 +147,12 @@
 @import 'ItaliaTheme/Print/servizio';
 @import 'ItaliaTheme/Print/uo';
 @import 'ItaliaTheme/Print/blocks';
+
+
+@import 'UnibaTheme/mixins';
+@import 'UnibaTheme/footer';
+@import 'UnibaTheme/header_slim';
+
 
 @import 'addonsThemeCustomizationsMain';
 

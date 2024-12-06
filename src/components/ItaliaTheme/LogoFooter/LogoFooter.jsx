@@ -11,7 +11,7 @@
  */
 
 // eslint-disable-next-line import/no-unresolved
-import logo from '../Logo/logo.png';
+import logo from '../Logo/unibalogo.svg';
 import { SiteProperty } from 'volto-site-settings';
 
 const LogoFooter = () => {

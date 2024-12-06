@@ -20,7 +20,7 @@
  */
 // eslint-disable-next-line import/no-unresolved
 //import logo from './logo.png?width=164';
-import logo from './logo.png';
+import logo from './unibalogo.svg';
 import { SiteProperty } from 'volto-site-settings';
 
 const Logo = ({ alt = 'Logo', className }) => {
