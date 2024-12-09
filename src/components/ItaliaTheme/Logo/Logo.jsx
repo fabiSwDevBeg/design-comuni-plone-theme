@@ -27,7 +27,7 @@ const Logo = ({ alt = 'Logo', className }) => {
   return (
     <SiteProperty
       property="site_logo"
-      defaultValue={{ url: logo, width: 82, height: 82 }}
+      defaultValue={{ url: logo, width: 270, height: 80 }}
       className={className}
       alt={alt}
     />

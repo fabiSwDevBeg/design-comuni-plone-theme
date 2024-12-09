@@ -33,9 +33,9 @@ const FooterMainUniba = () => {
                     const listItems = column.querySelectorAll('ul.list-unstyled li');
 
                     return (
-                        <Col className="list-unstyled">
+                        <Col className="list-unstyled" key={index}>
                             {Array.from(listItems).map((listItem, idx) => (
-                                <Row>
+                                <Row key={idx}>
                                     {/* Inserisce il contenuto del <li> direttamente */}
                                     <div dangerouslySetInnerHTML={{ __html: listItem.innerHTML }} />
                                 </Row>
@@ -51,45 +51,45 @@ const FooterMainUniba = () => {
     return (
         <div className="portal-main-footer bg-primary">
             <div className="container position--relative">
-                <Container stackable>
+                <Container>
                     <Row className="pt-2 pb-2">
-                        <Col>
+                        <Col key="links1">
                             <Container className="sedi">
-                                <Row className='ps-4 pe-4'>
-                                    <Col>
+                                <Row className='ps-4 pe-4' key="1">
+                                    <Col key="sedi1">
                                         <a href="https://www.uniba.it/ateneo/sede-di-brindisi/">Uniba Brindisi</a>
                                     </Col>
-                                    <Col xs="1">
+                                    <Col xs="1" key="sedi2">
                                         ·
                                     </Col>
-                                    <Col>
+                                    <Col key="sedi3">
                                         <a href="https://www.uniba.it/ateneo/sede-di-taranto/">Uniba Taranto</a>
                                     </Col>
                                 </Row>
                             </Container>
                             <Container className="socials">
                                 <Row className='ps-4 pe-4'>
-                                    <Col className='p-0'>
+                                    <Col className='p-0' key="socials1">
                                         <a href="http://www.facebook.com/pages/Universita-degli-Studi-di-Bari-Aldo-Moro/142796619110027">
                                             <Image src={FacebookSVG} />
                                         </a>
                                     </Col>
-                                    <Col className='p-0'>
+                                    <Col className='p-0' key="socials2">
                                         <a href="https://www.instagram.com/unibaofficial">
                                             <Image src={InstagramSVG} />
                                         </a>
                                     </Col>
-                                    <Col className='p-0'>
+                                    <Col className='p-0' key="socials3">
                                         <a href="http://www.twitter.com/unibait">
                                             <Image src={TwitterSVG} />
                                         </a>
                                     </Col>
-                                    <Col className='p-0'>
+                                    <Col className='p-0' key="socials4">
                                         <a href="https://www.youtube.com/user/unialdomoro">
                                             <Image src={YoutubeSVG} />
                                         </a>
                                     </Col>
-                                    <Col className='p-0'>
+                                    <Col className='p-0' key="socials5">
                                         <a href="https://www.linkedin.com/school/universit-degli-studi-di-bari">
                                             <Image src={LinkedinSVG} />
                                         </a>
@@ -100,7 +100,7 @@ const FooterMainUniba = () => {
                         {parsedColumns}
                     </Row>
                     <Row>
-                        <Col>
+                        <Col key="footer1">
                             <p className="text-center">Università degli studi di Bari Aldo Moro - Piazza Umberto I - 70121 Bari (Italy) - P.I.01086760723 | C.F.80002170720</p>
                             <p className="text-center">
                                 <a href="mailto:urp@uniba.it">urp@uniba.it</a>

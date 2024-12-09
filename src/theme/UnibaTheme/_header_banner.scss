@@ -1,0 +1,113 @@
+div#banner-uniba {
+    background-color: $uniba-gray;
+    $color_1: #ffffff;
+    $font-family_1: 'Barlow', sans-serif;
+
+    .container.hy {
+        padding: 10px 15px;
+        background: $uniba-gray;
+        z-index: 0;
+        position: relative;
+    }
+
+    img.hy-img {
+        height: 80px;
+    }
+
+    .hy-cta {
+        font-family: $font-family_1 !important;
+        font-weight: 200;
+        font-size: 3rem;
+        margin-left: 2rem;
+        line-height: 1;
+    }
+
+    a.btn.hy-btn {
+        background-color: $centoannired;
+        color: $color_1;
+        border-radius: 0;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 16px;
+    }
+
+    .row.hy-row {
+        height: 80px;
+        display: flex;
+        overflow: hidden;
+        justify-content: end;
+    }
+
+    .hy-col3 {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: end;
+        width: 25%;
+        padding: 0;
+    }
+
+    .hy-col9 {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 75%;
+        padding: 0;
+    }
+
+    @media only screen and (max-width: 991px) {
+        span.hy-cta {
+            display: none;
+        }
+
+        .hy-img {
+            display: none;
+        }
+
+        .container.hy {
+            padding: 10px 15px !important;
+        }
+
+        .hy-image-container {
+            &::before {
+                content: '';
+                display: block;
+                width: 100%;
+                height: 100%;
+                // background-image: url('./logo-hy.svg');
+                background-size: cover;
+                background-position: center;
+            }
+
+            width: 120px;
+            height: 100px;
+            position: relative;
+        }
+
+        .row.hy-row {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .hy-image-container img {
+        width: 400px;
+        height: 80px;
+        position: relative;
+    }
+
+    .row.hy-row {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -27,6 +27,12 @@
         }
       }
     }
+
+    .it-brand-wrapper a .icon {
+      width: 270px;
+      height: 80px;
+      margin-right: 16px;
+    }
   }
 
   @media (max-width: map-get($map: $grid-breakpoints, $key: 'lg') - 1px) {

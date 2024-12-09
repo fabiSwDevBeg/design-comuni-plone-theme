@@ -50,7 +50,7 @@ const HeaderCenterUniba = () => {
           </UniversalLink>
         </div>
         <HeaderRightZone>
-          <SocialHeader />
+          {/* <SocialHeader /> */}
           <HeaderSearch />
         </HeaderRightZone>
       </HeaderContent>

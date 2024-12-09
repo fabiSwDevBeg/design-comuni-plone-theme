@@ -12,6 +12,7 @@ const HeaderSlimBrandUniba = ({
       <div>
         <a href={href} {...attributes}>
           <LogoSlimHome alt="Home uniba"/>
+          &nbsp;
           <LogoSlimText alt="Torna in uniba"/>
         </a>
       </div>

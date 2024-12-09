@@ -18,7 +18,7 @@ const HeaderSlimRightZone = () => {
   return (
     <>
       <ParentSiteMenu />
-      {!subsite && <TertiaryMenu />}
+      {/* {!subsite && <TertiaryMenu />} */}
       <LanguageSelector />
       <HeaderLogin />
     </>
