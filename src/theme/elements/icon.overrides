@@ -1,0 +1,5 @@
+i.icon.dropdown::before {
+	content: '\23f6';
+    font-size: 0.5em;
+    font-family: "ita" !important;
+}

@@ -1,0 +1,2 @@
+@largeMonitorWidth: 1480px
+@largeMonitorBreakpoint: 1500px;

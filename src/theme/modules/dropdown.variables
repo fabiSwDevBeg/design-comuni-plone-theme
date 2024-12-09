@@ -1,0 +1,4 @@
+@dropdownItemColor: #004071;
+@dropdownHoveredItemBackground: rgb(232, 232, 232);
+@dropdownHoveredItemColor: #004076;
+@dropdownIconSize: 2rem;

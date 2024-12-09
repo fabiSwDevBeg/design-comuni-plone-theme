@@ -1,212 +1,116 @@
-/**
- * Navigation components.
- * @module components/theme/Navigation/Navigation
- */
-
-import React, { useEffect, useState } from 'react';
-import { defineMessages, useIntl } from 'react-intl';
+import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import { useDispatch, useSelector } from 'react-redux';
-import { UniversalLink } from '@plone/volto/components';
+import { useDispatch, useSelector, shallowEqual } from 'react-redux';
+import { defineMessages, useIntl } from 'react-intl';
+import { Menu } from 'semantic-ui-react';
 
-import { Header, HeaderContent, HeaderToggler, Nav } from 'design-react-kit';
-
-import { flattenToAppURL } from '@plone/volto/helpers';
-
-import { Collapse } from 'design-comuni-plone-theme/components';
-import {
-  MegaMenu,
-  MenuSecondary,
-  ParentSiteMenu,
-  TertiaryMenu,
-  Logo,
-  Icon,
-  SocialHeader,
-  BrandText,
-} from 'design-comuni-plone-theme/components/ItaliaTheme';
-
-import { getDropdownMenuNavitems, getItemsByPath } from 'volto-dropdownmenu';
-import FocusLock from 'react-focus-lock';
-
-const Navigation = ({ pathname }) => {
-  const intl = useIntl();
-  const [collapseOpen, setCollapseOpen] = useState(false);
-  const [focusTrapActive, setFocusTrapActive] = useState(false);
-
-  const dispatch = useDispatch();
-
-  const subsite = useSelector((state) => state.subsite?.data);
-  const logoSubsite = subsite?.subsite_logo && (
-    <figure className="icon">
-      <Logo />
-    </figure>
-  );
-
-  const items = useSelector((state) => state.dropdownMenuNavItems?.result);
-  useEffect(() => {
-    dispatch(getDropdownMenuNavitems());
-  }, [dispatch]);
-
-  const menu = getItemsByPath(items, pathname);
-
-  const getAnchorTarget = (nodeElement) => {
-    if (nodeElement.nodeName === 'A') {
-      return nodeElement;
-    } else if (nodeElement.parentElement?.nodeName === 'A') {
-      return nodeElement.parentElement;
-    } else {
-      return null;
-    }
-  };
-
-  useEffect(() => {
-    const blocksClickListener = (e) => {
-      const menuLinks = [
-        ...(document?.querySelectorAll(
-          '.menu-wrapper a:not([aria-haspopup]), .menu-wrapper .it-brand-wrapper a',
-        ) ?? []),
-      ];
-
-      if (
-        menuLinks?.length === 0 ||
-        menuLinks?.indexOf(getAnchorTarget(e.target)) < 0
-      ) {
-        return;
-      }
-
-      setCollapseOpen(false);
-      setFocusTrapActive(false);
-    };
-
-    document.body.addEventListener('click', blocksClickListener);
-
-    return () =>
-      document.body.removeEventListener('click', blocksClickListener);
-  }, []);
-
-  const closeButtonStyle = collapseOpen
-    ? {
-        display: 'block',
-      }
-    : { display: 'none' };
-
-  return (
-    <Header theme="" type="navbar">
-      {menu?.length > 0 ? (
-        <HeaderContent expand="lg" megamenu id="navigation">
-          <HeaderToggler
-            aria-controls="it-navigation-collapse"
-            aria-expanded={collapseOpen}
-            aria-label={intl.formatMessage(messages.toggleMenu, {
-              action: collapseOpen
-                ? intl.formatMessage(messages.toggleMenu_close)
-                : intl.formatMessage(messages.toggleMenu_open),
-            })}
-            onClick={() => {
-              setCollapseOpen(!collapseOpen);
-              setFocusTrapActive(!focusTrapActive);
-            }}
-          >
-            <Icon
-              icon="it-burger"
-              title={intl.formatMessage(messages.toggleMenu, {
-                action: collapseOpen
-                  ? intl.formatMessage(messages.toggleMenu_close)
-                  : intl.formatMessage(messages.toggleMenu_open),
-              })}
-            />
-          </HeaderToggler>
-          <Collapse
-            header
-            isOpen={collapseOpen}
-            navbar
-            onOverlayClick={() => setCollapseOpen(!collapseOpen)}
-            id="it-navigation-collapse"
-            showCloseButton={false}
-          >
-            <FocusLock disabled={!focusTrapActive}>
-              <div className="menu-wrapper">
-                <div className="it-brand-wrapper" role="navigation">
-                  <UniversalLink
-                    href={
-                      subsite?.['@id'] ? flattenToAppURL(subsite['@id']) : '/'
-                    }
-                    onClick={() => setCollapseOpen(false)}
-                  >
-                    {subsite?.subsite_logo ? (
-                      logoSubsite
-                    ) : (
-                      <Logo className="icon" />
-                    )}
-                    <BrandText mobile={true} subsite={subsite} />
-                  </UniversalLink>
-                </div>
-                {/* Main Menu */}
-                <Nav data-element="main-navigation" navbar role="menubar">
-                  {menu
-                    ?.filter((item) => item.visible)
-                    ?.map((item, index) => (
-                      <MegaMenu
-                        item={item}
-                        pathname={pathname}
-                        key={index + 'mm'}
-                      />
-                    ))}
-                </Nav>
-
-                {/* Secondary Menu */}
-                <MenuSecondary pathname={pathname} />
-
-                {/* Headerslim Menu - main site */}
-                {!subsite && <TertiaryMenu />}
-
-                {/* Social Links */}
-                <SocialHeader />
-
-                {/* Headerslim Menu - parent site (if subsite) */}
-                {subsite && <ParentSiteMenu />}
-              </div>
-              <div className="close-div" style={closeButtonStyle}>
-                <button
-                  className="btn close-menu"
-                  type="button"
-                  title={intl.formatMessage(messages.CloseMenu)}
-                  onClick={() => setCollapseOpen(!collapseOpen)}
-                >
-                  <Icon
-                    color="white"
-                    icon="it-close-big"
-                    padding={false}
-                    title={intl.formatMessage(messages.CloseMenu)}
-                  />
-                </button>
-              </div>
-            </FocusLock>
-          </Collapse>
-        </HeaderContent>
-      ) : null}
-    </Header>
-  );
-};
+import cx from 'classnames';
+import { BodyClass, getBaseUrl, hasApiExpander } from '@plone/volto/helpers';
+import config from '@plone/volto/registry';
+import { getNavigation } from '@plone/volto/actions';
+import { CSSTransition } from 'react-transition-group';
+import NavItems from '@plone/volto/components/theme/Navigation/NavItems';
 
 const messages = defineMessages({
-  CloseMenu: {
-    id: 'close-menu',
-    defaultMessage: 'Chiudi menu',
+  closeMobileMenu: {
+    id: 'Close menu',
+    defaultMessage: 'Close menu',
   },
-  toggleMenu: {
-    id: 'toggle-menu',
-    defaultMessage: '{action} il menu',
-  },
-  toggleMenu_open: {
-    id: 'toggleMenu_open',
-    defaultMessage: 'Apri',
-  },
-  toggleMenu_close: {
-    id: 'toggleMenu_close',
-    defaultMessage: 'Chiudi',
+  openMobileMenu: {
+    id: 'Open menu',
+    defaultMessage: 'Open menu',
   },
 });
+
+const Navigation = (props) => {
+  const intl = useIntl();
+  const dispatch = useDispatch();
+  const { pathname, type } = props;
+  const [isMobileMenuOpen, setisMobileMenuOpen] = useState(false);
+  const token = useSelector((state) => state.userSession.token, shallowEqual);
+  const items = useSelector((state) => state.navigation.items, shallowEqual);
+  const lang = useSelector((state) => state.intl.locale);
+  useEffect(() => {
+    const { settings } = config;
+    if (!hasApiExpander('navigation', getBaseUrl(pathname))) {
+      dispatch(getNavigation(getBaseUrl(pathname), settings.navDepth));
+    }
+  }, [pathname, token, dispatch]);
+
+  const toggleMobileMenu = () => {
+    setisMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    if (!isMobileMenuOpen) {
+      return;
+    }
+    setisMobileMenuOpen(false);
+  };
+  return (
+    <nav className="plone-navbar pat-navigationmarker navigation" id="portal-globalnav-wrapper" aria-label="Site">
+      {items?.length ? (
+        <div className="hamburger-wrapper mobile tablet only">
+          <button
+            className={cx('hamburger hamburger--spin', {
+              'is-active': isMobileMenuOpen,
+            })}
+            aria-label={
+              isMobileMenuOpen
+                ? intl.formatMessage(messages.closeMobileMenu, {
+                    type: type,
+                  })
+                : intl.formatMessage(messages.openMobileMenu, {
+                    type: type,
+                  })
+            }
+            title={
+              isMobileMenuOpen
+                ? intl.formatMessage(messages.closeMobileMenu, {
+                    type: type,
+                  })
+                : intl.formatMessage(messages.openMobileMenu, {
+                    type: type,
+                  })
+            }
+            type="button"
+            onClick={toggleMobileMenu}
+          >
+            <span className="hamburger-box">
+              <span className="hamburger-inner" />
+            </span>
+          </button>
+        </div>
+      ) : null}
+
+      <Menu
+        stackable
+        pointing
+        secondary
+        className="container computer large screen widescreen only container ps-3 pe-3"
+        onClick={closeMobileMenu}
+        style={{ justifyContent: 'space-between' }}
+      >
+        <NavItems items={items} lang={lang} />
+      </Menu>
+      <CSSTransition
+        in={isMobileMenuOpen}
+        timeout={250}
+        classNames="mobile-menu"
+        unmountOnExit
+      >
+        <div key="mobile-menu-key" className="mobile-menu">
+          <BodyClass className="has-mobile-menu-open" />
+          <div className="mobile-menu-nav">
+            <Menu stackable pointing secondary onClick={closeMobileMenu}>
+              <NavItems items={items} lang={lang} mobile={true} closeNavigation={closeMobileMenu} />
+            </Menu>
+          </div>
+        </div>
+      </CSSTransition>
+    </nav>
+  );
+};
 
 Navigation.propTypes = {
   pathname: PropTypes.string.isRequired,

@@ -33,7 +33,7 @@ const FooterMainUniba = () => {
                     const listItems = column.querySelectorAll('ul.list-unstyled li');
 
                     return (
-                        <Col className="list-unstyled" key={index}>
+                        <Col className="list-unstyled ps-4 pb-3" key={index} sm="12" lg="3">
                             {Array.from(listItems).map((listItem, idx) => (
                                 <Row key={idx}>
                                     {/* Inserisce il contenuto del <li> direttamente */}
@@ -53,7 +53,7 @@ const FooterMainUniba = () => {
             <div className="container position--relative">
                 <Container>
                     <Row className="pt-2 pb-2">
-                        <Col key="links1">
+                        <Col key="links1" sm="12" lg="3" className='ps-5 pe-5'>
                             <Container className="sedi">
                                 <Row className='ps-4 pe-4' key="1">
                                     <Col key="sedi1">
@@ -99,7 +99,7 @@ const FooterMainUniba = () => {
                         </Col>
                         {parsedColumns}
                     </Row>
-                    <Row>
+                    <Row className='ps-3 pe-3'>
                         <Col key="footer1">
                             <p className="text-center">Università degli studi di Bari Aldo Moro - Piazza Umberto I - 70121 Bari (Italy) - P.I.01086760723 | C.F.80002170720</p>
                             <p className="text-center">

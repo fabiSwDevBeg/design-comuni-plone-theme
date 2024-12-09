@@ -46,13 +46,13 @@ const ScrollToTop = () => {
         <div className="public-ui scroll-to-top">
           <Button
             color="tertiary"
-            size="sm"
+            size="lg"
             title={intl.formatMessage(messages.scrollToTop)}
             onClick={scrollToTop}
             aria-hidden="true"
             tabIndex={-1}
           >
-            <Icon icon="it-arrow-up" padding={false} size="sm" />
+            <Icon icon="it-arrow-up" padding={false} size="lg" />
           </Button>
         </div>
       )}

@@ -1,0 +1,26 @@
+.ui.menu::after {
+	content: '';
+	display: none;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+
+.ui.secondary.pointing.menu .active.item {
+	background-color: transparent;
+	box-shadow: none;
+	border-color: var(--bs-primary);
+	font-weight: normal;
+	color: var(--bs-primary);
+}
+
+.ui.secondary.pointing.menu .active.item:hover {
+	border-color: var(--bs-primary);
+	color: var(--bs-primary);
+}
+
+
+.navigation .ui.secondary.pointing.menu .item, .tools .ui.secondary.pointing.menu .item {
+	padding: 1.7em 0 1.35714286em;
+	margin: 0 0 0 0;
+}

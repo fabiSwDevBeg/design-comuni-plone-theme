@@ -5,3 +5,16 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
+
+
+body {
+    word-wrap: break-word;
+}
+
+body {
+    font-family: "Titillium Web",Helvetica,Arial,sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    color: #1c2024 !important;
+    background-color: #fff !important;
+}

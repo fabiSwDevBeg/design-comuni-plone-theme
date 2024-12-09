@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+    .container:not(.col .container):not([class*="col-"] .container) {
+        width: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .container:not(.col .container):not([class*="col-"] .container) {
+        width: auto;
+    }
+}
+
+@media (min-width: 1500px) {
+    .container:not(.col .container):not([class*="col-"] .container) {
+        width: 1470px;
+    }
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}

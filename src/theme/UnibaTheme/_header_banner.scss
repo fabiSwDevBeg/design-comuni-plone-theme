@@ -111,3 +111,13 @@ div#banner-uniba {
         justify-content: space-between;
     }
 }
+
+@media (min-width: 991px) {
+    .plone-navbar-collapse.plone-collapse {
+        padding: 0 !important;
+    }
+
+    div#banner-uniba {
+        border-bottom: 2px solid $uniba;
+    }
+}
