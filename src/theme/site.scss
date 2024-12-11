@@ -148,6 +148,7 @@
 @import 'ItaliaTheme/Print/uo';
 @import 'ItaliaTheme/Print/blocks';
 
+/*** UnibaTheme ***/
 @import 'UnibaTheme/breakpoints';
 @import 'UnibaTheme/mixins';
 @import 'UnibaTheme/footer';
@@ -156,7 +157,9 @@
 @import 'UnibaTheme/navigation';
 @import 'UnibaTheme/fonts';
 
-
 @import 'addonsThemeCustomizationsMain';
+
+/*** Addons ***/
+@import '../../../uniba-volto-persone/src/theme/site.scss';
 
 /* No CSS beyond this point */

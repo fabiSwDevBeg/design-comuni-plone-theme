@@ -6,3 +6,13 @@ button.btn.btn-primary:focus-visible,
     }
   }
 }
+
+button.btn.btn-icontext {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  .icon {
+    border: none;
+    width: 6rem;
+    height: 3rem;
+  }
+}

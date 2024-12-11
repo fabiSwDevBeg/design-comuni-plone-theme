@@ -15,7 +15,6 @@ const NavItems = ({ items, lang , mobile = false, closeNavigation = null}) => {
   };
 
   const handleDropdownToggle = (item, e) => {
-    console.log(e.currentTarget);
     if (e.currentTarget.localName === "i") {
       e.stopPropagation(); // Impedisce che il click sul dropdown icon navighi
       setOpenDropdown(openDropdown === item.url ? null : item.url);

@@ -481,7 +481,12 @@ export default function applyConfig(voltoConfig) {
     blocksConfig: { ...config.blocks.blocksConfig, ...customBlocks },
     groupBlocksOrder: config.blocks.groupBlocksOrder.concat(customBlocksOrder),
     initialBlocks: { ...config.blocks.initialBlocks, ...customInitialBlocks },
-    requiredBlocks: [...config.blocks.requiredBlocks, ...customRequiredBlocks],
+    requiredBlocks: [
+      ...config.blocks.requiredBlocks, 
+      ...customRequiredBlocks
+    ].filter(
+      item => item !== 'title' && item !== 'description'
+    ),
     showEditBlocksInBabelView: true,
   };
 
