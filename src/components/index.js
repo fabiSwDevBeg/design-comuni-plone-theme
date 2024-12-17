@@ -15,6 +15,7 @@ import TextInput from 'design-comuni-plone-theme/components/TextInput';
 import SearchUtils from 'design-comuni-plone-theme/components/ItaliaTheme/Search/utils';
 import SelectInput from 'design-comuni-plone-theme/components/SelectInput/SelectInput';
 import Collapse from 'design-comuni-plone-theme/components/Collapse';
+import { getApiURL } from 'design-comuni-plone-theme/components/getApiURL';
 
 export {
   LanguageSelector,
@@ -23,4 +24,5 @@ export {
   SelectInput,
   SearchUtils,
   Collapse,
+  getApiURL
 };

@@ -84,7 +84,6 @@ const HeaderLogin = () => {
     : process.env.RAZZLE_SPID_LOGOUT_URL;
 
   const location = useLocation();
-
   return (
     <>
       <BodyClass className={rolesBodyClasses.join(' ')} />
